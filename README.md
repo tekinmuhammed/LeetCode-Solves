@@ -1,9 +1,14 @@
 # LeetCode-Solves
 
-Bu repo, LeetCode'da çözdüğüm soruların arşividir. Her gün çözdüğüm "Daily Challenge" sorularını `Daily-Challenges/` klasörüne tarih bazlı olarak ekliyorum. 
+This repository contains my personal solutions to various problems on [LeetCode](https://leetcode.com/), including daily challenges and problems of varying difficulty levels.
 
-## Kategoriler
-- Easy, Medium, Hard: Soru zorluk seviyelerine göre ayrılmıştır.
-- Daily-Challenges: Günlük çözümler.
+I solve problems primarily in **Python**, and each solution file includes comments for clarity when necessary.
 
-Kodlarım **Python** dilinde yazılmıştır.
+## 📁 Repository Structure
+
+- `Easy/`, `Medium/`, and `Hard/` folders contain problems organized by difficulty.
+- `Daily-Challenges/` contains my daily LeetCode challenge solutions, named by date.
+
+---
+
+> 🌱 This repo is a living archive and is updated frequently with new solutions.
