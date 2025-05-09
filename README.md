@@ -6,7 +6,7 @@ I solve problems primarily in **Python**, and each solution file includes commen
 
 ## 📁 Repository Structure
 
-- `Easy/`, `Medium/`, and `Hard/` folders contain problems organized by difficulty.
+- `Easy`, `Medium`, and `Hard` folders contain problems organized by difficulty.
 - `Daily-Challenges/` contains my daily LeetCode challenge solutions, named by date.
 
 ---
