@@ -16,16 +16,16 @@ Input: nums = [3, 1]
 Output: 2 
 ```
 # Explanation:
-# Subsets: [3], [1], [3,1]
-# Bitwise ORs: 3, 1, 3 => Maximum OR = 3
-# There are 2 subsets with OR = 3: [3], [3,1]
+## Subsets: [3], [1], [3,1]
+## Bitwise ORs: 3, 1, 3 => Maximum OR = 3
+## There are 2 subsets with OR = 3: [3], [3,1]
 
 ## 💡 Approach
-*Use Depth-First Search (DFS) to generate all possible subsets.
+Use Depth-First Search (DFS) to generate all possible subsets.
 
-*Keep track of the current OR value for each subset.
+Keep track of the current OR value for each subset.
 
-*Update:
+Update:
 
 * `max_or` whenever a higher OR value is found.
 * `count for` how many times the `max_or` occurs.
