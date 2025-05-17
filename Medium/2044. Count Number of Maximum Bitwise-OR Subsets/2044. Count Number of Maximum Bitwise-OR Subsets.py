@@ -20,3 +20,4 @@ class Solution(object):
 solution = Solution()
 nums = [3, 1]
 print(solution.countMaxOrSubsets(nums))
+
