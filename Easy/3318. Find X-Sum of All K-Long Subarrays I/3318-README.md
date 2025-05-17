@@ -3,7 +3,7 @@
 ## 🔗 Problem Link
 [LeetCode 3318 - Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)
 
-## 🧠 Problem Description
+## 🧠 Problem Description 
 
 Given an array `nums`, an integer `k` (length of subarrays), and an integer `x`, the task is to compute the **X-Sum** for every subarray of length `k`. The X-Sum is defined as the sum of the `x` most frequent elements in the subarray, where each element is multiplied by its frequency.
 
