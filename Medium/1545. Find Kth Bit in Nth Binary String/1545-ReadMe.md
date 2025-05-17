@@ -1,9 +1,9 @@
 # LeetCode 1545 - Find Kth Bit in Nth Binary String
 
-## 🔗 Problem Link
+## 🔗 Problem Link 
 [LeetCode 1545 - Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
 
-## 🧠 Problem Description
+## 🧠 Problem Description 
 
 We are given a recursive binary string definition:
 
