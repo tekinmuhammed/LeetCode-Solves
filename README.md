@@ -12,4 +12,6 @@ I solve problems primarily in **Python**, and each solution file includes commen
 ---
 
 > 🌱 This repo is a living archive and is updated frequently with new solutions.
-> 
+
+### 📝 License
+This project is licensed under the MIT License - see the [LICENSE](https://mit-license.org/) file for details.
