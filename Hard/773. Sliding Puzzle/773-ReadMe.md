@@ -51,3 +51,12 @@ We use **Breadth-First Search (BFS)** to explore all board configurations, start
 
 ## 🏷️ Tags
 `bfs`, `graph`, `shortest-path`, `hashset`, `sliding-puzzle`, `leetcode-hard`
+
+## 📝 Notes
+- This problem is a classic state graph problem.
+
+- Since the shortest path is sought with BFS, it is important to use a `queue` at each step.
+
+- Since the position of `0` determines the movement options, using a fixed neighborhood map (`neighbors`) is quite effective.
+
+- You can reach my repo, which contains a more detailed and fun game version of the `Sliding Puzzle` problem, at [Sliding-Puzzle-Game](https://github.com/tekinmuhammed/Sliding-Puzzle-Game).
