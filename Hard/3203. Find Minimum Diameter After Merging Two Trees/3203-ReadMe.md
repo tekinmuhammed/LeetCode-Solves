@@ -1,4 +1,4 @@
-da# 🟧 LeetCode 3203 - Find Minimum Diameter After Merging Two Trees
+# 🟧 LeetCode 3203 - Find Minimum Diameter After Merging Two Trees
 
 **Difficulty:** Hard  
 **Problem Link:** [LeetCode 3203](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees)
