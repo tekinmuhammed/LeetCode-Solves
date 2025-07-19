@@ -78,6 +78,6 @@ The algorithm uses:
 
 ### Notes
 
-- This is an optimization version of [3440 Part I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I)) but more complex due to the flexible rescheduling constraint.
+- This is an optimization version of [3440 Part I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I) but more complex due to the flexible rescheduling constraint.
 
 - Forward and backward traversal ensures **all meeting removals are evaluated symmetrically.**
