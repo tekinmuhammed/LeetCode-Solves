@@ -21,7 +21,9 @@ nums = [1,3,2,2,5,2,3,7]
 ```
 
 ### Output:
-`5`
+```python
+5
+```
 
 ### Explanation:
 
@@ -43,6 +45,7 @@ The longest harmonious subsequence is `[3,2,2,2,3]`.
 - The length of this harmonious subsequence is `count[x] + count[x + 1]`.
 
 ### Algorithm Steps:
+
 1. Count the occurrences of each number.
 
 2. Iterate through each number in the map:
