@@ -28,6 +28,7 @@ prices = [8, 4, 6, 2, 3]
 ```
 
 ### Explanation:
+
 - Item 0: Next smaller or equal is 4 → 8 - 4 = 4
 
 - Item 1: Next smaller or equal is 2 → 4 - 2 = 2
@@ -39,6 +40,7 @@ prices = [8, 4, 6, 2, 3]
 - Item 4: No discount → 3
 
 ### 🚀 Approach
+
 We can solve this efficiently using a `monotonic stack`:
 
 - Iterate through the prices from left to right.
@@ -54,6 +56,7 @@ We can solve this efficiently using a `monotonic stack`:
 -This ensures we find the `next smaller or equal` element efficiently.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 
 - - Each index is pushed and popped at most once.
