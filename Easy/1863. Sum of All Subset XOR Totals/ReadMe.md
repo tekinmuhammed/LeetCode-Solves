@@ -32,13 +32,12 @@ Klasik **DFS** yaklaşımı:
 
 ---
 
-🧪 Example
-```makefile
+### 🧪 Example
+```python
 Input: nums = [1,3]
 Subsets: [], [1], [3], [1,3]
 XORs:     0   1     3     1^3 = 2
 Sum = 0 + 1 + 3 + 2 = 6
-
 Output: 6
 ```
 
