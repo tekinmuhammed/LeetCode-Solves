@@ -29,6 +29,7 @@ k = 3
 ```
 
 ## 🚀 Approach
+
 - We use modular arithmetic (`% n`) to handle the circular nature of the array.
 
 - For each index `i`, compute the sum of the required `k` elements depending on the sign of `k`.
@@ -36,6 +37,7 @@ k = 3
 - Time complexity is `O(n * |k|)`, which is acceptable for small values of `k`.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(n * |k|)
 
 - **Space Complexity:** O(n)
