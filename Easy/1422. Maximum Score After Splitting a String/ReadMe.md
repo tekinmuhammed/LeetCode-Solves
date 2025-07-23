@@ -26,8 +26,9 @@ s = "011101"
 ```
 
 ### Output:
-
-`4`
+```python
+4
+```
 
 ### Explanation:
 
@@ -38,6 +39,7 @@ s = "011101"
 - Score = 2 + 2 = 4
 
 ### 🚀 Approach
+
 We try all possible split positions:
 
 - At each position `i`, calculate:
@@ -53,6 +55,7 @@ We try all possible split positions:
 This brute-force approach is efficient enough since the input size is limited.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n²)`
 (Each split recomputes counts over substrings)
 
