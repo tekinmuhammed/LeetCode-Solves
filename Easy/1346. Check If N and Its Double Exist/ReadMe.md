@@ -31,6 +31,7 @@ True
 `10 == 2 * 5`
 
 ## 🚀 Approach
+
 We use a `set` to keep track of previously seen numbers.
 
 For each number in the array:
@@ -42,6 +43,7 @@ For each number in the array:
 If found, return `True`. Otherwise, after the loop, return `False`.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 
 - **Space Complexity:** `O(n)` (for the `seen` set)
