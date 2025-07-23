@@ -21,7 +21,9 @@ nums = [10, 20, 30, 5, 10, 50]
 ```
 
 ### Output:
-`65`
+```python
+65
+```
 
 ###  Explanation:
 
@@ -32,6 +34,7 @@ nums = [10, 20, 30, 5, 10, 50]
 - Maximum: `65`
 
 ### 🧠 Approach & Intuition
+
 The idea is to iterate through the array and:
 
 - Accumulate a running `current_sum` for ascending sequences.
