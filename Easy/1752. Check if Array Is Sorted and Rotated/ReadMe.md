@@ -10,7 +10,9 @@
 Given an array `nums`, return `True` if the array is **sorted in non-decreasing order** and **then rotated** some number of positions (possibly 0). Otherwise, return `False`.
 
 ### A sorted and rotated array:
+
 - Is initially sorted in ascending order
+
 - Then some leading elements are moved to the end of the array
 
 ---
@@ -23,10 +25,12 @@ nums = [3, 4, 5, 1, 2]
 ```
 
 ### Output:
-
-`True`
+```python
+True
+```
 
 ### Explanation:
+
 This is a sorted array `[1, 2, 3, 4, 5]` rotated 3 positions.
 
 ### 🧠 Approach & Intuition
@@ -50,6 +54,7 @@ One pass through the array.
 No extra space used.
 
 ### ✅ Key Insight
+
 An array that is sorted and rotated can have **at most one descent** (i.e., a pair of adjacent elements where the earlier one is greater).
 
 ### 🏷️ Tags
