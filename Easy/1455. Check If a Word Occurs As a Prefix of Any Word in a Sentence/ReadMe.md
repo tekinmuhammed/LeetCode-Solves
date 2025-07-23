@@ -22,12 +22,16 @@ searchWord = "burg"
 ```
 
 ## Output:
-`4`
+```python
+4
+```
 
 ## Explanation:
+
 The 4th word `"burger"` starts with `"burg"`.
 
 ## 🚀 Approach
+
 - Split the sentence into a list of words using `split()`.
 
 - Loop through each word and check if it starts with the given `searchWord`.
@@ -37,6 +41,7 @@ The 4th word `"burger"` starts with `"burg"`.
 - If no match is found after the loop, return `-1`.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`, where `n` is the number of characters in the sentence.
 
 - **Space Complexity:** `O(w)`, where `w` is the number of words in the sentence.
