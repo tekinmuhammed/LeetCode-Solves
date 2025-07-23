@@ -22,9 +22,12 @@ Bir kelime başka bir kelimenin içinde geçiyorsa, bu kelimeyi sonuç listesine
 ## 🚀 Approach
 
 1. Tüm kelimeler çiftler halinde karşılaştırılır.
+
 2. `words[i] in words[j]` kontrolü yapılır.
    - `i != j` koşulu ile aynı kelimeyle kendini karşılaştırma engellenir.
+
 3. Eğer `words[i]`, `words[j]` içinde geçiyorsa, `words[i]` sonucu listesine eklenir.
+
 4. İç içe döngüden dolayı zaman karmaşıklığı `O(n^2 * m)` olur (n: kelime sayısı, m: ortalama uzunluk).
 
 ---
