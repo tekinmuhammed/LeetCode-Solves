@@ -16,6 +16,7 @@ Return a list of the string groups.
 ## Example
 
 ### Input:
+
 ```python
 s = "abcdefghi", k = 3, fill = "x"
 ```
@@ -26,11 +27,13 @@ s = "abcdefghi", k = 3, fill = "x"
 ```
 
 ### Input:
+
 ```python
 s = "abcdefghij", k = 3, fill = "z"
 ```
 
 ### Output:
+
 ```python
 ["abc", "def", "ghiz"]
 ```
@@ -63,7 +66,7 @@ s = "abcdefghij", k = 3, fill = "z"
 
 ### Tags
 
-`String`, `Simulation`
+`String`, `Simulation`, `LeetCode-Easy`
 
 ### Notes
 
