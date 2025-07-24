@@ -16,6 +16,7 @@ Given a string `s`, return the **minimum-length fancy string** you can get after
 ## 🧪 Example
 
 ### Input:
+
 ```python
 s = "leeetcode"
 ```
@@ -25,9 +26,11 @@ s = "leeetcode"
 `"leetcode"`
 
 ## Explanation:
+
 - Remove one `'e'` to avoid having three in a row.
 
 ## 🚀 Approach
+
 We iterate through the string while building a result list:
 
 - If the last two characters in **the result are the same as the current character**, skip the current character.
@@ -37,9 +40,11 @@ We iterate through the string while building a result list:
 This ensures no three identical characters are adjacent.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(n)
 
 - **Space Complexity:** O(n)
 
 ## 🏷️ Tags
+
 `string`, `greedy`, `leetcode-easy`
