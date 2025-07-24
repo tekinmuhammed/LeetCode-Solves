@@ -17,12 +17,14 @@ A **subsequence** is derived by deleting some or no elements of the array withou
 ## Example
 
 ### Input:
+
 ```python
 nums = [2, 1, 3, 3]
 k = 2
 ```
 
 ### Output:
+
 `[3, 3]`
 
 ### Constraints
@@ -56,6 +58,7 @@ Sorting the array dominates the time cost.
 Due to auxiliary list of indexed pairs.
 
 ### Tags
+
 `Greedy`, `Sorting`, `Subsequence`
 
 ### Notes
