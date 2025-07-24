@@ -16,17 +16,20 @@ Return the number of strings in `words` that **start with** the string `pref`.
 ## 🧪 Example
 
 ### Input:
+
 ```python
 words = ["pay", "attention", "practice", "attend"]
 pref = "at"
 ```
 
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
-- 
-The words `"attention"` and `"attend"` start with the prefix `"at"`, so the answer is 2.
+
+- The words `"attention"` and `"attend"` start with the prefix `"at"`, so the answer is `2`.
 
 ### 🚀 Approach
 
