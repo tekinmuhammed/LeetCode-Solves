@@ -16,6 +16,7 @@ Your task is to return the **minimum number of white blocks** that must be recol
 ## 🧪 Examples
 
 ### Example 1:
+
 ```python
 Input: blocks = "WBBWWBBWBW", k = 7
 Output: 3
@@ -23,6 +24,7 @@ Explanation: Need to recolor 3 white blocks in the best 7-length window.
 ```
 
 ### Example 2:
+
 ```python
 Input: blocks = "WBWBBBW", k = 2
 Output: 0
@@ -44,4 +46,5 @@ Explanation: Already has a substring "BB".
 - **Space Complexity:** O(1)
 
 ### 🏷️ Tags
-`sliding-window`, `string`, `greedy`, `easy`
+
+`sliding-window`, `string`, `greedy`, `easy`, `leetcode-easy`
