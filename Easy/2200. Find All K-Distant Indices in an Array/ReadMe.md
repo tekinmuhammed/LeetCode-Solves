@@ -20,6 +20,7 @@ Return the answer in **increasing order**.
 ## Example
 
 ### Input:
+
 ```python
 nums = [3,4,9,1,3,9,5]
 key = 9
@@ -27,6 +28,7 @@ k = 1
 ```
 
 ### Output:
+
 ```python
 [1,2,3,4,5,6]
 ```
@@ -70,7 +72,8 @@ In the worst case, for each occurrence of `key`, up to `2k+1` elements are proce
 Due to the result set.
 
 ### Tags
-`Array`, `Brute-Force`, `Set`
+
+`Array`, `Brute-Force`, `Set`, `leetcode-easy`
 
 ### Notes
 
