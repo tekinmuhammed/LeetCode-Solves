@@ -19,14 +19,17 @@ Return the maximum difference. If no such pair exists, return `-1`.
 ## Example
 
 ### Example 1:
+
 ```python
 Input: nums = [7,1,5,4]
 Output: 4
 ```
 **Explanation:**
+
 - The pair (1, 5) satisfies nums[1] < nums[2] and difference is 5 - 1 = 4
 
 ### Example 2:
+
 ```python
 Input: nums = [9,4,3,2]
 Output: -1
@@ -61,9 +64,11 @@ This is similar to a "best time to buy and sell stock" pattern, where you buy at
 - **Space Complexity:** `O(1)`, only constant space is used.
 
 ### Tags
+
 `Greedy`, `Array`, `One-Pass`
 
 ### Notes
+
 - This is a common sliding minimum pattern.
 
 - The initial `min_val` is the first element, and we try to find the largest difference with future elements.
