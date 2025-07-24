@@ -22,6 +22,7 @@ Return the **maximum difference** between these two results.
 ---
 
 ## Example
+
 ```python
 Input: num = 11891
 Output: 99009
@@ -59,7 +60,8 @@ Output: 99009
 - **Space Complexity:** `O(N)`, due to string manipulation
 
 ### Tags
-`Greedy`, `String`, `Math`
+
+`Greedy`, `String`, `Math`, `leetcode-easy`
 
 ### Notes
 
