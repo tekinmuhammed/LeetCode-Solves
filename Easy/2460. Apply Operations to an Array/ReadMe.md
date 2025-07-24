@@ -24,6 +24,7 @@ Return the resulting array.
 ## 🧪 Example
 
 ### Input:
+
 ```python
 nums = [1, 2, 2, 1, 1, 0]
 ```
@@ -67,4 +68,5 @@ nums = [1, 2, 2, 1, 1, 0]
 - **Space Complexity:** `O(n)` (for the result array)
 
 ### 🏷️ Tags
+
 `array`, `simulation`, `two-pointers`, `leetcode-easy`
