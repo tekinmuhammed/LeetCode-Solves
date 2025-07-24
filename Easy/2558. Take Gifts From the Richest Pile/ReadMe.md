@@ -27,9 +27,12 @@ k = 4
 ```
 
 ### Output
-`29`
+```python
+29
+```
 
 ## Explanation
+
 - Step 1: Take 64 → becomes 8 → [25, 8, 9, 4]
 
 - Step 2: Take 25 → becomes 5 → [5, 8, 9, 4]
@@ -41,6 +44,7 @@ k = 4
 - Total sum: 5 + 2 + 3 + 4 = 14
 
 ## 🚀 Approach
+
 - For `k` iterations:
 
 - - Find the index of the maximum value in `gifts`.
@@ -50,6 +54,7 @@ k = 4
 - After all operations, return the sum of the modified array.
 
 ## ⏱️ Complexity
+
 **Time Complexity:** `O(k * n)`
 
 - Each iteration involves scanning the list to find the max.
@@ -61,4 +66,5 @@ k = 4
 > **💡 Optimization Tip:** You can improve performance to `O(k * log n)` by using a max-heap (priority queue).
 
 ## 🏷️ Tags
+
 `array`, `math`, `greedy`, `priority-queue`, `simulation`, `leetcode-easy`
