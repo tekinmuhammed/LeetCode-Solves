@@ -32,6 +32,7 @@ Result = 37 - 18 = 19
 ```
 
 ### 💡 Approach
+
 - Initialize two counters: `num1` for non-divisible, `num2` for divisible.
 
 - Iterate `i` from `1` to `n`:
@@ -45,9 +46,11 @@ Result = 37 - 18 = 19
 ---
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)` – One pass through numbers 1 to n.
 
 - **Space Complexity:** `O(1)` – Only two integer accumulators are used.
 
 ### 🏷️ Tags
+
 `math`, `simulation`, `basic-loops`, `easy`
