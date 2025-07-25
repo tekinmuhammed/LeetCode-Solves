@@ -29,8 +29,10 @@ Return a string representing the **type** of triangle:
 ## 🧠 Approach
 
 1. **Sort the side lengths** to simplify triangle validity check: `a + b > c`.
+
 2. **Check for validity**:
    - If `a + b <= c`, it is **not a triangle**.
+
 3. **Classify the triangle**:
    - If all three sides are equal → `"equilateral"`
    - If exactly two sides are equal → `"isosceles"`
@@ -46,6 +48,7 @@ Return a string representing the **type** of triangle:
 - **Space Complexity:** `O(1)`
 
 ### 📌 Examples
+
 ```python
 Input: [2, 2, 2]
 Output: "equilateral"
@@ -61,4 +64,5 @@ Output: "none"
 ```
 
 ### 🏷️ Tags
+
 `geometry`, `math`, `easy`, `sorting`, `validation`
