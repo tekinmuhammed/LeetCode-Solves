@@ -40,6 +40,7 @@ words = ["a", "ab", "aba", "abab"]
 - Only valid ones are (0,2), (0,3), (1,3)
 
 ### 🚀 Approach
+
 We use a simple **brute-force double loop** to iterate over all valid `(i, j)` pairs.
 
 For each pair, we check:
@@ -59,4 +60,5 @@ If both are true, we increment the count.
 This brute-force approach is acceptable because the input size is small (as suggested by the "I" in the problem name).
 
 ### 🏷️ Tags
+
 `string`, `prefix`, `suffix`, `brute-force`, `leetcode-easy`
