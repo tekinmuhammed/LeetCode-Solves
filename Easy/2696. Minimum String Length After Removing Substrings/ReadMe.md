@@ -20,12 +20,15 @@ Return the **minimum length** of `s` after performing all possible deletions.
 ## 🧪 Example
 
 ### Input:
+
 ```python
 s = "ABFCACDB"
 ```
 
 ## Output:
-`2`
+```python
+2
+```
 
 ## Explanation:
 
@@ -38,6 +41,7 @@ s = "ABFCACDB"
 - Final length = 2
 
 ## 🚀 Approach
+
 We use a stack to simulate the removal process:
 
 - For each character:
@@ -51,6 +55,7 @@ We use a stack to simulate the removal process:
 At the end, the stack contains the remaining characters, and its length is the answer.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(n)
 
 - **Space Complexity:** O(n) (in the worst case, no deletions)
