@@ -17,12 +17,15 @@ Return `True` if the array is special, otherwise return `False`.
 ## 🔍 Example
 
 ### Input:
+
 ```python
 nums = [2, 1, 4]
 ```
 
 ### Output:
-`False`
+```python
+False
+```
 
 ### Explanation:
 
@@ -52,7 +55,9 @@ We check each adjacent pair once.
 No extra space is used.
 
 ### 🏷️ Tags
+
 `array`, `parity`, `adjacency`, `easy`, `implementation`
 
 ### ✅ Key Insight
+
 The parity of a number can be determined using `num % 2`. To ensure alternating parity, adjacent elements must differ in their mod 2 values.
