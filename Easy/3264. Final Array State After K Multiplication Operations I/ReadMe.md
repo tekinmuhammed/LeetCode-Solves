@@ -26,6 +26,7 @@ Return the final state of the array after performing all `k` operations.
 ## 🧪 Example
 
 ### Input
+
 ```python
 nums = [1, 2, 3]
 k = 3
@@ -33,6 +34,7 @@ multiplier = 2
 ```
 
 ### Output
+
 ```python
 [4, 4, 6]
 ```
@@ -74,4 +76,5 @@ Although this is not the most optimal approach, it works within the constraints 
 - - In-place operations, no extra space used.
 
 ### 🏷️ Tags
+
 `array`, `greedy`, `simulation`, `leetcode-easy`
