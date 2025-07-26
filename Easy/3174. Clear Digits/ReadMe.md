@@ -18,6 +18,7 @@ Return the final string after applying all the operations.
 ## 🧪 Example
 
 ### Input:
+
 ```python
 s = "abc3d2"
 ```
@@ -58,4 +59,5 @@ Return the joined stack as the final result.
 - **Space Complexity**: `O(n)`
 
 ### 🏷️ Tags
+
 `stack`, `string`, `simulation`, `leetcode-easy`
