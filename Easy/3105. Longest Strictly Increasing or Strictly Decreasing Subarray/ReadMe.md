@@ -14,11 +14,15 @@ Given an array `nums`, return the length of the longest **strictly increasing** 
 ## 🔍 Example
 
 ### Input:
+
 ```python
 nums = [1, 4, 7, 3, 2, 6, 7]
 ```
 ### Output:
-`3`
+
+```python
+3
+```
 
 ### Explanation:
 
@@ -52,4 +56,5 @@ One pass through the array.
 Constant space used for counters.
 
 ### 🏷️ Tags
+
 `array`, `sliding-window`, `greedy`, `sequence`, `monotonic`
