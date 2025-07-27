@@ -25,7 +25,9 @@ word = "aabb"
 ```
 
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
 
