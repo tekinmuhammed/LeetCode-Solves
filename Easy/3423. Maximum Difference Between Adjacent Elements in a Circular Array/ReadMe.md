@@ -40,6 +40,7 @@ Maximum = 9
 ---
 
 ### Complexity
+
 - **Time Complexity:** `O(N)`
 We traverse the array once.
 
@@ -47,9 +48,11 @@ We traverse the array once.
 Only a few integer variables are used.
 
 ### Tags
+
 `Array`, `Simulation`, `Greedy`, `Math`
 
 ### Notes
+
 - The use of modulo `%` is key to handling the circular nature of the array.
 
 - Be careful when the array has only 1 element (edge case).
