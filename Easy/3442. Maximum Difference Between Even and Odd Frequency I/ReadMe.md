@@ -40,6 +40,7 @@ Maximum difference is 1.
 ---
 
 ### Complexity
+
 - **Time Complexity:** `O(N + K²)`, where
 
 - - N = length of string `s`,
@@ -49,4 +50,5 @@ Maximum difference is 1.
 - **Space Complexity:** `O(1)`, constant space for frequency arrays
 
 ### Tags
+
 `HashMap`, `String`, `Greedy`, `Brute-Force`, `Frequency-Count`
