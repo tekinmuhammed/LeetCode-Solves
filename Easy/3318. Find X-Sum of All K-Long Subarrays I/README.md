@@ -17,6 +17,7 @@ Output: [6, 10, 13, 15]
 ```
 
 ## 💡 Approach
+
 For every sliding window of size `k`:
 
 Count the frequency of elements using `collections.Counter`.
@@ -28,9 +29,11 @@ Select the top `x` most frequent elements.
 Multiply each element by its frequency and take the sum.
 
 ## 🧮 Complexity
+
 **Time:** O((n - k + 1) * k log k)
 
 **Space:** O(k)
 
 ## 📌 Tags
+
 `sliding-window`, `frequency-count`, `sorting`, `array`, `python`
