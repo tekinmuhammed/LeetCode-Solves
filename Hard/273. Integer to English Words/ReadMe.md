@@ -33,6 +33,7 @@ Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
 ```
 
 ## 🧠 Approach
+
 Problemi parça parça ele almak gerekir:
 
 1. İngilizce sayılar 3’lü gruplar halinde okunur: **Billions, Millions, Thousands, Hundreds**.
@@ -54,10 +55,12 @@ Problemi parça parça ele almak gerekir:
 4. Her grup varsa metne çevrilip uygun ekiyle (`Billion`, `Million`, `Thousand`) birlikte eklenir.
 
 ## ⏱️ Complexity
+
 **Time Complexity:** `O(1)`
 Sabit sayılarla çalışıldığı için zaman karmaşıklığı sabittir.
 
 **Space Complexity:** `O(1)`
 
 ## 🏷️ Tags
+
 `recursion`, `string-manipulation`, `simulation`, `leetcode-hard`
