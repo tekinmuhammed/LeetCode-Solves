@@ -29,6 +29,7 @@ nums = [2,1,1,5,6,2,3,1]
 `3`
 
 ## 🚀 Approach
+
 We use dynamic programming to calculate:
 
 - `left[i]`: Length of the Longest Increasing Subsequence (LIS) ending at i
@@ -44,9 +45,11 @@ A valid mountain must have:
 We find the maximum possible mountain length and subtract it from the total to get the minimum removals.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(n²)
 
 - **Space Complexity:** O(n)
 
 ## 🏷️ Tags
+
 `dynamic-programming`, `lis`, `mountain-array`, `leetcode-hard`
