@@ -21,6 +21,7 @@ Return `-1` if the graph contains a **cycle**, otherwise return the **maximum co
 ## 🧠 Approach
 
 ### Key Ideas:
+
 1. **Topological Sort (Kahn's algorithm)** is used to detect cycles and process nodes in valid order.
 2. We maintain a `color_count[node][color]` table to track how many times each color appears on paths reaching `node`.
 3. While processing the graph:
@@ -31,6 +32,7 @@ Return `-1` if the graph contains a **cycle**, otherwise return the **maximum co
 ---
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n + m + 26n)`
 
 - - `n` = number of nodes, `m` = number of edges.
@@ -55,7 +57,9 @@ Color 'a' appears 3 times → Maximum = 3.
 ```
 
 ### 🔍 Cycle Detection Note
+
 If not all nodes are visited during topological sort, the graph has a cycle, and we return `-1`.
 
 ### 🏷️ Tags
+
 `graph`, `topological-sort`, `dp-on-graph`, `cycle-detection`, `bfs`
