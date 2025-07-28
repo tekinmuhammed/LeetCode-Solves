@@ -28,6 +28,7 @@ Kurallar:
 Bu bir **BFS (Breadth-First Search)** benzeri problem.
 
 ### Adımlar:
+
 1. `has_key` → elimizde olan anahtarları gösterir (başlangıçta `status` ile aynı).
 2. `boxes` → elimizde fiziksel olarak bulunan kutular.
 3. `queue` → açılabilir kutuların sırası.
@@ -39,6 +40,7 @@ Bu bir **BFS (Breadth-First Search)** benzeri problem.
 ---
 
 ### 🧪 Örnek
+
 ```python
 status = [1,0,1,0]
 candies = [7,5,4,100]
@@ -65,4 +67,5 @@ Toplam: **7 + 4 + 5 + 100 = 116**
 - **Space Complexity:** `O(n)`
 
 ### 🏷️ Tags
+
 `bfs`, `graph`, `set`, `queue`, `greedy`
