@@ -26,6 +26,7 @@ Bu problem, **greedy yaklaşımı** ile çözülür. Ana fikir şu:
 ---
 
 ### 🔁 Example
+
 ```python
 Input: ratings = [1, 0, 2]
 Step 1: Initial candies = [1, 1, 1]
@@ -43,4 +44,5 @@ Output: 5
 - **Space Complexity:** `O(n)` — for the candies array
 
 ### 🏷️ Tags
+
 `greedy`, `array`, `two-pass`, `ratings`
