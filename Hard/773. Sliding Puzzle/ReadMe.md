@@ -29,9 +29,12 @@ board = [
 ```
 
 ## Output:
-`1`
+```python
+1
+```
 
 ## 🚀 Approach
+
 This is a **shortest path** problem in a state space.
 We use **Breadth-First Search (BFS)** to explore all board configurations, starting from the initial one.
 
@@ -45,14 +48,17 @@ We use **Breadth-First Search (BFS)** to explore all board configurations, start
 - Track visited states to avoid cycles.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(N!)` where `N = 6` (number of tiles), but in practice limited to 720 permutations.
 
 - **Space Complexity:** `O(N!)`, for visited states.
 
 ## 🏷️ Tags
+
 `bfs`, `graph`, `shortest-path`, `hashset`, `sliding-puzzle`, `leetcode-hard`
 
 ## 📝 Notes
+
 - This problem is a classic state graph problem.
 
 - Since the shortest path is sought with BFS, it is important to use a `queue` at each step.
