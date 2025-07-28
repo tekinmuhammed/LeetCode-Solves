@@ -33,13 +33,16 @@ k = 1
 ```
 
 ### Output:
-`4`
+```python
+4
+```
 
 ### Explanation:
 
 Attend the first event only, which gives the maximum value `4`.
 
 ### Approach & Intuition
+
 This problem combines **interval scheduling** with **dynamic programming and binary search**.
 
 We aim to maximize the total value by selecting at most `k` non-overlapping events.
@@ -74,6 +77,7 @@ We aim to maximize the total value by selecting at most `k` non-overlapping even
 - - DP table stores intermediate results for memoization.
 
 ### Tags
+
 `Dynamic-Programming`, `Binary-Search`, `DFS`, `Memoization`, `Greedy-Scheduling`
 
 ### Notes
