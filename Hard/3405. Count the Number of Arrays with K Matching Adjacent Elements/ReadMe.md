@@ -64,9 +64,11 @@ Total Arrays = C(n - 1, k) * m * (m - 1)^(n - k - 1)
 - **Space Complexity:** `O(MX)` for factorials and inverse factorials.
 
 ### Tags
+
 `Combinatorics`, `Math`, `Dynamic-Programming`, `Modular-Arithmetic`, `Prefix-Products`
 
 ### Notes
+
 - This problem emphasizes understanding group patterns in arrays.
 
 - The key is to divide the array into **equal** and **non-equal transitions**.
