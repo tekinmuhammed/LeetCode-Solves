@@ -77,6 +77,7 @@ where `n` is the length of `word`, and `g` is the number of groups.
 - **Space Complexity:** `O(k)`
 
 ### Tags
+
 `Dynamic-Programming`, `Prefix-Sum`, `Combinatorics`, `String-Grouping`, `Hard`
 
 ### Notes
