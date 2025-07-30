@@ -38,6 +38,7 @@ Bu durumda, 3 pointer kullanarak tek geçişte çözüm yapılabilir:
 ---
 
 ### 🧪 Example
+
 ```python
 Input: nums = [2,0,2,1,1,0]
 Output: [0,0,1,1,2,2]
@@ -50,4 +51,5 @@ Output: [0,0,1,1,2,2]
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `two-pointers`, `sorting`, `in-place`, `array`, `dutch-national-flag`
