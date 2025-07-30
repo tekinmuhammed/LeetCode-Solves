@@ -52,6 +52,7 @@ A helper function `isK(sub, s, k)` simulates scanning through `s` to see if `sub
 - **Space Complexity:** `O(B)`, where `B` is the number of valid candidate subsequences held in the queue.
 
 ### Tags
+
 `Greedy`, `BFS`, `String-Matching`, `Subsequence`
 
 ### Notes
