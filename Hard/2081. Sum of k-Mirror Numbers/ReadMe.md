@@ -62,6 +62,7 @@ Their sum is `1 + 3 + 5 + 7 + 9 = 25`.
 
 - Maintain a running sum of valid `k`-mirror numbers.
 
+
 ### Time and Space Complexity
 
 - **Time Complexity:**
@@ -72,9 +73,11 @@ Roughly `O(n * log(N))`, where `N` is the maximum value of the palindrome tried 
 
 `O(log(N))` to store digits for the base-`k` palindrome check.
 
+
 ### Tags
 
 `Palindrome`, `Base-Conversion`, `Math`, `Enumeration`
+
 
 ### Notes
 
