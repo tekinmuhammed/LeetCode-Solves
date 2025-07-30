@@ -24,6 +24,7 @@ k = 2
 `10`
 
 ### Explanation:
+
 The products are `[6, 8, 10, 20]`, and the 2nd smallest is `10`.
 
 ### Constraints
@@ -41,6 +42,7 @@ The products are `[6, 8, 10, 20]`, and the 2nd smallest is `10`.
 This problem requires finding the k-th smallest product in a **virtual sorted array** of all possible products between elements in two sorted arrays, which is too large to generate explicitly. Hence, we apply **binary search** on the product values.
 
 ### Key Ideas:
+
 - Binary search over the **value space** instead of the index space.
 
 - For a guessed product value `v`, compute how many products are `<= v`.
@@ -60,9 +62,11 @@ This problem requires finding the k-th smallest product in a **virtual sorted ar
 No extra space except primitive variables.
 
 ### Tags
+
 `Binary-Search`, `Two-Pointers`, `Math`, `Sorted-Arrays`
 
 ### Notes
+
 - Special care is needed when handling negative numbers and division in Python.
 
 - This solution efficiently handles large arrays by avoiding the explicit computation of all possible products.
