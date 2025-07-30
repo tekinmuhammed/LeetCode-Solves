@@ -33,6 +33,7 @@ k = 3
 `2`
 
 ### Explanation:
+
 - After removing the edge between nodes 1 and 3, the components `[0,1,2]` and `[3,4]` have sums 8 and 4.
 
 - Only the subtree `[0,1,2]` has a total sum divisible by 3.
@@ -68,4 +69,5 @@ One DFS traversal of the tree.
 For adjacency list and recursion stack.
 
 ### 🏷️ Tags
+
 `tree`, `dfs`, `recursion`, `modulo`, `graph`, `leetcode-hard`
