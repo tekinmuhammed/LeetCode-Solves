@@ -66,4 +66,5 @@ max(d1, d2, ceil(d1 / 2) + ceil(d2 / 2) + 1)
 - **Space Complexity:** `O(N)`, for the graph and visited sets
 
 ### 🏷️ Tags
+
 `tree`, `graph`, `bfs`, `diameter`, `hard`, `leetcode-graph`, `merge-trees`
