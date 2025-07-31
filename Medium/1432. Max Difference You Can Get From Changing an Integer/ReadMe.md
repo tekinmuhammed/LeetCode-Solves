@@ -17,6 +17,7 @@ You must return the **maximum difference** between the two numbers you can get f
 ---
 
 ## Example
+
 ```python
 Input: num = 555
 Output: 888
@@ -59,9 +60,11 @@ This ensures only one digit is replaced in each transformation while producing t
 - **Space Complexity:** `O(N)`, due to string operations.
 
 ### Tags
+
 `Greedy`, `String`, `Manipulation`, `Math`
 
 ### Notes
+
 - The logic ensures leading zeros are avoided during the minimization process.
 
 - Only one digit type is allowed to be replaced in each transformation, which is respected in the implementation.
