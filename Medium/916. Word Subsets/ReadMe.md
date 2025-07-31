@@ -45,6 +45,7 @@ Step-by-step:
 4. If yes, it’s a universal word — add it to the result.
 
 **Why it works:**
+
 Using the **maximum requirement** for each character from `words2` lets us check each word in `words1` only once, against a fixed reference, instead of checking against each word in `words2` individually.
 
 ###  ⏱️ Complexity
@@ -59,4 +60,5 @@ Where:
 - **Space Complexity:** `O(26)` for the combined counter
 
 ### 🏷️ Tags
+
 `hashmap`, `counter`, `subset`, `frequency`, `strings`, `medium`
