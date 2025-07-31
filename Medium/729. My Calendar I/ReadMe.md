@@ -47,5 +47,7 @@ if max(s, start) < min(e, end):  # Overlap condition
 
 - **Space Complexity:** `O(n)` for storing the intervals
 
+
 ### 🏷️ Tags
+
 `interval`, `calendar`, `design`, `greedy`, `simulation`
