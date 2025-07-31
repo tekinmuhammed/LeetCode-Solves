@@ -31,9 +31,11 @@ Output: "makkek"
 ---
 
 ### Complexity
+
 - **Time:** `O(N + M)`, where N = len(s1), M = len(baseStr)
 
 - **Space:** `O(1)`, uses constant space for 26 lowercase letters
 
 ### Tags
+
 `Union-Find`, `Greedy`, `Graph`, `String`
