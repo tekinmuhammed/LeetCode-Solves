@@ -25,9 +25,11 @@ target = 9
 `4`
 
 ### Explanation:
+
 The subsequences are: `[3]`, `[3,5]`, `[3,5,6]`, `[3,6]`.
 
 ### Constraints
+
 - `1 <= nums.length <= 10⁵`
 
 - `1 <= nums[i] <= 10⁶`
@@ -35,12 +37,14 @@ The subsequences are: `[3]`, `[3,5]`, `[3,5,6]`, `[3,6]`.
 - `1 <= target <= 10⁶`
 
 ### Approach
+
 Key Observations:
 - Sort nums to efficiently evaluate minimum and maximum values using two pointers.
 
 - For a fixed left and right, if nums[left] + nums[right] <= target, all subsets formed by elements between them are valid.
 
 ### Algorithm:
+
 1. Sort the array to make min/max evaluation easy.
 
 2. Precompute powers of 2 to represent all possible subsequences between two indices.
@@ -60,6 +64,7 @@ Sorting the array dominates the complexity.
 For precomputed powers of 2.
 
 ### Tags
+
 `Two-Pointers`, `Sorting`, `Binary-Search`, `Combinatorics`, `Greedy`
 
 ### Notes
