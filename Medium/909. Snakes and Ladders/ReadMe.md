@@ -53,10 +53,12 @@ We use **Breadth-First Search (BFS)** to find the **minimum number of moves**.
 
 - - Rows alternate between left-to-right and right-to-left direction.
 
-⏱️ Complexity
+### ⏱️ Complexity
+
 - **Time Complexity:** `O(n^2)` — we visit each square at most once.
 
 - **Space Complexity:** `O(n^2)` — for the queue and visited set.
 
 ### 🏷️ Tags
+
 `bfs`, `graph`, `matrix`, `simulation`, `traversal`
