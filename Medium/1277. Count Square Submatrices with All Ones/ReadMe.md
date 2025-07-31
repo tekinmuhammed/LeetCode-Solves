@@ -23,9 +23,12 @@ matrix = [
 ```
 
 ## Output:
-`15`
+```python
+15
+```
 
 ## Explanation:
+
 There are 15 squares with all 1s:
 
 - 10 of size 1x1
@@ -35,6 +38,7 @@ There are 15 squares with all 1s:
 - 1 of size 3x3
 
 ## 🚀 Approach
+
 We use dynamic programming to track the size of the largest square that ends at each cell.
 
 - `dp[i][j]` represents the size of the largest square whose bottom-right corner is at `(i, j)`.
