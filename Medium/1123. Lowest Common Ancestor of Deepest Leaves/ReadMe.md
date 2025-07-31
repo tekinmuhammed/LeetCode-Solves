@@ -19,7 +19,7 @@ The **depth** of a node is the number of edges from the root to the node.
 - The **deepest leaves** are the ones furthest from the root.
 - The **LCA** of these leaves is the **lowest** node in the tree that is an ancestor of **all deepest leaves**.
 - If both left and right subtrees have leaves at the same deepest level, the current node is the LCA.
-- If one side is deeper, propagate that side upward.
+- If one side is deeper, propagate that side upward. 
 
 ---
 
@@ -36,6 +36,7 @@ Use **DFS (post-order traversal)**:
 ---
 
 ### 🧪 Example
+
 ```makefile
 Input: root = [1,2,3,4]
 Tree:
@@ -58,4 +59,5 @@ Output: TreeNode(1)
 - **Space Complexity:** `O(h)` – Call stack space for recursion (h = height of the tree).
 
 ### 🏷️ Tags
+
 `binary-tree`, `DFS`, `lowest-common-ancestor`, `recursion`
