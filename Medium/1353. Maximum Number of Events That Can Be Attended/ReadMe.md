@@ -28,9 +28,12 @@ events = [[1,2],[2,3],[3,4]]
 ```
 
 ### Output:
-`3`
+```python
+3
+```
 
 ### Explanation:
+
 **Attend:**
 
 - Day 1 → event [1,2]
@@ -40,6 +43,7 @@ events = [[1,2],[2,3],[3,4]]
 - Day 3 → event [3,4]
 
 ### Approach & Intuition
+
 This is a **greedy + min-heap** (priority queue) problem.
 
 ### Key Observations:
@@ -77,6 +81,7 @@ This is a **greedy + min-heap** (priority queue) problem.
 - - For the min-heap
 
 ### Tags
+
 `Greedy`, `Heap`, `Priority-Queue`, `Sorting`, `Scheduling`
 
 ### Notes
