@@ -44,11 +44,13 @@ This is a **transitive closure** problem in graph theory. We are to determine if
 - For each query, simply return `reachable[u][v]`.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n³)` — due to triple nested loop for Floyd–Warshall
 
 - **Space Complexity:** `O(n²)` — for the reachability matrix
 
 ### 🏷️ Tags
+
 `graph`, `floyd-warshall`, `transitive-closure`, `reachability`, `prerequisite-check`
 
 ### ✅ Key Insight
