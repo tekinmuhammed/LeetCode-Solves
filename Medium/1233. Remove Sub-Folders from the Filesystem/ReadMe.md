@@ -22,8 +22,9 @@ folder = ["/a", "/a/b", "/c/d", "/c/d/e", "/c/f"]
 ```
 
 ## Output:
-
+```python
 ['/a', '/c/d', '/c/f']
+```
 
 ## 🚀 Approach
 
