@@ -27,14 +27,18 @@ maxOperations = 2
 ```
 
 ## Output:
-`3`
+```python
+3
+```
 
 ## Explanation:
+
 - One possible way: split 9 → [6, 3], then split 6 → [3, 3, 3].
 
 - Maximum balls in a bag: 3.
 
 ## 🚀 Approach
+
 We want the **smallest possible maximum bag size**, so:
 
 - Use **binary search** on the result:
@@ -51,9 +55,11 @@ We want the **smallest possible maximum bag size**, so:
 Otherwise, we try bigger penalty (move right).
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n * log(max(nums)))`
 
 - **Space Complexity:** `O(1)`
 
 ## 🏷️ Tags
+
 `binary-search`, `greedy`, `splitting`, `bags`, `leetcode-medium`
