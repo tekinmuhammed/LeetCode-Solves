@@ -24,7 +24,9 @@ nums = [2, 3, 4, 6]
 ```
 
 ### Output:
-`8`
+```python
+8
+```
 
 ### Explanation:
 
@@ -49,6 +51,7 @@ Each unique product match can form 8 permutations.
 - Each of the `k` previous pairs can be paired with the new one in `4 * 2 = 8` permutations.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n²)`
 Checking all unique pairs of elements.
 
@@ -56,4 +59,5 @@ Checking all unique pairs of elements.
 In worst case, all products may be unique.
 
 ### 🏷️ Tags
+
 `array`, `hash-map`, `combinatorics`, `math`, `brute-force`
