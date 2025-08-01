@@ -64,4 +64,5 @@ We use **backtracking** to try placing numbers from `n` down to `1`, greedily ai
 - **Space Complexity:** `O(n)` for tracking usage and result array.
 
 ### 🏷️ Tags
+
 `backtracking`, `greedy`, `recursion`, `lexicographical`, `hard`
