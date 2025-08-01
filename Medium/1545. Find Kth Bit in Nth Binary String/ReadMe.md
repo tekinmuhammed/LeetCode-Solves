@@ -25,6 +25,7 @@ Output: "0"
 ```
 
 ## 💡 Approach
+
 Recursively build `Sn` using the given rule.
 
 `Sn = Sn-1 + "1" + reverse(invert(Sn-1))`
@@ -40,4 +41,5 @@ After full construction, return the (k-1)th character.
 ⚠️ This is not the most efficient solution for large `n`, but works for small input ranges.
 
 ## 📌 Tags
+
 `recursion`, `binary-strings`, `string-manipulation`, `divide-and-conquer`
