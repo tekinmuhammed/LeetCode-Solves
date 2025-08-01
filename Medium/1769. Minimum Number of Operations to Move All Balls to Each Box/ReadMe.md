@@ -27,8 +27,9 @@ boxes = "110"
 ```
 
 ### Output:
-
-`[1, 1, 3]`
+```python
+[1, 1, 3]
+```
 
 ### Explanation:
 
@@ -57,9 +58,11 @@ To avoid a naive O(n²) solution, we use a **two-pass linear scan**:
 By summing these two passes, we get the total moves required for each box.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)` — two linear passes
 
 - **Space Complexity:** `O(n)` — for the result array
 
 ### 🏷️ Tags
+
 `array`, `prefix-sum`, `simulation`, `two-pass`, `leetcode-medium`
