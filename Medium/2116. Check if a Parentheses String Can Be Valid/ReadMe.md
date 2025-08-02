@@ -27,10 +27,11 @@ locked = "010100"
 ```
 
 ### Output:
+```python
+True
+```
 
-`True`
-
-#### 🧠 Approach
+### 🧠 Approach
 
 **Key Insight:**
 
@@ -65,4 +66,5 @@ locked = "010100"
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `greedy`, `string`, `parentheses`, `two-pointers`
