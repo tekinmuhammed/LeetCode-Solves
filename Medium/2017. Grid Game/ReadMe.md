@@ -25,8 +25,9 @@ grid = [[2,5,4],
 ```
 
 ### Output:
-
-`4`
+```python
+4
+```
 
 ### Explanation:
 
@@ -37,6 +38,7 @@ grid = [[2,5,4],
 - - bottom row (col 0): 1
 
 - - max = 4 → minimized
+
 
 ## 🧠 Approach & Intuition
 
@@ -58,14 +60,18 @@ grid = [[2,5,4],
 
 3. Minimize the worst-case across all `i`.
 
+
 ### ⏱️ Complexity
 
 - **Time Complexity:** `O(n)`
 
 - **Space Complexity:** `O(n)`
 
+
 ### 🏷️ Tags
+
 `greedy`, `prefix-sum`, `min-max`, `grid`
 
 ### ✅ Key Insight
+
 The second robot can **strategically switch** at the point that **minimizes the maximum gain** the first robot can obtain from either remaining path. This is a classic **minimax strategy**.
