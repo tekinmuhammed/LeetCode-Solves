@@ -31,7 +31,6 @@ True
 
 ### Explanation:
 
-
 - 91 = 3^0 + 3^2 + 3^4
 
 ### 🚀 Approach
