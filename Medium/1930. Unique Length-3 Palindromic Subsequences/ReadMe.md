@@ -26,6 +26,7 @@ s = "aabca"
 `3`
 
 ### Explanation:
+
 The unique palindromic subsequences of length 3 are:
 
 - `"aba"`
@@ -37,6 +38,7 @@ The unique palindromic subsequences of length 3 are:
 So the result is 3.
 
 ### 🚀 Approach
+
 We are looking for palindromes in the form of `aXa`, where the first and last characters are the same, and the middle character can be any.
 
 - Iterate through **all unique characters** in the string.
@@ -52,6 +54,7 @@ We are looking for palindromes in the form of `aXa`, where the first and last ch
 The final result is the **size of the set**, which stores all unique valid palindromes.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(26 × n)` → Simplifies to `O(n)`
 (Since we loop through at most 26 characters and scan substring for each.)
 
@@ -59,4 +62,5 @@ The final result is the **size of the set**, which stores all unique valid palin
 (At most 26×26 = 676 unique palindromes.)
 
 ### 🏷️ Tags
+
 `string`, `hashset`, `palindrome`, `leetcode-medium`
