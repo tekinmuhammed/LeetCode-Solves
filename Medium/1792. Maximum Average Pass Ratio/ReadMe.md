@@ -29,6 +29,7 @@ extraStudents = 2
 `1.0`
 
 ### Explanation
+
 We can assign one extra student to the second and third classes:
 
 - Class 1: 1/2 → 2/3
@@ -41,6 +42,7 @@ The average pass ratio becomes:
 `(2/3 + 4/6 + 3/3) / 3 = 1.0`
 
 ### 🚀 Approach
+
 We use a **max heap** to always assign the next extra student to the class that yields the maximum improvement in average pass ratio.
 
 **Steps:**
@@ -69,4 +71,5 @@ We use a **max heap** to always assign the next extra student to the class that 
 - - For the heap.
 
 ### 🏷️ Tags
+
 `heap`, `priority-queue`, `greedy`, `math`, `leetcode-medium`
