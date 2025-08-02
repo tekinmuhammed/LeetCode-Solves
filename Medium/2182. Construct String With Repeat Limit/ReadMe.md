@@ -30,6 +30,7 @@ repeatLimit = 3
 ```
 
 ### Explanation
+
 - Use 'z' once.
 
 - Then add up to 3 'c's.
@@ -57,6 +58,7 @@ repeatLimit = 3
 This greedy approach ensures we always pick the **largest lexicographical character available**, while respecting the repeat limit.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n log n)`
 
 - - Sorting characters once and iterating through the string.
@@ -66,4 +68,5 @@ This greedy approach ensures we always pick the **largest lexicographical charac
 - - Frequency map and result string.
 
 ### 🏷️ Tags
+
 `greedy`, `heap`, `string`, `sorting`, `leetcode-medium`
