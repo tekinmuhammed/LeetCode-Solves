@@ -24,13 +24,17 @@ Return the **maximum total value** you can achieve.
 events = [[1,3,4],[2,4,3],[3,5,1]]
 ```
 
-## Output:
-`7`
+### Output:
+```python
+7
+```
 
 ## Explanation:
+
 - Choose events [1,3,4] and [3,5,1] → total = 4 + 3 = 7
 
 ## 🚀 Approach
+
 1. **Sort events by their `end time`**
 To help with binary search for compatible events.
 
@@ -45,6 +49,7 @@ To help with binary search for compatible events.
 - Add their values if found. Track the best total value.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n log n)`
 
 - - Sorting: `O(n log n)`
@@ -54,4 +59,5 @@ To help with binary search for compatible events.
 - Space Complexity: O(n)
 
 ## 🏷️ Tags
+
 `greedy`, `sorting`, `binary-search`, `intervals`, `dp-like`, `leetcode-hard`
