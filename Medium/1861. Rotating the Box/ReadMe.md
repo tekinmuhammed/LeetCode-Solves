@@ -24,7 +24,7 @@ box = [
 ]
 ```
 
-## Output:
+### Output:
 ```python
 [
     [".", "#", "#"]
@@ -32,6 +32,7 @@ box = [
 ```
 
 ## 🚀 Approach
+
 - Simulate Gravity (Rightward Movement in Each Row):
 
 - - Traverse each row from right to left.
@@ -45,9 +46,11 @@ box = [
 - - Use `zip(*box[::-1])` to rotate the 2D matrix 90 degrees clockwise.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(m × n)
 
 - **Space Complexity:** O(m × n) (for the rotated output)
 
 ## 🏷️ Tags
+
 `matrix`, `simulation`, `rotation`, `gravity`, `leetcode-medium`
