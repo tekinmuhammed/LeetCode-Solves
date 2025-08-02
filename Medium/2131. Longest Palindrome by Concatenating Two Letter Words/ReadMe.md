@@ -26,6 +26,7 @@ We use a `Counter` to count occurrences of each 2-letter word.
 ---
 
 ### ⏱️ Time and Space Complexity
+
 - **Time Complexity:** `O(n)` — where `n` is the number of words.
 
 - **Space Complexity:** `O(1)` — max 26×26 = 676 unique 2-letter lowercase combinations.
@@ -35,11 +36,13 @@ We use a `Counter` to count occurrences of each 2-letter word.
 Input:
 words = ["lc","cl","gg"]
 
-Output: 6
+Output: 
+6
 
 Explanation:
 "lc" + "gg" + "cl" = "lcggcl" is a palindrome.
 ```
 
 ### 🏷️ Tags
+
 `hash-table`, `greedy`, `palindrome`, `string`, `counter`, `two-pointers`
