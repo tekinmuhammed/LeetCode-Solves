@@ -26,7 +26,7 @@ nums = [0,1,1,3]
 maximumBit = 2
 ```
 
-## Output:
+### Output:
 ```cpp
 
 [0,3,2,3]
@@ -42,14 +42,17 @@ maximumBit = 2
 - After each query, remove the effect of the last number by XORing it out from the cumulative XOR.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(n)
 
 - **Space Complexity:** O(n)
 
 ## 🏷️ Tags
+
 `bit-manipulation`, `prefix-xor`, `leetcode-medium`
 
 ## 📝 Notes
+
 - Knowing that `x ^ k = max` implies `k = x ^ max` is key to solving this problem.
 
 - Reverse simulation (from end to start) is used to efficiently compute each answer.
