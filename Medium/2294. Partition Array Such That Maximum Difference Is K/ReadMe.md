@@ -21,7 +21,9 @@ Return the **minimum number of subarrays** needed.
 nums = [3,6,1,2,5], k = 2
 ```
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
 - One possible partition: [1,2,3] and [5,6]
@@ -54,6 +56,7 @@ nums = [3,6,1,2,5], k = 2
 - **Space Complexity:** `O(1)` – constant extra space.
 
 ### Tags
+
 `Greedy`, `Sorting`, `Array`
 
 ### Notes
