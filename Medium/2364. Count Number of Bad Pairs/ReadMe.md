@@ -64,9 +64,11 @@ So we define `diff = i - nums[i]` for each element.
 - Bad pairs = Total pairs - Good pairs
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 
 - **Space Complexity:** `O(n)` — for storing differences in a hash map
 
 ### 🏷️ Tags
+
 `hashmap`, `math`, `counting`, `prefix`, `leetcode-medium`
