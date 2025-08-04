@@ -34,9 +34,11 @@ candidates = [16,17,71,62,12,24,14]
 - En fazla kaç sayı aynı biti paylaşıyor bulursak, o kadar eleman içeren bir subset AND > 0 üretir.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** O(24 * n) → ~O(n), where n is the size of `candidates`
 
 - **Space Complexity:** O(1)
 
 ## 🏷️ Tags
+
 `bit-manipulation`, `greedy`, `leetcode-medium`
