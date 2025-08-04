@@ -22,7 +22,9 @@ k = 5
 ```
 
 ### Output:
-`5`
+```python
+5
+```
 
 ### Constraints
 
@@ -49,9 +51,11 @@ k = 5
 - **Space Complexity:** `O(1)`
 
 ### Tags
+
 `Greedy`, `Bit-Manipulation`, `Subsequence`, `Binary`
 
 ### Notes
+
 - Traversing from the end ensures that added `'1'`s contribute the least possible value.
 
 - This is a space-optimized and efficient solution suitable for large strings.
