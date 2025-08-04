@@ -51,4 +51,5 @@ walls = [[0,1],[2,2],[1,4]]
 - **Space Complexity:** O(m * n)
 
 ## 🏷️ Tags
+
 `simulation`, `grid`, `matrix`, `visibility`, `guards`, `leetcode-medium`
