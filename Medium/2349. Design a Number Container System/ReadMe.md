@@ -37,6 +37,7 @@ obj.find(20)  # Returns -1
 - `find(20)` returns -1 since 20 was never inserted.
 
 ### 🧠 Approach & Intuition
+
 - Use a dictionary `index_to_number` to map each index to its current number.
 
 - Use a min-heap for each number to quickly get the smallest index where it exists.
@@ -54,4 +55,5 @@ obj.find(20)  # Returns -1
 - **Space Complexity:** `O(n)` — storing mappings and heaps.
 
 ### 🏷️ Tags
+
 `design`, `hashmap`, `heap`, `priority-queue`, `leetcode-medium`
