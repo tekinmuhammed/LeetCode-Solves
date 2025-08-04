@@ -55,4 +55,5 @@ This greedy + stack trick yields the **lexicographically smallest** valid number
 - **Space Complexity:** `O(n)`, for the stack and result list.
 
 ### 🏷️ Tags
+
 `greedy`, `stack`, `string`, `permutation`, `simulation`
