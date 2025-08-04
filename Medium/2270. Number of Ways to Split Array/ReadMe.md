@@ -11,10 +11,6 @@ Given an array `nums`, your task is to count the number of **valid split points*
 
 sum(left part) ≥ sum(right part)
 
-yaml
-Kopyala
-Düzenle
-
 More formally, for index `i` (0 ≤ i < len(nums) - 1), count how many times the sum of `nums[0] to nums[i]` is **greater than or equal to** the sum of `nums[i+1] to end`.
 
 ---
@@ -27,9 +23,12 @@ nums = [10, 4, -8, 7]
 ```
 
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
+
 Valid splits are:
 
 - `[10] | [4, -8, 7] → left = 10, right = 3 ✅`
@@ -49,11 +48,13 @@ Valid splits are:
 4. If `left_sum ≥ right_sum`, increment a counter.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 (One pass to calculate total sum, one pass to count valid splits)
 
 - **Space Complexity:** `O(1)`
 (Constant extra space used)
 
-🏷️ Tags
+### 🏷️ Tags
+
 `prefix-sum`, `array`, `greedy`, `leetcode-easy`
