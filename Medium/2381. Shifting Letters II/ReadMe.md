@@ -26,7 +26,9 @@ shifts = [[0,1,0],[1,2,1],[0,2,1]]
 ```
 
 ### Output:
-`"ace"`
+```python
+"ace"
+```
 
 ### Explanation:
  
@@ -53,6 +55,7 @@ shifts = [[0,1,0],[1,2,1],[0,2,1]]
 This avoids applying each shift directly (which would be O(n × m)), and improves performance to linear time.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n + m)`, where
 
 - - `n = len(s)`
@@ -62,4 +65,5 @@ This avoids applying each shift directly (which would be O(n × m)), and improve
 - **Space Complexity:** `O(n)`, due to the delta array
 
 ### 🏷️ Tags
+
 `string`, `prefix-sum`, `range-update`, `difference-array`, `leetcode-medium`
