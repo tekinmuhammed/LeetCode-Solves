@@ -25,7 +25,9 @@ nums2 = [10, 2]
 ```
 
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
 
@@ -66,11 +68,13 @@ Because:
 If the number of appearances is **even**, the XOR cancels out.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n + m)`
 
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `bit-manipulation`, `XOR`, `math`, `array`
 
 ### ✅ Key Takeaway
