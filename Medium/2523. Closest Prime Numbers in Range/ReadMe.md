@@ -47,4 +47,5 @@ Output: [-1, -1]
 - **Space Complexity:** `O(N)` for storing sieve and primes list
 
 ### 🏷️ Tags
+
 `primes`, `sieve`, `number-theory`, `math`, `medium`
