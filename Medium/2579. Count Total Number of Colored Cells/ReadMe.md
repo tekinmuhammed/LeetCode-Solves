@@ -21,7 +21,6 @@ n = 3
 ```
 
 ### Output:
-
 ```python
 13
 ```
@@ -53,4 +52,5 @@ This is an arithmetic series sum applied with geometric growth.
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `math`, `geometry`, `pattern-recognition`, `leetcode-easy`
