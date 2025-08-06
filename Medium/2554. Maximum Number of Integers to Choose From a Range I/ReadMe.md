@@ -30,9 +30,12 @@ maxSum = 6
 ```
 
 ## Output:
-`2`
+```python
+2
+```
 
 ## Explanation:
+
 - Allowed numbers from 1 to 5 are `[2, 3, 4]`.
 
 - The best we can do without exceeding `maxSum = 6` is: `[2, 3]`, which sums to 5.
@@ -40,6 +43,7 @@ maxSum = 6
 - So the answer is 2 numbers.
 
 ## 🚀 Approach
+
 - Convert `banned` list to a set for O(1) lookup.
 
 - Iterate from 1 to `n`:
@@ -49,9 +53,11 @@ maxSum = 6
 - Keep track of how many valid numbers are added.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 
 - **Space Complexity:** `O(b)`, where `b` is the number of banned elements
 
 ## 🏷️ Tags
+
 `greedy`, `simulation`, `banned-elements`, `prefix-sum`, `leetcode-easy`
