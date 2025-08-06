@@ -26,7 +26,9 @@ num2 = 5  # (binary 101 → 2 set bits)
 ```
 
 ### Output:
-`3  # binary 011`
+```python
+3  # binary 011
+```
 
 ### Explanation:
 
@@ -61,4 +63,5 @@ Possible 2-bit numbers:
 - The two passes (high-to-low and low-to-high) ensure optimal selection of bit positions.
 
 ### 🏷️ Tags
+
 `bit-manipulation`, `greedy`, `XOR`, `binary`
