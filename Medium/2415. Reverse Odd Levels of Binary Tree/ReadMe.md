@@ -33,6 +33,7 @@ Return the root of the modified tree.
 8 13 21 34
 
 ### Explanation:
+
 - Level 1 values are reversed: `[3, 5]` → `[5, 3]`
 - Other levels remain unchanged.
 
@@ -59,4 +60,5 @@ We visit each node once.
 For recursion stack, where h is the height of the tree.
 
 ### 🏷️ Tags
+
 `binary tree`, `tree traversal`, `depth-first search`, `leetcode-medium`, `recursion`
