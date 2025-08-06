@@ -27,6 +27,7 @@ Output: 2
 ```
 
 ### 💡 Key Insight
+
 We need to minimize the **maximum amount robbed from any selected house**, while ensuring:
 
 - At least `k` houses are robbed
@@ -54,4 +55,5 @@ This naturally leads to a **binary search on the answer** — we search for the 
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `binary-search`, `greedy`, `dynamic-programming`, `medium`
