@@ -61,4 +61,5 @@ This allows **constant time query resolution** after a single pass precomputatio
 - For prefix sum array
 
 ## 🏷️ Tags
+
 `prefix-sum`, `string`, `range-query`, `leetcode-medium`
