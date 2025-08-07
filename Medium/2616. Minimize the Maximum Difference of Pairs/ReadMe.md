@@ -48,6 +48,7 @@ Output: 1
 ---
 
 ### Complexity
+
 - **Time Complexity:**
 
 - - Sorting: O(N log N)
@@ -59,9 +60,11 @@ Output: 1
 - - Only variables are used, no extra space beyond input.
 
 ### Tags
+
 `Greedy`, `Binary-Search`, `Sorting`
 
 ### Notes
+
 - This problem is a great example of using binary search on the **answer space**.
 
 - Greedy pairing after sorting ensures that small differences are prioritized first.
