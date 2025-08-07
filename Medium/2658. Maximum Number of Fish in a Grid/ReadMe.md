@@ -12,6 +12,7 @@ You are given a grid where each cell contains a non-negative integer representin
 You can start from any non-zero cell and move in four directions (up, down, left, right) to collect fish. Once you move from a cell, it becomes **0** (visited), and you cannot revisit it.
 
 ### Task:
+
 Find the **maximum number of fish** you can collect starting from any cell.
 
 ---
@@ -28,8 +29,9 @@ grid = [
 ```
 
 ### Output:
-
-`7`
+```python
+7
+```
 
 ### Explanation:
 
@@ -37,6 +39,7 @@ Start from (1, 0) → collect 4 → move to (2, 0) → collect 1 → move to (0,
 However, since these aren't all connected, the best connected component gives 7 fish.
 
 ### 🧠 Approach & Intuition
+
 We treat each **connected component** of non-zero cells as a fishing zone and compute how many fish we can collect using **DFS (Depth-First Search)**.
 
 #### 🔧 Strategy:
@@ -56,7 +59,9 @@ Each cell is visited at most once.
 Due to recursion stack in worst-case DFS.
 
 ### 🏷️ Tags
+
 `DFS`, `Grid`, `Connected-Components`, `Backtracking`, `Flood-Fill`
 
 ### ✅ Key Insight
+
 The key to this problem is recognizing it as a connected component exploration task, where DFS (or BFS) can find the sum of values in each region.
