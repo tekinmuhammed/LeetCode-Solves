@@ -50,6 +50,7 @@ B = [3,1,2,4]
 - Append the current count to the result array.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)` — Single pass through arrays
 
 - **Space Complexity:** `O(n)` — At most `2n` distinct elements in `seen`
@@ -59,4 +60,5 @@ B = [3,1,2,4]
 The code handles the double count of `A[i] == B[i]` gracefully, since `A[i]` and `B[i]` are processed separately and the `seen` set ensures uniqueness.
 
 ### 🏷️ Tags
-`prefix`, `hashing`, `array`, `set`, `simulation`
+
+`prefix`, `hashing`, `array`, `set`, `simulation` 
