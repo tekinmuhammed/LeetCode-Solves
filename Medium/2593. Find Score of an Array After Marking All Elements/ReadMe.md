@@ -59,6 +59,7 @@ nums = [2, 1, 3, 4, 5, 2]
 - - Mark itself and neighbors (index - 1 and index + 1)
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n log n)`
 
 - - Due to sorting the array with indices.
@@ -68,4 +69,5 @@ nums = [2, 1, 3, 4, 5, 2]
 - - For the `marked` list and the indexed version of the array.
 
 ### 🏷️ Tags
+
 `array`, `greedy`, `sorting`, `simulation`, `leetcode-medium`
