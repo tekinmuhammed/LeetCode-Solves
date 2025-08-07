@@ -22,7 +22,9 @@ mat = [[1,4],
        [2,3]]
 ```
 ### Output:
-`2`
+```python
+2
+```
 
 ### Explanation:
 
@@ -57,7 +59,9 @@ Now row 0 is fully painted ⇒ return index `2`.
 - **Space Complexity:** `O(m + n + m * n)`
 
 ### 🏷️ Tags
+
 `matrix`, `hashmap`, `simulation`, `counting`
 
 ### ✅ Key Insight
+
 By mapping numbers to their positions in the matrix and using counters, we avoid repeated scans and achieve efficient row/column tracking.
