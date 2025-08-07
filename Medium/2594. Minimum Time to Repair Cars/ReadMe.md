@@ -54,4 +54,5 @@ repaired_by_i = floor(sqrt(time / ranks[i]))
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `binary-search`, `greedy`, `math`, `optimization`, `medium`
