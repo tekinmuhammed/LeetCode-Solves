@@ -37,6 +37,7 @@ The key idea is:
 - We use **Union-Find (Disjoint Set Union - DSU)** to group swappable indices.
 
 #### Steps:
+
 1. **Sort** the array while keeping original indices.
 
 2. **Group** indices into components using DSU if the absolute difference between values is ≤ `limit`.
@@ -53,7 +54,9 @@ The key idea is:
 - **Space Complexity:** `O(n)`
 
 ### 🏷️ Tags
+
 `greedy`, `union-find`, `sorting`, `graph`, `disjoint-set`, `lexicographic`
 
-### ✅ Key Insight
+### ✅ Key Insight 
+
 This is a **graph connectivity** problem in disguise — if you treat swappable indices as connected, sorting within each connected group leads to the smallest array.
