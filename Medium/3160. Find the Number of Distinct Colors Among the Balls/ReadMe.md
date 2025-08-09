@@ -30,6 +30,7 @@ queries = [[1, 5], [2, 6], [1, 7], [3, 7]]
 ```
 
 ### Explanation:
+
 - Ball 1 → Color 5 → distinct colors = {5}
 
 - Ball 2 → Color 6 → distinct colors = {5,6}
@@ -59,9 +60,11 @@ We need to maintain:
 - If it’s the first time this color is seen, increase `distinct_colors_count`.
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`, where `n` is the number of queries.
 
 - **Space Complexity:** `O(n)`, for tracking color usage and ball colors.
 
 ### 🏷️ Tags
+
 `hash-map`, `frequency-counter`, `simulation`, `tracking`, `arrays`
