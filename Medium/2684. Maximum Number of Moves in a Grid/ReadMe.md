@@ -22,7 +22,6 @@ Return the **maximum number of moves** you can perform.
 ## 🧪 Example
 
 ### Input:
-
 ```python
 grid = [
     [2,4,3,5],
@@ -33,15 +32,19 @@ grid = [
 ```
 
 ## Output:
-`3`
+```python
+3
+```
 
 ## Explanation:
+
 One possible path is: `grid[0][0] → grid[1][1] → grid[2][2] → grid[3][3]`
 
 ## 🚀 Approach
+
 We use Dynamic Programming from right to left. For each cell, we check if we can move to any of the 3 cells in the next column (`right`, `upper-right`, `lower-right`) and take the best move count.
 
-Steps:
+**Steps:**
 - Initialize a `dp` table of same size as `grid` with zeros.
 
 - Traverse from second-last column to first.
@@ -58,6 +61,6 @@ Final result is the maximum value in the first column of `dp`.
 
 Where `m = number of rows`, `n = number of columns`.
 
-##🏷️ Tags
+### 🏷️ Tags
 
 `dynamic-programming`, `matrix`, `dfs`, `grid-traversal`, `leetcode-medium`
