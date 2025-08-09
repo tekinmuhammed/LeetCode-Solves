@@ -22,7 +22,9 @@ str2 = "bcd"
 ```
 
 ## Output:
-`True`
+```python
+True
+```
 
 ## Explanation:
 
@@ -37,6 +39,7 @@ str2 = "bcd"
 - So `"bcd"` can be formed as a subsequence of `"abc"` after cyclic increments.
 
 # 🚀 Approach
+
 - Use a two-pointer approach:
 
 - - Traverse `str1` with `i`, and try to match `str2[j]`.
@@ -46,9 +49,11 @@ str2 = "bcd"
 - If we can match all characters of `str2`, return `True`.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`, where `n` is the length of `str1`.
 
 - **Space Complexity:** `O(1)`
 
 ## 🏷️ Tags
+
 `string`, `subsequence`, `cyclic-increment`, `two-pointers`, `leetcode-medium`
