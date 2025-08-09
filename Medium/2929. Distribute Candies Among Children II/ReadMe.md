@@ -49,6 +49,7 @@ This is done via **inclusion-exclusion principle**.
 ---
 
 ### 🧮 Example
+
 ```python
 Input: n = 5, limit = 2
 
@@ -65,4 +66,5 @@ Output: 6
 - **Space Complexity:** `O(1)`
 
 ### 🏷️ Tags
+
 `combinatorics`, `math`, `inclusion-exclusion`, `dp-(optional)`
