@@ -7,11 +7,11 @@
 
 ## 📘 Problem Description
 
-Given:
+**Given:**
 - A list of words `words`
 - A list of integers `groups` (same length as `words`), where each integer represents the group of the corresponding word.
 
-Goal:
+**Goal:**
 - Find the **longest subsequence** of `words` such that:
   1. Every **adjacent pair** of words in the subsequence:
      - Have a **Hamming Distance** of exactly **1** (only one character differs),
@@ -42,6 +42,7 @@ Bu problem, klasik **Longest Path in DAG** tarzında düşünülebilir, ama:
 ---
 
 ### 📈 Example
+
 ```python
 Input:
 words = ["ab", "ac", "bc", "bd"]
@@ -59,4 +60,5 @@ Output:
 - **Space Complexity:** `O(n)`
 
 ### 🏷️ Tags
+
 `dynamic-programming`, `graph`, `sequence`, `string`, `hamming-distance`, `reconstruction`
