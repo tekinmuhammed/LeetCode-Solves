@@ -61,4 +61,5 @@ If valid, add the square of the number to the total punishment sum.
 - **Space Complexity:** `O(d)` for recursive call stack.
 
 ### 🏷️ Tags
+
 `backtracking`, `math`, `recursion`, `string`, `leetcode-medium`
