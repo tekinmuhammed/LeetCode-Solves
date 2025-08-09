@@ -20,6 +20,7 @@ Return the list of all valid subarrays. If it's **not possible**, return an empt
 ```python
 nums = [1,3,4,8,7,9], k = 2
 ```
+
 ### Output:
 ```python
 [[1,3,4],[7,8,9]]
@@ -55,9 +56,11 @@ To form valid subarrays:
 - **Space Complexity:** `O(n)` for storing the result groups.
 
 ### Tags
+
 `Sorting`, `Greedy`, `Array`, `Simulation`
 
 ### Notes
+
 - Sorting the array simplifies grouping.
 
 - Always check the max-min difference for each triplet.
