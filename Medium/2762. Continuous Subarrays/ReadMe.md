@@ -21,9 +21,12 @@ nums = [1, 3, 2, 3, 2]
 ```
 
 ### Output
-`11`
+```python
+11
+```
 
 ### Explanation
+
 There are 11 valid subarrays, such as:
 
 - [1], [3], [2], [3], [2]
@@ -33,6 +36,7 @@ There are 11 valid subarrays, such as:
 - [2,3,2], [3,2,3]
 
 ### 🚀 Approach
+
 We use a sliding window with two **monotonic deques** to keep track of:
 
 - The **minimum element** in the current window.
@@ -40,6 +44,7 @@ We use a sliding window with two **monotonic deques** to keep track of:
 - The **maximum element** in the current window.
 
 **Steps:**
+
 1. Initialize `left` pointer at 0.
 
 1. For each `right` index:
@@ -51,6 +56,7 @@ We use a sliding window with two **monotonic deques** to keep track of:
 - Add `right - left + 1` to the total count (number of valid subarrays ending at `right`).
 
 ### ⏱️ Complexity
+
 - **Time Complexity:** `O(n)`
 
 - - Each index is pushed and popped from the deque at most once.
@@ -60,4 +66,5 @@ We use a sliding window with two **monotonic deques** to keep track of:
 - - For the two deques.
 
 ### 🏷️ Tags
+
 `sliding-window`, `deque`, `monotonic-queue`, `array`, `leetcode-medium`
