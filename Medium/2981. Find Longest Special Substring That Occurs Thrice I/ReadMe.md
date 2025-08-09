@@ -34,9 +34,11 @@ Output: -1
 ```
 
 ## Explanation:
+
 No special substring appears 3 times.
 
 ## 🧠 Approach
+
 - Tüm olası uzunlukları `length = 1` ile `n` arasında deniyoruz.
 
 - Her uzunluk için:
@@ -50,6 +52,7 @@ No special substring appears 3 times.
 - Bu şartı sağlayan substring'lerin uzunlukları arasında en büyüğü cevaptır.
 
 ## ⏱️ Complexity
+
 - **Time Complexity:** `O(n²)`
 
 - - En dıştaki `length` döngüsü: `O(n)`
@@ -60,7 +63,9 @@ No special substring appears 3 times.
 Yani toplamda `O(n³)`'e yakın karmaşıklık oluşabilir ama genelde `len(set()) == 1` kontrolü hızlı çalışır.
 
 - **Space Complexity:** `O(n)`
-Substring sayımını tutmak için kullanılan `count` sözlüğü.
+
+- Substring sayımını tutmak için kullanılan `count` sözlüğü.
 
 ## 🏷️ Tags
+
 `string`, `sliding-window`, `frequency-counter`, `brute-force`
