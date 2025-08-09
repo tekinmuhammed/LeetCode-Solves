@@ -38,21 +38,25 @@ If not, it's **impossible** to solve using the given operation.
 ---
 
 ### 🧪 Example
+
 ```python
 Input: nums = [0,1,0,1,0]
 Output: 2
 ```
 
 ### Explanation:
+
 - Flip at index 0 → [1,0,1,1,0]
 - Flip at index 2 → [1,0,0,0,1]
 - Still not all 1 → Not valid
 Actually, optimal path gives `2` valid flips resulting in [1,1,1,1,1].
 
 ### 🕵️ Complexity
+
 - **Time Complexity:** `O(n)` – One pass over the array.
 
 - **Space Complexity:** `O(1)` – In-place bit manipulation.
 
 ### 🏷️ Tags
+
 `bit-manipulation`, `greedy`, `simulation`
