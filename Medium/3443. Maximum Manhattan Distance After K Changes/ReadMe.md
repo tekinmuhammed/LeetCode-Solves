@@ -62,7 +62,8 @@ max_distance = min(current_distance + 2 * k, steps_taken)
 - **Space Complexity:** `O(1)` – Constant space usage.
 
 ### Tags
-`Greedy`, `Prefix-Sum`, `Manhattan-Distance`, `Simulation`
+
+`Greedy`, `Prefix-Sum`, `Manhattan-Distance`, `Simulation`, `LeetCode-Medium`
 
 ### Notes
 
