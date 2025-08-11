@@ -74,7 +74,7 @@ The algorithm uses:
 
 ### Tags
 
-`Greedy`, `Sliding-Window`, `Optimization`, `Intervals`, `Two-Pointers`
+`Greedy`, `Sliding-Window`, `Optimization`, `Intervals`, `Two-Pointers`, `LeetCode-Medium`
 
 ### Notes
 
