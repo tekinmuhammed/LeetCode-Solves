@@ -45,7 +45,7 @@ Her harf için kaç karaktere dönüşeceğini takip edebiliriz. Bu nedenle:
 
 ---
 
-### 🧪 Example
+### 🧪 Example 1
 ```python
 Input:
 s = "abc"
@@ -58,6 +58,7 @@ Explanation:
 'a' → 'b', 'b' → 'c', 'c' → 'd' → total 3 characters.
 ```
 
+### 🧪 Example 1
 ```python
 Input:
 s = "z"
@@ -77,4 +78,5 @@ Explanation:
 - **Space Complexity:** `O(26)`
 
 ### 🏷️ Tags
+
 `string`, `dynamic-programming`, `simulation`, `transformation`, `modular-arithmetic`
