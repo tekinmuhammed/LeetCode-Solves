@@ -18,6 +18,7 @@ Your task is to return the **list of strings** that appear on the screen while t
 Input: target = "abc"
 Output: ['a', 'b', 'ba', 'bb', 'bc']
 ```
+
 ## 💡 Approach
 Begin with an empty string.
 
@@ -34,4 +35,5 @@ Append every intermediate step into a result list.
 **Space Complexity:** O(n²)
 
 ## 📌 Tags
+
 `string`, `simulation`, `greedy`, `string-manipulation`, `constructive`
