@@ -83,7 +83,7 @@ We use **prefix sums** to quickly compute the total duration of the meetings ins
 
 ### Tags
 
-`Greedy`, `Sliding-Window`, `Prefix-Sum`, `Optimization`
+`Greedy`, `Sliding-Window`, `Prefix-Sum`, `Optimization`, `LeetCode-Medium`
 
 ### Notes
 
