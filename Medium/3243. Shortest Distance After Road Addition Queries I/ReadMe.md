@@ -27,6 +27,7 @@ queries = [[0, 2], [2, 4], [1, 3]]
 ```python
 [3, 2, 2]
 ```
+
 ## 🚀 Approach
 We simulate each query one-by-one:
 
@@ -45,4 +46,5 @@ We simulate each query one-by-one:
 - **Space Complexity:** O(N + Q), where Q is the number of queries and N is the number of nodes
 
 ## 🏷️ Tags
+
 `dijkstra`, `shortest-path`, `graph`, `heapq`, `bfs`, `leetcode-medium`
