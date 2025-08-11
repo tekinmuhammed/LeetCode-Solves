@@ -58,4 +58,5 @@ All nums[i] <= decrements[i], so return True.
 ```
 
 ### 🏷️ Tags
+
 `prefix-sum`, `greedy`, `range-update`, `array`, `simulation`
