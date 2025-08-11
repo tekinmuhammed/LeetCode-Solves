@@ -42,6 +42,7 @@ Return the **minimum time** required to reach the bottom-right corner `(m-1, n-1
 
 ### 🧪 Example
 
+**Input**
 ```python
 Input:
 moveTime = [
@@ -50,8 +51,10 @@ moveTime = [
 ]
 ```
 
-### Output: 
-`4`
+**Output:** 
+```python
+4
+```
 
 ### Explanation:
 
@@ -66,4 +69,5 @@ moveTime = [
 - **Space Complexity:** `O(m * n * 2)` — visited matrisine göre.
 
 ### 🏷️ Tags
+
 `graph`, `heap`, `dijkstra`, `grid`, `bfs`, `simulation`
