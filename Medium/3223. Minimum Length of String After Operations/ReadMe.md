@@ -23,7 +23,9 @@ s = "aabccc"
 ```
 
 ### Output:
-`1`
+```python
+1
+```
 
 ### Explanation:
 
@@ -35,7 +37,7 @@ s = "aabccc"
 
 ### 🧠 Approach
 
-#### Key Idea:
+**Key Idea:**
 
 - For every character in the string:
 
@@ -72,4 +74,5 @@ for k in f:
 ```
 
 ### 🏷️ Tags
+
 `greedy`, `counting`, `hashmap`, `string`
