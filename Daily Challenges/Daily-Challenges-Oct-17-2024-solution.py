@@ -4,7 +4,7 @@
 # [LeetCode 3318 - Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)
 
 # 🧠 Problem Description
-#[Github LeetCode 3318]https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I)
+#[Github LeetCode 3318](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I)
 
 from collections import Counter
 
