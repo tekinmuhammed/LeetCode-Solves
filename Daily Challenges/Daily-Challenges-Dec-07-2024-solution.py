@@ -1,9 +1,9 @@
 # 🎯 LeetCode 1760 - Minimum Limit of Balls in a Bag
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium 
 # **Problem Link:** [LeetCode 1760](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)
 
-# 🧠 Problem Description
+# 🧠 Problem Description 
 # [Github LeetCode 1760 - Minimum Limit of Balls in a Bag](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1760.%20Minimum%20Limit%20of%20Balls%20in%20a%20Bag)
 
 class Solution(object):
