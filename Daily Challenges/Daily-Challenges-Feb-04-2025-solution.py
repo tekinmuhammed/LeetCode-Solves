@@ -1,6 +1,6 @@
 # 🔼 LeetCode 1800 - Maximum Ascending Subarray Sum
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy 
 # **Problem Link:** [LeetCode 1800](https://leetcode.com/problems/maximum-ascending-subarray-sum/)
 
 # 🧠 Problem Description
