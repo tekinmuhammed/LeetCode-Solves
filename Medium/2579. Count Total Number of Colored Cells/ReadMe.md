@@ -1,6 +1,6 @@
 # 🟩 LeetCode 2579 - Count Total Number of Colored Cells
 
-**Difficulty:** Easy  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 2579](https://leetcode.com/problems/count-total-number-of-colored-cells)
 
 ---
