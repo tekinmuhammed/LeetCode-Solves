@@ -1,0 +1,43 @@
+# 🔠 LeetCode 1718 - Construct the Lexicographically Largest Valid Sequence
+
+# **Difficulty:** Hard  
+# **Problem Link:** [LeetCode 1718](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence)
+
+# 🧠 Problem Description
+# [Github LeetCode 1718 - Construct the Lexicographically Largest Valid Sequence](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1718.%20Construct%20the%20Lexicographically%20Largest%20Valid%20Sequence)
+
+class Solution(object):
+    def constructDistancedSequence(self, n):
+        """
+        :type n: int
+        :rtype: List[int]
+        """
+        result = [0] * (2 * n - 1)
+        used = [False] * (n + 1)
+
+        def backtrack(index):
+            if index == len(result):
+                return True
+            if result[index] != 0:
+                return backtrack(index + 1)
+            for num in range(n, 0, -1):
+                if used[num]:
+                    continue
+                if num == 1:
+                    result[index] = 1
+                    used[1] = True
+                    if backtrack(index + 1):
+                        return True
+                    result[index] = 0
+                    used[1] = False
+                else:
+                    if index + num < len(result) and result[index] == 0 and result[index + num] == 0:
+                        result[index] = result[index + num] = num
+                        used[num] = True
+                        if backtrack(index + 1):
+                            return True
+                        result[index] = result[index + num] = 0
+                        used[num] = False
+            return False
+        backtrack(0)
+        return result
