@@ -1,5 +1,9 @@
 # 120. Triangle
 
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 368](https://leetcode.com/problems/triangle/description/)
+
+
 ## Problem Description
 Given a triangle array, return the **minimum path sum** from top to bottom.  
 
