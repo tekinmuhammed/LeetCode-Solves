@@ -1,5 +1,10 @@
 # 166. Fraction to Recurring Decimal
 
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 368](https://leetcode.com/problems/fraction-to-recurring-decimal/description/)
+
+---
+
 ## Problem Description
 Given two integers `numerator` and `denominator`, return the fraction in **string format**.  
 
