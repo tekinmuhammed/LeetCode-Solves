@@ -1,5 +1,10 @@
 # 165. Compare Version Numbers
 
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 368](https://leetcode.com/problems/compare-version-numbers/description/)
+
+---
+
 ## Problem Description
 Given two version numbers, `version1` and `version2`, compare them.  
 
