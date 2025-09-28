@@ -1,16 +1,16 @@
 # 976. Largest Perimeter Triangle
 
-**Difficulty:** Easy  
+**Difficulty:** Easy
 **Link:** [LeetCode 976](https://leetcode.com/problems/largest-perimeter-triangle/)
 
 ## Problem Description
 You are given an integer array `nums`. Return the **largest perimeter** of a triangle formed with **three different lengths** from `nums`.  
-If no non-degenerate triangle can be formed, return `0`.
+If no non-degenerate triangle can be formed, return `0`. 
 
 ---
 
 ### Example 1
-**Input:**  
+**Input:**
 ```python
 nums = [2,1,2]
 ```
@@ -20,18 +20,18 @@ nums = [2,1,2]
 5
 ```
 
-**Explanation:**  
+**Explanation:**
 The sides `(2, 2, 1)` can form a triangle, and the perimeter is `5`.
 
 ---
 
 ### Example 2
-**Input:**  
+**Input:**
 ```python
 nums = [1,2,1]
 ```
 
-**Output:**  
+**Output:**
 ```python
 0
 ```
@@ -42,6 +42,7 @@ The sides `(1, 2, 1)` cannot form a triangle because `1 + 1` is **not greater** 
 ---
 
 ## Approach
+
 A valid triangle must satisfy the **triangle inequality**:
 \[
 a + b > c
