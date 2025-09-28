@@ -1,5 +1,8 @@
 # 812. Largest Triangle Area
 
+**Difficulty:** Easy  
+**Link:** [LeetCode 812](https://leetcode.com/problems/largest-triangle-area/description/)
+
 ## Problem Description
 You are given an array of points on the 2D plane. Each point is represented as `[x, y]`.  
 Return the **largest area of a triangle** that can be formed by choosing any three points.

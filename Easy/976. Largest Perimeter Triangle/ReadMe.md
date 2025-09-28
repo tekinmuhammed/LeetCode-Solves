@@ -3,7 +3,6 @@
 **Difficulty:** Easy  
 **Link:** [LeetCode 976](https://leetcode.com/problems/largest-perimeter-triangle/)
 
-
 ## Problem Description
 You are given an integer array `nums`. Return the **largest perimeter** of a triangle formed with **three different lengths** from `nums`.  
 If no non-degenerate triangle can be formed, return `0`.
