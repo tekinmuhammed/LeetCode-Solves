@@ -1,5 +1,8 @@
 # 1039. Minimum Score Triangulation of Polygon  
 
+**Difficulty:** Medium
+**Link:** [LeetCode 812](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/)
+
 ## Problem Description  
 We are given a convex polygon with `n` vertices labeled in order and an array `values` where `values[i]` represents the value of the `i`-th vertex.  
 The task is to **triangulate the polygon** (divide it into triangles without adding new points, only connecting existing vertices) in such a way that the **sum of the scores of the triangles is minimized**.  
