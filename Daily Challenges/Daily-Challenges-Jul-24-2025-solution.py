@@ -1,10 +1,10 @@
 # 2322. Minimum Score After Removals on a Tree
 
-# **Difficulty:** Hard  
+# **Difficulty:** Hard
 # **Problem Link:** [LeetCode 2322](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2322.%20Minimum%20Score%20After%20Removals%20on%20a%20Tree)
+# 🧠 Problem Description
+# [Github LeetCode 2322. Minimum Score After Removals on a Tree](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2322.%20Minimum%20Score%20After%20Removals%20on%20a%20Tree)
 
 class Solution:
     def calc(self, part1: int, part2: int, part3: int) -> int:
