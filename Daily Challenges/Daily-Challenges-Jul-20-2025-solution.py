@@ -4,7 +4,7 @@
 # **Problem Link:** [LeetCode 1948](https://leetcode.com/problems/delete-duplicate-folders-in-system/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1948.%20Delete%20Duplicate%20Folders%20in%20System)
+# [Github LeetCode 1948. Delete Duplicate Folders in System](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1948.%20Delete%20Duplicate%20Folders%20in%20System)
 
 class Trie:
     # current node structure's serialized representation
