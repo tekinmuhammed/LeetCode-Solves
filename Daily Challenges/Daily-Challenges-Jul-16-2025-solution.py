@@ -4,7 +4,7 @@
 # **Link:** [LeetCode 3201](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I)
+# [Github LeetCode 3201. Find the Maximum Length of Valid Subsequence I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I)
 
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
