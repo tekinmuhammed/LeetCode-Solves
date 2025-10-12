@@ -1,10 +1,10 @@
-# 3202. Find the Maximum Length of Valid Subsequence II
+# 3202. Find the Maximum Length of Valid Subsequence II 
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Link:** [LeetCode 3202](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II)
+# 🧠 Problem Description
+# [Github LeetCode 3202. Find the Maximum Length of Valid Subsequence II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II)
 
 class Solution:
     def maximumLength(self, nums: List[int], k: int) -> int:
