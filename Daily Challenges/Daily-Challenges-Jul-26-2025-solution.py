@@ -1,10 +1,10 @@
 # 3480. Maximize Subarrays After Removing One Conflicting Pair
 
-# **Difficulty:** Hard  
+# **Difficulty:** Hard 
 # **Problem Link:** [LeetCode 3480](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3480.%20Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair)
+# [Github LeetCode 3480. Maximize Subarrays After Removing One Conflicting Pair](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3480.%20Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair)
 
 class Solution:
     def maxSubarrays(self, n: int, conflictingPairs: List[List[int]]) -> int:
