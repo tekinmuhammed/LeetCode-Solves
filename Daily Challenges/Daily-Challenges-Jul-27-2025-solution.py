@@ -1,10 +1,10 @@
 # 2210. Count Hills and Valleys in an Array
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy
 # **Problem Link:** [LeetCode 2210](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2210.%20Count%20Hills%20and%20Valleys%20in%20an%20Array)
+# 🧠 Problem Description
+# [Github LeetCode 2210. Count Hills and Valleys in an Array](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2210.%20Count%20Hills%20and%20Valleys%20in%20an%20Array)
 
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:
