@@ -1,10 +1,10 @@
 # 1717. Maximum Score From Removing Substrings
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1717](https://leetcode.com/problems/maximum-score-from-removing-substrings/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1717.%20Maximum%20Score%20From%20Removing%20Substrings)
+# 🧠 Problem Description
+# [Github LeetCode 1717. Maximum Score From Removing Substrings](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1717.%20Maximum%20Score%20From%20Removing%20Substrings)
 
 class Solution(object):
     def maximumGain(self, s, x, y):
