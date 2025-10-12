@@ -4,7 +4,7 @@
 # **Problem Link:** [LeetCode 2163](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2163.%20Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements)
+# [Github LeetCode 2163. Minimum Difference in Sums After Removal of Elements](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2163.%20Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements)
 
 class Solution:
     def minimumDifference(self, nums: List[int]) -> int:
