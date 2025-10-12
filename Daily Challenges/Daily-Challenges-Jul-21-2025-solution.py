@@ -1,10 +1,10 @@
 # 1957. Delete Characters to Make Fancy String
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy
 # **Problem Link:** [LeetCode 1957](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String%20II)
+# 🧠 Problem Description
+# [Github LeetCode 1957. Delete Characters to Make Fancy String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String%20II)
 
 class Solution(object):
     def makeFancyString(self, s):
