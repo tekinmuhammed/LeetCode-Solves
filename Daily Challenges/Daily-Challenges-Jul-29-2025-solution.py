@@ -1,10 +1,10 @@
 # 2411. Smallest Subarrays With Maximum Bitwise OR
 
-# **Difficulty:** Medium
+# **Difficulty:** Medium 
 # **Problem Link:** [LeetCode 2411](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or)
 
-# 🧠 Problem Description
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2411.%20Smallest%20Subarrays%20With%20Maximum%20Bitwise%20OR)
+# 🧠 Problem Description 
+# [Github LeetCode 2411. Smallest Subarrays With Maximum Bitwise OR](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2411.%20Smallest%20Subarrays%20With%20Maximum%20Bitwise%20OR)
 
 class Solution(object):
     def smallestSubarrays(self, nums):
