@@ -4,7 +4,7 @@
 # **Problem Link:** [LeetCode 1695](https://leetcode.com/problems/maximum-erasure-value/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1695.%20Maximum%20Erasure%20Value)
+# [Github LeetCode 1695. Maximum Erasure Value](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1695.%20Maximum%20Erasure%20Value)
 
 class Solution(object):
     def maximumUniqueSubarray(self, nums):
