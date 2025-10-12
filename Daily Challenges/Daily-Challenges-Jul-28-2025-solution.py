@@ -1,10 +1,10 @@
 # 2044. Count Number of Maximum Bitwise-OR Subsets
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 2044](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3136. Valid Word](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2044.%20Count%20Number%20of%20Maximum%20Bitwise-OR%20Subsets-2)
+# 🧠 Problem Description
+# [Github LeetCode 2044. Count Number of Maximum Bitwise-OR Subsets](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2044.%20Count%20Number%20of%20Maximum%20Bitwise-OR%20Subsets-2)
 
 class Solution(object):
     def countMaxOrSubsets(self, nums):
