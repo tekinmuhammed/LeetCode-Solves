@@ -1,9 +1,7 @@
 # 2221. Find Triangular Sum of an Array  
 
-**Difficulty:** Easy  
-
-## Problem Link  
-[LeetCode - 2221. Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)  
+**Difficulty:** Medium 
+**Problem Link:**  [LeetCode - 2221. Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/)  
 
 ## Tags  
 `Array` `Math` `Simulation`  
