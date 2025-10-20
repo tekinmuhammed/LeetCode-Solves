@@ -1,5 +1,8 @@
 # 611. Valid Triangle Number
 
+**Difficulty:** Medium
+**Link:** [LeetCode 611](https://leetcode.com/problems/valid-triangle-number/description/)  
+
 ## Problem Description
 Given an integer array `nums`, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
 
