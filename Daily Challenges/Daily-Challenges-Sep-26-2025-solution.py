@@ -1,9 +1,9 @@
 # 611. Valid Triangle Number
 
-# **Difficulty:** Easy  
+# **Difficulty:** Medium
 # **Link:** [LeetCode 611](https://leetcode.com/problems/valid-triangle-number/description/)  
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 611. Valid Triangle Number](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/611.%20Valid%20Triangle%20Number)
 
 class Solution(object):
@@ -12,6 +12,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        
         nums.sort()
         count = 0
         n = len(nums)
