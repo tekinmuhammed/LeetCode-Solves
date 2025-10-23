@@ -1,6 +1,6 @@
 # 2561. Rearranging Fruits
 
-**Difficulty:** Medium  
+**Difficulty:** Hard
 **Problem Link:** [LeetCode 2561](https://leetcode.com/problems/rearranging-fruits/)
 
 ---
