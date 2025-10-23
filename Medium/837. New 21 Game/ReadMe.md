@@ -1,7 +1,7 @@
 # 🎲 LeetCode 837 - New 21 Game
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 368](https://leetcode.com/problems/new-21-game/description/)
+**Problem Link:** [LeetCode 837](https://leetcode.com/problems/new-21-game/description/)
 
 ---
 
