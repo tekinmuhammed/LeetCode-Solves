@@ -1,9 +1,9 @@
 # 2561. Rearranging Fruits
 
-# **Difficulty:** Medium  
+# **Difficulty:** Hard 
 # **Problem Link:** [LeetCode 2561](https://leetcode.com/problems/rearranging-fruits/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 2561. Rearranging Fruits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2561.%20Rearranging%20Fruits)
 
 class Solution:
