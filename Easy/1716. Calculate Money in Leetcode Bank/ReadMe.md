@@ -1,7 +1,8 @@
 # 🏦 LeetCode 1716. Calculate Money in Leetcode Bank  
 
 **Difficulty:** Easy  
-**Tags:** Math, Simulation  
+**Problem Link:** [LeetCode 1716](https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/)
+
 
 ---
 
