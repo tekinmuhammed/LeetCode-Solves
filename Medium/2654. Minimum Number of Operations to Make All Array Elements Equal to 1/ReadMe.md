@@ -1,5 +1,8 @@
 # 🧩 LeetCode 2654 – Minimum Number of Operations to Make All Array Elements Equal to 1
 
+**Problem Link:** [LeetCode 2654](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/description/)  
+**Difficulty:** Medium
+
 ## 🔍 Problem Tanımı
 Bir tamsayı dizisi `nums` veriliyor. Her bir işlemde, iki **komşu** eleman seçip birini `gcd(a, b)` (yani ikisinin en büyük ortak böleni) ile değiştirebiliyorsun.  
 Amaç, **tüm diziyi sadece `1`’lerden oluşacak hale getirmek** için gereken minimum işlem sayısını bulmaktır.  
