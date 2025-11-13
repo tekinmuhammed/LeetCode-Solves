@@ -1,6 +1,6 @@
 # ✂️ LeetCode 3223 - Minimum Length of String After Operations
 
-**Difficulty:** Easy  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 3223](https://leetcode.com/problems/minimum-length-of-string-after-operations/)
 
 ---
