@@ -1,5 +1,7 @@
-# 1015. Smallest Integer Divisible by K  
-### ✔️ Explanation & Analysis
+# 1015. Smallest Integer Divisible by K
+
+**Difficulty:** Medium
+**Link:** [LeetCode 1015](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/)
 
 ## 📝 Problem Summary
 Sadece `1` rakamından oluşan (111..., repunit) en küçük sayıyı bulmamız isteniyor; bu sayı verilen `K` değerine tam bölünmeli.
