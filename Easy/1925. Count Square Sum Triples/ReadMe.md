@@ -1,7 +1,7 @@
-# 1925. Count Square Sum Triples 
+# 1925. Count Square Sum Triples
 
 **Difficulty:** Easy
-**Problem Link:** [LeetCode 1863](https://leetcode.com/problems/count-square-sum-triples/description/)
+**Problem Link:** [LeetCode 1925](https://leetcode.com/problems/count-square-sum-triples/description/)
 
 ### Amaç:  
 `1 ≤ a, b, c ≤ n` olacak şekilde  
