@@ -1,8 +1,8 @@
-# 1523. Count Odd Numbers in an Interval Range  
+# 1523. Count Odd Numbers in an Interval Range
 
-## Difficulty: Easy  
+## Difficulty: Easy
 ## Problem Link  
-[LeetCode - 1518. Water Bottles](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)  
+[LeetCode - 1523 Count Odd Numbers in an Interval Range  ](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)  
 
 Amaç:  
 `[low, high]` aralığındaki **kaç tane tek sayı** olduğunu bulmak.
