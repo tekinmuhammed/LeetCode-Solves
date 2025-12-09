@@ -1,7 +1,7 @@
 # 3432. Count Partitions with Even Sum Difference — Explanation & Analysis
 
 **Difficulty:** Easy
-**Problem Link:** [LeetCode 3423](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)  
+**Problem Link:** [LeetCode 3432](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/)  
 
 ## 🧩 Problem Summary
 Bir dizi `nums` veriliyor ve bizden diziyi iki parçaya bölebileceğimiz **geçerli bölme sayısını** bulmamız isteniyor.
