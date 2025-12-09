@@ -1,7 +1,7 @@
 # 1925. Count Square Sum Triples 
 
 # **Difficulty:** Easy
-# **Problem Link:** [LeetCode 1863](https://leetcode.com/problems/count-square-sum-triples/description/)
+# **Problem Link:** [LeetCode 1925](https://leetcode.com/problems/count-square-sum-triples/description/)
 
 # 🧠 Problem Description
 # [Github LeetCode 1925. Count Square Sum Triples](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1925.%20Count%20Square%20Sum%20Triples)
