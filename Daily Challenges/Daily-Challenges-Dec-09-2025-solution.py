@@ -1,6 +1,6 @@
 # 3583. Count Special Triplets
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 3583](https://leetcode.com/problems/count-special-triplets/description/)
 
 # 🧠 Problem Description
