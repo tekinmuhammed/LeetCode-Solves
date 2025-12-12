@@ -1,7 +1,7 @@
 # 3433. Count Mentions Per User
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3355](https://leetcode.com/problems/count-mentions-per-user/description/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3433](https://leetcode.com/problems/count-mentions-per-user/description/)
 
 ## 🧩 Problem Summary
 Elimizde üç tür event var:
