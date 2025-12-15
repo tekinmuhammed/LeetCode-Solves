@@ -1,6 +1,6 @@
 # 🎯 LeetCode 2054 - Two Best Non-Overlapping Events
 
-**Difficulty:** Hard  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 2054](https://leetcode.com/problems/two-best-non-overlapping-events/)
 
 ---
