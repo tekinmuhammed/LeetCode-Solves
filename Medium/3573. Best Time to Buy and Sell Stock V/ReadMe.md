@@ -3,8 +3,6 @@
 **Difficulty:** Medium  
 **Problem Link:** [LeetCode 3573](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/description/)
 
-*(Not: Bu kod aslında **k işlemli, long + short + cooldown** içeren gelişmiş bir stock trading DP çözümüdür.)*
-
 ---
 
 ## 🧩 Problem Özeti (Koduna Göre)
