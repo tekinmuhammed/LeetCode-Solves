@@ -4,7 +4,7 @@
 # **Problem Link:** [LeetCode 3573](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3573. Best Time to Buy and Sell Stock V](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock)
+# [Github LeetCode 3573. Best Time to Buy and Sell Stock V](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V)
 
 class Solution:
     def maximumProfit(self, prices: list[int], k: int) -> int:
