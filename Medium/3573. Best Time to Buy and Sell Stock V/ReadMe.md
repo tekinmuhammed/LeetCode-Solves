@@ -1,7 +1,7 @@
-# 3562. Maximum Profit from Trading Stocks with Discounts
+# 3573. Best Time to Buy and Sell Stock V
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 3562](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/description/)
+**Problem Link:** [LeetCode 3573](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/description/)
 
 *(Not: Bu kod aslında **k işlemli, long + short + cooldown** içeren gelişmiş bir stock trading DP çözümüdür.)*
 
