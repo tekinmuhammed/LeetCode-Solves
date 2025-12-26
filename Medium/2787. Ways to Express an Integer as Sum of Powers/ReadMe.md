@@ -1,5 +1,10 @@
 # 2787. Ways to Express an Integer as Sum of Powers
 
+**Difficulty:** Medium  
+**Link:** [LeetCode 2787](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-pairs/)
+
+---
+
 ## Problem Description
 Given two integers `n` and `x`, find the number of ways to express `n` as the sum of **unique integers** each raised to the power `x`.  
 Since the answer can be very large, return it modulo `10^9 + 7`.
