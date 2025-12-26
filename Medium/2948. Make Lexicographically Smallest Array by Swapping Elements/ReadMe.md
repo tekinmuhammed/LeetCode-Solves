@@ -1,6 +1,6 @@
 # 🔄 LeetCode 2948 - Make Lexicographically Smallest Array by Swapping Elements
 
-**Difficulty:** Hard  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 2948](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements)
 
 ---
