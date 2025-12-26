@@ -1,6 +1,6 @@
 # 📊 LeetCode 2554 - Maximum Number of Integers to Choose From a Range I
 
-**Difficulty:** Easy  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 2554](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i)
 
 ---
