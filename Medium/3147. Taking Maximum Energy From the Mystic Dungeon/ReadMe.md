@@ -1,9 +1,7 @@
 # 3147. Taking Maximum Energy From the Mystic Dungeon  
 
-## Difficulty: Medium  
-
-## Problem Link  
-[LeetCode - 3147. Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)  
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode - 3147. Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)  
 
 ## Tags  
 `Dynamic Programming` `Array` `Greedy`  
