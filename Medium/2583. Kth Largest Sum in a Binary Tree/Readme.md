@@ -1,5 +1,10 @@
 # 2583. Kth Largest Sum in a Binary Tree Level
 
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 2583](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree-level)
+
+---
+
 This solution constructs a binary tree using level-order insertion and computes the sum of node values at each level. It then returns the `k`th largest among these level sums.
 
 ## 🧠 Algorithm
