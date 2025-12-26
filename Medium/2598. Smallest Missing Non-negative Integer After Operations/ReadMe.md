@@ -1,5 +1,8 @@
 # 🧩 2598. Smallest Missing Non-negative Integer After Operations
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 2598](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations)
+
 ## 💡 Problem Description
 You are given an integer array `nums` and an integer `value`.
 
