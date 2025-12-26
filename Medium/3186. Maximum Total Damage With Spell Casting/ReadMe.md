@@ -1,10 +1,7 @@
 # 3186. Maximum Total Damage With Spell Casting  
 
-## Difficulty  
-Medium  
-
-## Problem Link  
-[LeetCode - 3186. Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)  
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode - 3186. Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)  
 
 ## Tags  
 `Dynamic Programming` `Hash Map` `Sorting`  
