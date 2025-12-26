@@ -1,5 +1,8 @@
 # LeetCode 2438 - Range Product Queries of Powers
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 2438](https://leetcode.com/problems/range-product-queries-of-powers/)
+
 ## 📝 Problem Description
 
 You are given:
