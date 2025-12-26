@@ -1,6 +1,6 @@
 # 🧠 LeetCode 2901 - Longest Unequal Adjacent Groups Subsequence II
 
-**Difficulty:** Hard  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 2901](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii)
 
 ---
