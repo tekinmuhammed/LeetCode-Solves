@@ -1,10 +1,7 @@
 # 3100. Water Bottles II  
 
-## Difficulty  
-Medium  
-
-## Problem Link  
-[LeetCode - 3100. Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)  
+**Difficulty:** Medium 
+**Problem Link:**  [LeetCode - 3100. Water Bottles II](https://leetcode.com/problems/water-bottles-ii/)  
 
 ## Tags  
 `Math` `Simulation`  
