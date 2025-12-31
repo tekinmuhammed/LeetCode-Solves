@@ -1,5 +1,8 @@
 # 1970. Last Day Where You Can Still Cross
 
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 1970](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)
+
 ---
 
 ## 🧩 Problem Özeti
@@ -48,13 +51,12 @@ grid = [[0] * col for _ in range(row)]
 for i in range(day):
     r, c = cells[i]
     grid[r-1][c-1] = 1
-0 → kara
+```
+- `0` → kara
+- `1` → su
 
-1 → su
-
-2️⃣ BFS Başlangıcı (Üst Satır)
-python
-Kodu kopyala
+### 2️⃣ BFS Başlangıcı (Üst Satır)
+```python
 q = deque()
 visited = [[False]*col for _ in range(row)]
 
@@ -62,43 +64,39 @@ for j in range(col):
     if grid[0][j] == 0:
         q.append((0, j))
         visited[0][j] = True
-Üst satırdaki tüm kara hücrelerden başlarız
+```
+- Üst satırdaki **tüm kara hücrelerden** başlarız
 
-3️⃣ BFS Yayılımı
-python
-Kodu kopyala
+### 3️⃣ BFS Yayılımı
+```python
 while q:
     x, y = q.popleft()
     
     if x == row - 1:
         return True
-Alt satıra ulaşırsak → geçiş mümkün
-
-python
-Kodu kopyala
+```
+- Alt satıra ulaşırsak **→ geçiş mümkün**
+```python
 for dx, dy in directions:
     nx, ny = x + dx, y + dy
     if 0 <= nx < row and 0 <= ny < col:
         if not visited[nx][ny] and grid[nx][ny] == 0:
             visited[nx][ny] = True
             q.append((nx, ny))
-Sadece:
+```
+- Sadece:
+- - grid içinde
+- - kara hücre
+- - daha önce ziyaret edilmemiş
 
-grid içinde
-
-kara hücre
-
-daha önce ziyaret edilmemiş
-
-4️⃣ BFS Biterse
-python
-Kodu kopyala
+### 4️⃣ BFS Biterse
+```python
 return False
-Alt satıra ulaşılamadı → geçiş yok
+```
+- Alt satıra ulaşılamadı → geçiş yok
 
-🔁 Binary Search Kısmı
-python
-Kodu kopyala
+### 🔁 Binary Search Kısmı
+```python
 left, right = 0, len(cells)
 answer = 0
 
@@ -109,26 +107,24 @@ while left <= right:
         left = mid + 1
     else:
         right = mid - 1
-canCross(mid) == True
-→ daha ileri günleri dene
+```
+- `canCross(mid) == True`
+    → daha ileri günleri dene
 
-False
-→ daha erken günlere dön
+- `False`
+    → daha erken günlere dön
 
-✅ Sonuç
-python
-Kodu kopyala
+### ✅ Sonuç
+```python
 return answer
-Geçilebilen en son gün
+```
+- **Geçilebilen en son gün**
 
-⏱️ Karmaşıklık Analizi
-🧮 Zaman
-canCross → O(row × col) (BFS)
-
-Binary Search → O(log(row × col))
-
-📌 Toplam:
-O(row × col × log(row × col))
-
-🧠 Alan
-Grid + visited → O(row × col)
+## ⏱️ Karmaşıklık Analizi
+- **🧮 Zaman**
+- - `canCross` → **O(row × col)** (BFS)
+- - Binary Search → **O(log(row × col))**
+- **📌 Toplam:**
+- - `O(row × col × log(row × col))`
+- **🧠 Alan**
+- - Grid + visited → **O(row × col)**
