@@ -1,6 +1,6 @@
 # 66. Plus One
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy
 # **Problem Link:** [LeetCode 66](https://leetcode.com/problems/plus-one)
 
 # 🧠 Problem Description
