@@ -1,5 +1,8 @@
 # 961. N-Repeated Element in Size 2N Array
 
+**Difficulty:** Easy  
+**Link:** [LeetCode 961](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/)
+
 ---
 
 ## 🧩 Problem Özeti
