@@ -1,5 +1,10 @@
 # LeetCode 231 - Power of Two
 
+**Difficulty:** Easy  
+**Problem Link:** [LeetCode 231](https://leetcode.com/problems/power-of-two/)
+
+---
+
 ## 📝 Problem Description
 
 Given an integer `n`, determine if it is a **power of two**.  
