@@ -3,7 +3,6 @@
 # **Difficulty:** Easy  
 # **Problem Link:** [LeetCode 2696](https://leetcode.com/problems/minimum-string-length-after-removing-substrings)
 
-
 # 🧠 Problem Description
 # [Github LeetCode 2696 - Minimum String Length After Removing Substrings](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings)
 
