@@ -1,8 +1,8 @@
 class Solution(object):
     def maxMatrixSum(self, matrix):
         """
-        :type matrix: List[List[int]]
-        :rtype: int
+        :type matrix: List[List[int]] 
+        :rtype: int 
         """
         total_sum = 0
         min_abs = float('inf')

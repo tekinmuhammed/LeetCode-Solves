@@ -1,7 +1,7 @@
 # 🟦 LeetCode 1975 - Maximum Matrix Sum
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 1975](https://leetcode.com/problems/maximum-matrix-sum)
+**Problem Link:** [LeetCode 1975](https://leetcode.com/problems/maximum-matrix-sum/description/)
 
 ---
 
