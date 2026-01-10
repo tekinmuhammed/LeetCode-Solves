@@ -92,19 +92,17 @@ class Solution(object):
         return dp[0][0]
 ```
 
-🧪 Örnek
-text
-Kodu kopyala
+### 🧪 Örnek
+```python
 s1 = "sea"
 s2 = "eat"
-Sil: 's' → 115
+```
+- Sil: `'s'` → 115
+- Sil: `'t'` → 116
+    ➡️ Toplam = **231**
+Fonksiyon çıktısı: ✅ `231`
 
-Sil: 't' → 116
-➡️ Toplam = 231
-
-Fonksiyon çıktısı: ✅ 231
-
-⏱️ Zaman & Alan Karmaşıklığı
+### ⏱️ Zaman & Alan Karmaşıklığı
 Zaman: O(m * n)
 
 Alan: O(m * n)
