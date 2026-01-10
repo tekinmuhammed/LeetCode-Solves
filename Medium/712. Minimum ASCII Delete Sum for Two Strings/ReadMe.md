@@ -24,23 +24,24 @@ Bu problem, klasik **String DP** problemidir ve şu soruya indirgenir:
 > `s1[i:]` ve `s2[j:]` substring’lerini eşit yapmak için  
 > minimum ASCII silme maliyeti nedir?
 
-Bu yüzden:
-
-```text
+**Bu yüzden:**
+```python
 dp[i][j] = s1[i:] ve s2[j:] eşit yapmak için minimum maliyet
-🧱 DP Taban Durumları
-1️⃣ s1 bittiğinde
-s2’nin kalan tüm karakterlerini silmemiz gerekir:
+```
 
-python
-Kodu kopyala
+### 🧱 DP Taban Durumları
+**1️⃣ `s1` bittiğinde**
+`s2`’nin kalan tüm karakterlerini silmemiz gerekir:
+```python
 dp[m][j] = dp[m][j + 1] + ord(s2[j])
-2️⃣ s2 bittiğinde
-s1’in kalan tüm karakterlerini sileriz:
+```
 
-python
-Kodu kopyala
+**2️⃣ `s2` bittiğinde**
+`s`1’in kalan tüm karakterlerini sileriz:
+```python
 dp[i][n] = dp[i + 1][n] + ord(s1[i])
+```
+
 🔄 DP Geçişleri
 Eğer karakterler eşitse
 Silme gerekmez:
