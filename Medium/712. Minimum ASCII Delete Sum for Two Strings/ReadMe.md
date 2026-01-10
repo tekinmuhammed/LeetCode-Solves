@@ -42,31 +42,27 @@ dp[m][j] = dp[m][j + 1] + ord(s2[j])
 dp[i][n] = dp[i + 1][n] + ord(s1[i])
 ```
 
-🔄 DP Geçişleri
-Eğer karakterler eşitse
+### 🔄 DP Geçişleri**
+**Eğer karakterler eşitse**
 Silme gerekmez:
-
-python
-Kodu kopyala
+```python
 dp[i][j] = dp[i + 1][j + 1]
-Eğer farklıysa
+```
+
+**Eğer farklıysa**
 İki seçenek var:
-
-s1[i] sil → ord(s1[i]) + dp[i+1][j]
-
-s2[j] sil → ord(s2[j]) + dp[i][j+1]
-
+1. `s1[i]` sil → `ord(s1[i]) + dp[i+1][j]`
+2. `s2[j]` sil → `ord(s2[j]) + dp[i][j+1]`
 Minimumu alırız:
-
-python
-Kodu kopyala
+```python
 dp[i][j] = min(
     ord(s1[i]) + dp[i + 1][j],
     ord(s2[j]) + dp[i][j + 1]
 )
-✅ Senin Kodun
-python
-Kodu kopyala
+```
+
+### ✅ Kod
+```python
 class Solution(object):
     def minimumDeleteSum(self, s1, s2):
         m, n = len(s1), len(s2)
@@ -94,6 +90,8 @@ class Solution(object):
                     )
         
         return dp[0][0]
+```
+
 🧪 Örnek
 text
 Kodu kopyala
