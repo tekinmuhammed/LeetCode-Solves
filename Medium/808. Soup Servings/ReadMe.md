@@ -1,5 +1,10 @@
 # LeetCode 808 - Soup Servings
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 808](https://leetcode.com/problems/soup-matrix/description/)
+
+---
+
 ## 📝 Problem Description
 
 We have two types of soup: **A** and **B**. Initially, each soup has `n` milliliters. There are four serving operations:
