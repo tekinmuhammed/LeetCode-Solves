@@ -103,11 +103,9 @@ s2 = "eat"
 Fonksiyon çıktısı: ✅ `231`
 
 ### ⏱️ Zaman & Alan Karmaşıklığı
-Zaman: O(m * n)
+- **Zaman:** `O(m * n)`
 
-Alan: O(m * n)
-
+- **Alan:** `O(m * n)`
 📌 İstersen bu çözüm:
-
-O(n) alanlı rolling array ile optimize edilebilir.
+- `O(n)` alanlı **rolling array** ile optimize edilebilir.
 
