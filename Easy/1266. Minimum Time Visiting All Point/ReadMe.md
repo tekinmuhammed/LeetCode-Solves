@@ -24,35 +24,30 @@ Her 1 saniyede şu hareketlerden **birini** yapabilirsin:
 
 İki nokta arasındaki minimum süre:
 
-```text
+```python
 max(|x₂ - x₁|, |y₂ - y₁|)
-Neden?
-Çapraz hareket, hem x hem y ekseninde aynı anda ilerler
+```
 
-Önce ortak mesafeyi çapraz gidersin
+**Neden?**
+- Çapraz hareket, hem x hem y ekseninde **aynı anda** ilerler
+- Önce ortak mesafeyi çapraz gidersin
+- Kalan fark varsa tek eksende devam edersin
+📌 Bu mesafe metriğine **Chebyshev Distance** denir.
 
-Kalan fark varsa tek eksende devam edersin
-
-📌 Bu mesafe metriğine Chebyshev Distance denir.
-
-✏️ Matematiksel Açıklama
+### ✏️ Matematiksel Açıklama
 İki nokta:
-
-text
-Kodu kopyala
+```python
 (x₁, y₁) → (x₂, y₂)
-Çapraz adım sayısı: min(|Δx|, |Δy|)
-
-Kalan adım sayısı: | |Δx| - |Δy| |
-
+```
+- Çapraz adım sayısı: `min(|Δx|, |Δy|)`
+- Kalan adım sayısı: `| |Δx| - |Δy| |`
 Toplam:
-
-text
-Kodu kopyala
+```python
 min(dx, dy) + (max(dx, dy) - min(dx, dy)) = max(dx, dy)
-✅ Senin Kodun
-python
-Kodu kopyala
+```
+
+### ✅ Kod
+```python
 class Solution(object):
     def minTimeToVisitAllPoints(self, points):
         total_time = 0
@@ -64,33 +59,19 @@ class Solution(object):
             total_time += max(abs(x2 - x1), abs(y2 - y1))
         
         return total_time
-🔍 Kod İncelemesi
-✔️ Doğru Yaklaşım
-Noktaları sırayla geziyorsun
+```
 
-Her geçiş için minimum süreyi ekliyorsun
-
-Ekstra DP / BFS / simülasyon yok → optimal
-
-✔️ Okunabilirlik
-Net değişken isimleri
-
-Gereksiz kontrol yok
-
-Pythonic ve temiz
-
-🧪 Örnek
-text
-Kodu kopyala
+### 🧪 Örnek
+```python
 points = [[1,1],[3,4],[-1,0]]
+```
 Hesap:
-
-text
-Kodu kopyala
+```python
 (1,1) → (3,4) = max(2,3) = 3
 (3,4) → (-1,0) = max(4,4) = 4
 Toplam = 7
-⏱️ Zaman & Alan Karmaşıklığı
-Zaman: O(n)
+```
 
-Alan: O(1)
+### ⏱️ Zaman & Alan Karmaşıklığı
+- **Zaman:** `O(n)`
+- **Alan:** `O(1)`
