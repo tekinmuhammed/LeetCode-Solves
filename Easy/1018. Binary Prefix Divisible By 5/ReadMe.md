@@ -3,6 +3,8 @@
 **Difficulty:** Easy
 **Link:** [LeetCode 1018](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)
 
+---
+
 ## 📝 Problem Summary
 Binary (ikilik) bir dizinin prefix’lerini, yani soldan başlayarak oluşan her sayıyı kontrol ediyoruz.  
 Her prefix’in **5’e bölünüp bölünmediğini** bir liste olarak döndürmemiz gerekiyor.
