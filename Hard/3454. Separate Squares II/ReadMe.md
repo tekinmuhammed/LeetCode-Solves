@@ -42,26 +42,25 @@ Temel fikir:
 
 Her kare için iki olay eklenir:
 
-```text
+```python
 (y,     +1, x1, x2)  → kare başlıyor
 (y + l, -1, x1, x2)  → kare bitiyor
-python
-Kodu kopyala
+```
+```python
 events.append((y, 1, x, x + l))
 events.append((y + l, -1, x, x + l))
-📌 typ = 1 → ekle
-📌 typ = -1 → çıkar
+```
+📌 `typ = 1` → ekle
+📌 `typ = -1` → çıkar
 
 Sonra:
-
-python
-Kodu kopyala
+```python
 events.sort()
-2️⃣ Union Length (X ekseni birleşim uzunluğu)
-Aktif aralıkların örtüşmeden toplam uzunluğunu hesaplayan fonksiyon:
+```
 
-python
-Kodu kopyala
+### 2️⃣ Union Length (X ekseni birleşim uzunluğu)
+Aktif aralıkların **örtüşmeden toplam uzunluğunu** hesaplayan fonksiyon:
+```python
 def union_length(intervals):
     intervals.sort()
     total = 0
@@ -74,48 +73,42 @@ def union_length(intervals):
             cur_end = max(cur_end, e)
     total += cur_end - cur_start
     return total
+```
 ✔️ Overlap’leri doğru şekilde birleştiriyor
 ✔️ En kritik yardımcı fonksiyon
 
-3️⃣ Sweep Line ile Alan Biriktirme
-python
-Kodu kopyala
+### 3️⃣ Sweep Line ile Alan Biriktirme
+```python
 active = []     # aktif x aralıkları
 strips = []     # (y1, y2, width, area_before)
 total_area = 0
-Her iki y event’i arasında:
-
-text
-Kodu kopyala
+```
+Her iki `y` event’i arasında:
+```python
 alan = (y - prev_y) * union_width
+```
 Kaydedilen bilgi:
-
-python
-Kodu kopyala
+```python
 strips.append((prev_y, y, width, total_area))
+```
 📌 Bu sayede:
+- Alanın **hangi y aralığında**
+- **Ne kadar genişlikte**
+- Toplam **alanın neresinde** olduğunu biliyoruz
 
-Alanın hangi y aralığında
-
-Ne kadar genişlikte
-
-Toplam alanın neresinde olduğunu biliyoruz
-
-4️⃣ Alanın Yarısını Bulma
-python
-Kodu kopyala
+### 4️⃣ Alanın Yarısını Bulma
+```python
 half = total_area / 2
+```
 Strip’ler üzerinde ilerle:
-
-python
-Kodu kopyala
+```python
 if area_before + area_here >= half:
     return y1 + (half - area_before) / width
-🎯 İşte aradığımız kesin y değeri
+```
+🎯 İşte aradığımız **kesin y değeri**
 
-✅ Senin Kodun
-python
-Kodu kopyala
+### ✅ Kod
+```python
 class Solution(object):
     def separateSquares(self, squares):
         events = []
@@ -172,6 +165,8 @@ class Solution(object):
                 return y1 + (half - area_before) / width
         
         return 0.0
+```
+
 🔍 Kod Değerlendirmesi
 ✔️ Doğruluk
 Overlap’ler doğru şekilde union alınıyor
