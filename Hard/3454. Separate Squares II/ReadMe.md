@@ -1,5 +1,8 @@
 # 3454. Separate Squares II
 
+**Difficulty:** Hard  
+**Problem Link:** [LeetCode 3454](https://leetcode.com/problems/separate-squares-ii/description/)
+
 ---
 
 ## 🧩 Problem Özeti (I ile farkı)
