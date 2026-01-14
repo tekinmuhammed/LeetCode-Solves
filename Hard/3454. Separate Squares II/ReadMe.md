@@ -167,24 +167,9 @@ class Solution(object):
         return 0.0
 ```
 
-🔍 Kod Değerlendirmesi
-✔️ Doğruluk
-Overlap’ler doğru şekilde union alınıyor
+### ⏱️ Zaman & Bellek
+- Event sayısı: `2n`
 
-Alan hesapları geometrik olarak kusursuz
+- Her event’te `union_length` → `O(k log k)`
 
-✔️ Algoritmik Seviye
-Sweep Line
-
-Interval Union
-
-Kümülatif alan + interpolasyon
-
-👉 Bu çözüm Hard++ seviyesi
-
-⏱️ Zaman & Bellek
-Event sayısı: 2n
-
-Her event’te union_length → O(k log k)
-
-Toplam: O(n² log n) (n küçük olduğu için kabul edilebilir)
+- Toplam: `O(n² log n)` (n küçük olduğu için kabul edilebilir)
