@@ -4,7 +4,7 @@
 # **Link:** [LeetCode 3047](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2975. Maximum Square Area by Removing Fences From a Field](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field)
+# [Github LeetCode 3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles)
 
 class Solution:
     def largestSquareArea(
