@@ -4,7 +4,7 @@
 # **Problem Link:** [LeetCode 1895](https://leetcode.com/problems/largest-magic-square/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles)
+# [Github LeetCode 1895. Largest Magic Square](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1895.%20Largest%20Magic%20Square)
 
 class Solution(object):
     def largestMagicSquare(self, grid):
