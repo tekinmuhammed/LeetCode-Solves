@@ -1,7 +1,9 @@
-# 🧩 1292. Maximum Side Length of a Square with Sum ≤ Threshold
+# 🧩 1292. Maximum Side Length of a Square with Sum to Threshold
 
 **Difficulty:** Medium  
 **Link:** [LeetCode 1292](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/)  
+
+---
 
 ## 🔍 Problem Özeti
 - `mat` adlı bir 2D matris ve bir `threshold` değeri veriliyor.
