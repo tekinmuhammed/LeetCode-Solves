@@ -27,67 +27,60 @@ Bu yüzden iki güçlü tekniği birleştiriyoruz:
 ## 📊 Prefix Sum Matrisi
 
 ### Tanım
-```text
+```python
 ps[i][j] = mat[0..i-1][0..j-1] elemanlarının toplamı
-Hesaplama
-python
-Kodu kopyala
-ps[i+1][j+1] = ps[i][j+1] + ps[i+1][j] - ps[i][j] + mat[i][j]
-Bir k × k Karenin Toplamı
-Sol üst köşe (i, j) ise:
+```
 
-text
-Kodu kopyala
+### Hesaplama
+```python
+ps[i+1][j+1] = ps[i][j+1] + ps[i+1][j] - ps[i][j] + mat[i][j]
+```
+
+### Bir k × k Karenin Toplamı
+Sol üst köşe `(i, j)` ise:
+```python
 sum = ps[i+k][j+k]
     - ps[i][j+k]
     - ps[i+k][j]
     + ps[i][j]
-⏱️ O(1) zamanda!
+```
+⏱️ **O(1)** zamanda!
 
-🔎 Yardımcı Fonksiyon: exists_square(k)
-Amaç:
+### 🔎 Yardımcı Fonksiyon: exists_square(k)
+**Amaç:**
+- **En az bir tane** `k × k` kare var mı?
+- Ve bu karenin toplamı `threshold`’dan küçük/eşit mi?
 
-En az bir tane k × k kare var mı?
+**İşleyiş**
+- Tüm olası `(i, j)` başlangıç noktalarını dener
+- Prefix sum ile toplamı hesaplar
+- Şart sağlanırsa hemen `True` döner
 
-Ve bu karenin toplamı threshold’dan küçük/eşit mi?
-
-İşleyiş
-Tüm olası (i, j) başlangıç noktalarını dener
-
-Prefix sum ile toplamı hesaplar
-
-Şart sağlanırsa hemen True döner
-
-🔁 Binary Search Stratejisi
+### 🔁 Binary Search Stratejisi
 Aradığımız şey:
+> **En büyük geçerli kare kenar uzunluğu**
 
-En büyük geçerli kare kenar uzunluğu
-
-Aralık
-text
-Kodu kopyala
+### Aralık
+```python
 left = 1
 right = min(m, n)
-Mantık
-Eğer k boyutunda geçerli kare varsa:
+```
+### Mantık
+- Eğer `k` boyutunda geçerli kare varsa:
+- - Daha büyüğü olabilir → `left = k + 1`
+- Yoksa:
+- - Küçült → `right = k - 1`
 
-Daha büyüğü olabilir → left = k + 1
-
-Yoksa:
-
-Küçült → right = k - 1
-
-⏱️ Zaman ve Alan Karmaşıklığı
-Zaman Karmaşıklığı
-text
-Kodu kopyala
+### ⏱️ Zaman ve Alan Karmaşıklığı
+- **Zaman Karmaşıklığı**
+```python
 O(m × n × log(min(m, n)))
-Binary search → log(min(m,n))
+```
+- - Binary search → `log(min(m,n))`
+- - Her kontrol → `O(m × n)`
 
-Her kontrol → O(m × n)
-
-Alan Karmaşıklığı
-text
-Kodu kopyala
+- **Alan Karmaşıklığı**
+```python
 O(m × n)
+```
 (Prefix sum matrisi)
