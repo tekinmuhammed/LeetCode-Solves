@@ -1,7 +1,7 @@
 ## 3315. Construct the Minimum Bitwise Array II
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 3243](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
+**Problem Link:** [LeetCode 3315](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/description/)
 
 ---
 
@@ -59,7 +59,6 @@ lowbit = (x + 1) & -(x + 1)
 ---
 
 ### Python Kodu
-
 ```python
 class Solution:
  def minBitwiseArray(self, nums: list[int]) -> list[int]:
