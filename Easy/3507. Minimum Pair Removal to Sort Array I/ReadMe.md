@@ -54,7 +54,7 @@ Dizinin sıralı olup olmadığını kontrol eder.
 3. Dizi sıralı hale gelince `ops` döndürülür
 
 ### Python Kodu
-
+```python
 class Solution(object):
     def minimumPairRemoval(self, nums):
         ops = 0
@@ -79,6 +79,8 @@ class Solution(object):
             ops += 1
 
         return ops
+```
+
 Zaman ve Alan Karmaşıklığı
 Zaman:
 
