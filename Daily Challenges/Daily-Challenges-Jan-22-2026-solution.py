@@ -1,6 +1,6 @@
 ## 3507. Minimum Pair Removal to Sort Array I
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy
 # **Problem Link:** [LeetCode 3507](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/)
 
 # 🧠 Problem Description
