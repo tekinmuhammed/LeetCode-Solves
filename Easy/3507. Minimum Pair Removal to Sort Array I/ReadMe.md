@@ -41,26 +41,20 @@ def is_sorted(arr):
         if arr[i] < arr[i - 1]:
             return False
     return True
+```
 Dizinin sıralı olup olmadığını kontrol eder.
 
-Algoritma Adımları
-ops = 0
+### Algoritma Adımları
+1. `ops = 0`
+2. Dizi sıralı değilken:
+- En küçük `nums[i] + nums[i+1]` toplamını bul
+- Bu ikiliyi diziden çıkar
+- Yerine toplamı ekle
+- `ops += 1`
+3. Dizi sıralı hale gelince `ops` döndürülür
 
-Dizi sıralı değilken:
+### Python Kodu
 
-En küçük nums[i] + nums[i+1] toplamını bul
-
-Bu ikiliyi diziden çıkar
-
-Yerine toplamı ekle
-
-ops += 1
-
-Dizi sıralı hale gelince ops döndürülür
-
-Python Kodu
-python
-Kodu kopyala
 class Solution(object):
     def minimumPairRemoval(self, nums):
         ops = 0
