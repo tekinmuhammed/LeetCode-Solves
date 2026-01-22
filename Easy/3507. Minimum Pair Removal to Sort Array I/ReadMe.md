@@ -81,15 +81,12 @@ class Solution(object):
         return ops
 ```
 
-Zaman ve Alan Karmaşıklığı
-Zaman:
+### Zaman ve Alan Karmaşıklığı
+- **Zaman:**
+- - Her adımda `O(n)` tarama
+- - En kötü durumda `O(n)` adım
+    **→ O(n²)**
 
-Her adımda O(n) tarama
-
-En kötü durumda O(n) adım
-→ O(n²)
-
-Alan:
-
-Yeni liste oluşturulduğu için O(n)
+- **Alan:**
+- - Yeni liste oluşturulduğu için **O(n)**
 
