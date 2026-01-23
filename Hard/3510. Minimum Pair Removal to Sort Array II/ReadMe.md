@@ -1,5 +1,8 @@
 ## 3510. Minimum Pair Removal to Sort Array II
 
+**Difficulty:** Hard  
+**Link:** [LeetCode 3495](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/)
+
 ### Problem Özeti
 
 Bir dizi `nums` veriliyor.  
