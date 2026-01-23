@@ -4,7 +4,7 @@
 **Link:** [LeetCode 3510](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3507. Minimum Pair Removal to Sort Array I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II)
+# [Github LeetCode 3510. Minimum Pair Removal to Sort Array II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II)
 
 import heapq
 
