@@ -1,3 +1,8 @@
+## 3510. Minimum Pair Removal to Sort Array II
+
+**Difficulty:** Hard  
+**Link:** [LeetCode 3510](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/description/)
+
 import heapq
 
 class Solution:
