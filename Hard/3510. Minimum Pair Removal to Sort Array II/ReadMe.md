@@ -1,6 +1,6 @@
 ## 3510. Minimum Pair Removal to Sort Array II
 
-**Difficulty:** Hard  
+**Difficulty:** Hard
 **Link:** [LeetCode 3510](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/description/)
 
 ---
@@ -85,7 +85,6 @@ Geçerli değilse → **atla**
 ---
 
 ## Python Kodu
-
 ```python
 import heapq
 
@@ -170,5 +169,5 @@ class Solution:
 
 - **Alan:**
 - - Yardımcı diziler + heap
-    → O(n)
+    → **O(n)**
 
