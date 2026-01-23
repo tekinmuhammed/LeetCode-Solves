@@ -160,16 +160,15 @@ class Solution:
             ops += 1
         
         return ops
-Karmaşıklık Analizi
-Zaman:
+```
 
-Heap işlemleri → O(n log n)
+### Karmaşıklık Analizi
+- **Zaman:**
+- - Heap işlemleri → `O(n log n)`
+- - Her eleman en fazla bir kez merge edilir
+    → **O(n log n)**
 
-Her eleman en fazla bir kez merge edilir
-→ O(n log n)
-
-Alan:
-
-Yardımcı diziler + heap
-→ O(n)
+- **Alan:**
+- - Yardımcı diziler + heap
+    → O(n)
 
