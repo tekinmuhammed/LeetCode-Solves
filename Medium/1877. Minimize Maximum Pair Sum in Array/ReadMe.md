@@ -59,7 +59,6 @@ Bu problem klasik ve çok net bir **greedy + sorting** sorusu.
 ---
 
 ## Python Kodu
-
 ```python
 class Solution(object):
     def minPairSum(self, nums):
@@ -73,7 +72,10 @@ class Solution(object):
             r -= 1
 
         return res
-Örnek
+```
+
+### Örnek
+```python
 nums = [3,5,2,3]
 
 Sıralı: [2,3,3,5]
@@ -83,16 +85,14 @@ Eşleşmeler:
 3 + 3 = 6
 
 Maksimum = 7 ✅
-Karmaşıklık Analizi
-Zaman:
+```
 
-Sıralama → O(n log n)
+### Karmaşıklık Analizi
+- **Zaman:**
+- - Sıralama → `O(n log n)`
+- - Tek geçiş → `O(n)`
+- - Toplam: `O(n log n)`
 
-Tek geçiş → O(n)
-
-Toplam: O(n log n)
-
-Alan:
-
-Yerinde sıralama → O(1) (Python Timsort hariç)
+- **Alan:**
+- - Yerinde sıralama → `O(1)` (Python Timsort hariç)
 
