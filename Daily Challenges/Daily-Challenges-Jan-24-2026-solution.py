@@ -1,10 +1,10 @@
 ## 1877. Minimize Maximum Pair Sum in Array
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1877](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1877. Minimize Maximum Pair Sum in Array](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3510.%20Minimum%20Pair%20Removal%20to%20Sort%20Array%20II)
+# [Github LeetCode 1877. Minimize Maximum Pair Sum in Array](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1877.%20Minimize%20Maximum%20Pair%20Sum%20in%20Array)
 
 class Solution(object):
     def minPairSum(self, nums):
