@@ -1,6 +1,6 @@
 ## 1984. Minimum Difference Between Highest and Lowest of K Scores
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy
 # **Problem Link:** [LeetCode 1984](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/)
 
 # 🧠 Problem Description
