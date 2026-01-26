@@ -3,7 +3,7 @@
 # **Difficulty:** Easy
 # **Link:** [LeetCode 1200](https://leetcode.com/problems/minimum-absolute-difference/description/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 1200. Minimum Absolute Difference](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1200.%20Minimum%20Absolute%20Difference)
 
 class Solution(object):
