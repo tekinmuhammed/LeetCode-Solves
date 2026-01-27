@@ -1,5 +1,10 @@
 ## 3650. Minimum Cost Path with Edge Reversals
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 3650](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/description/)
+
+---
+
 ### Problem Özeti
 
 - `n` adet düğüm (0 → n-1)
@@ -35,24 +40,20 @@ Her `[u, v, w]` kenarı için:
 ```text
 u ----w----> v
 v ----2w---> u
+```
 Bu şekilde:
+- Edge reversal işlemi **ayrı bir kenar** gibi modellenir
+- Ekstra state tutmaya gerek kalmaz ✔️
 
-Edge reversal işlemi ayrı bir kenar gibi modellenir
+### Algoritma
+1. Adjacency list oluştur
+2. Dijkstra:
+- `min_dist[i]` → 0’dan i’ye minimum maliyet
+3. Priority Queue (Min-Heap) kullan
+4. `n-1` düğümüne ulaşıldığında sonucu döndür
 
-Ekstra state tutmaya gerek kalmaz ✔️
-
-Algoritma
-Adjacency list oluştur
-
-Dijkstra:
-
-min_dist[i] → 0’dan i’ye minimum maliyet
-
-Priority Queue (Min-Heap) kullan
-
-n-1 düğümüne ulaşıldığında sonucu döndür
-
-Python Kodu
+### Python Kodu
+```python
 import heapq
 
 class Solution:
@@ -87,6 +88,7 @@ class Solution:
                     heapq.heappush(pq, (nd, v))
                     
         return -1 if min_dist[n - 1] == float('inf') else min_dist[n - 1]
+```
 Örnek Mantık
 Edge: 0 -> 1 (w = 5)
 
