@@ -89,22 +89,20 @@ class Solution:
                     
         return -1 if min_dist[n - 1] == float('inf') else min_dist[n - 1]
 ```
-Örnek Mantık
+
+### Örnek Mantık
+```text
 Edge: 0 -> 1 (w = 5)
 
 Seçenekler:
 0 -> 1 : 5
 1 -> 0 : 10
+```
 Dijkstra:
+- Hangi yön daha ucuzsa otomatik seçer
+- Gereksiz ters geçişleri zaten eler ✔️
 
-Hangi yön daha ucuzsa otomatik seçer
-
-Gereksiz ters geçişleri zaten eler ✔️
-
-Karmaşıklık Analizi
-Zaman: O((V + E) log V)
-
-Alan: O(V + E)
-
-Standart Dijkstra maliyeti, ek state yok
+### Karmaşıklık Analizi
+- **Zaman:** `O((V + E) log V)`
+- **Alan:** `O(V + E)`
 
