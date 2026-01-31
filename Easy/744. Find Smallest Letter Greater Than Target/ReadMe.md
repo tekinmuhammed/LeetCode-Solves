@@ -1,5 +1,10 @@
 ## 744. Find Smallest Letter Greater Than Target
 
+**Difficulty:** Easy  
+**Link:** [LeetCode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
+
+---
+
 ### Problem Özeti
 
 - Sana **sıralı** (`sorted`) bir karakter listesi `letters` veriliyor
