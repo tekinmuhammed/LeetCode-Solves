@@ -4,7 +4,8 @@
 # **Link:** [LeetCode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2977. Minimum Cost to Convert String II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II)
+# [Github LeetCode 744. Find Smallest Letter Greater Than Target](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
+
 class Solution(object):
     def nextGreatestLetter(self, letters, target):
         left, right = 0, len(letters) - 1
