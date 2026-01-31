@@ -74,15 +74,20 @@ return letters[left] if left < len(letters) else letters[0]
 - Dizide target’tan büyük hiçbir harf yok
 - Wrap-around → ilk eleman
 
-Örnek Üzerinden 🎯
+### Örnek Üzerinden 🎯
+```python
 letters = ["c","f","j"]
 target = "j"
-Binary search sonunda:
-
+```
+- Binary search sonunda:
+```python
 left = 3 (len(letters))
+```
 ➡️ Wrap-around:
-
+```python
 return letters[0]  # "c"
+```
+
 Zaman & Alan Karmaşıklığı ⏱️
 Time: O(log n)
 
