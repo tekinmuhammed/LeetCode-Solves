@@ -88,7 +88,6 @@ left = 3 (len(letters))
 return letters[0]  # "c"
 ```
 
-Zaman & Alan Karmaşıklığı ⏱️
-Time: O(log n)
-
-Space: O(1)
+## Zaman & Alan Karmaşıklığı ⏱️
+- **Time:** `O(log n)`
+- **Space:** `O(1)`
