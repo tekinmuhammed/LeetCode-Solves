@@ -48,37 +48,31 @@ else:
     right = mid - 1
 ```
 
-Neden böyle?
-letters[mid] <= target ise:
+### Neden böyle?
+- `letters[mid] <= target` ise:
+- - Bu harf **işimize yaramaz**
+- - Daha büyük bir harf arıyoruz → **sağa git**
+- `letters[mid] > target` ise:
+- - Bu aday olabilir
+- - Daha küçüğü var mı diye **sola kay**
 
-Bu harf işimize yaramaz
-
-Daha büyük bir harf arıyoruz → sağa git
-
-letters[mid] > target ise:
-
-Bu aday olabilir
-
-Daha küçüğü var mı diye sola kay
-
-Döngü Sonrası Durum 🔍
+### Döngü Sonrası Durum 🔍
 Binary search bittiğinde:
-
+```python
 left = target’tan büyük olan ilk elemanın indeksi
-Wrap-around Kontrolü 🔁
+```
+
+### Wrap-around Kontrolü 🔁
+```python
 return letters[left] if left < len(letters) else letters[0]
-İki Olasılık:
-1️⃣ left < len(letters)
-
-Dizide target’tan büyük bir harf bulundu
-
-Direkt döndür
-
-2️⃣ left == len(letters)
-
-Dizide target’tan büyük hiçbir harf yok
-
-Wrap-around → ilk eleman
+```
+**İki Olasılık:**
+1️⃣ `left < len(letters)`
+- Dizide target’tan büyük bir harf bulundu
+- Direkt döndür
+2️⃣ **left == len(letters)**
+- Dizide target’tan büyük hiçbir harf yok
+- Wrap-around → ilk eleman
 
 Örnek Üzerinden 🎯
 letters = ["c","f","j"]
