@@ -26,18 +26,28 @@ Temel soru:
 ---
 
 ## Binary Search Mantığı 🧠
-
 ```python
 left, right = 0, len(letters) - 1
-Döngü Koşulu
+```
+
+## Döngü Koşulu
+```python
 while left <= right:
-Orta Nokta
+```
+
+## Orta Nokta
+```python
 mid = (left + right) // 2
-Karar Mekanizması
+```
+
+## Karar Mekanizması
+```python
 if letters[mid] <= target:
     left = mid + 1
 else:
     right = mid - 1
+```
+
 Neden böyle?
 letters[mid] <= target ise:
 
