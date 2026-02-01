@@ -59,17 +59,18 @@ Bu seçim:
 - Matematiksel olarak **en küçük mümkün toplam**
 
 ### Örnek Üzerinden 🎯
+```python
 nums = [1, 2, 3, 4]
-nums[0] = 1
+```
+- `nums[0] = 1`
+- `rest = [2, 3, 4]`
+- En küçük iki sayı: `2` ve `3`
 
-rest = [2, 3, 4]
-
-En küçük iki sayı: 2 ve 3
-
-➡️ Sonuç:
-
+### ➡️ Sonuç:
+```python
 1 + 2 + 3 = 6
-Zaman & Alan Karmaşıklığı ⏱️
-Time: O(n log n) (sıralama)
+```
 
-Space: O(n) (rest dizisi)
+## Zaman & Alan Karmaşıklığı ⏱️
+- **Time:** `O(n log n)` (sıralama)
+- **Space:** `O(n)` (rest dizisi)
