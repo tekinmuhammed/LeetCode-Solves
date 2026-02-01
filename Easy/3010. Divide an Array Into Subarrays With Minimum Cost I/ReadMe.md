@@ -1,5 +1,10 @@
 ## 3010. Divide an Array Into Subarrays With Minimum Cost I
 
+**Difficulty:** Easy  
+**Link:** [LeetCode 3010](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/)  
+
+---
+
 ### Problem Özeti
 
 - `nums` dizisi veriliyor
@@ -27,31 +32,33 @@ Bu problem aslında şu soruya indirgeniyor:
 
 ```python
 nums[0]
-Problem gereği bu eleman her zaman seçilmek zorunda.
+```
+Problem gereği bu eleman **her zaman seçilmek zorunda.**
 
-2️⃣ Geri Kalan Elemanları Ayır
+### 2️⃣ Geri Kalan Elemanları Ayır
+```python
 rest = nums[1:]
+```
 Artık amacımız:
+> `rest` içinden **en küçük 2 sayıyı** bulmak
 
-rest içinden en küçük 2 sayıyı bulmak
-
-3️⃣ Sırala
+### 3️⃣ Sırala
+```python
 rest.sort()
+```
 Sıralama sonrası:
+- `rest[0]` → en küçük
+- `rest[1]` → ikinci en küçük
 
-rest[0] → en küçük
-
-rest[1] → ikinci en küçük
-
-4️⃣ Minimum Toplamı Hesapla
+### 4️⃣ Minimum Toplamı Hesapla
+```python
 return nums[0] + rest[0] + rest[1]
+```
 Bu seçim:
+- Kurallara uygun
+- Matematiksel olarak **en küçük mümkün toplam**
 
-Kurallara uygun
-
-Matematiksel olarak en küçük mümkün toplam
-
-Örnek Üzerinden 🎯
+### Örnek Üzerinden 🎯
 nums = [1, 2, 3, 4]
 nums[0] = 1
 
