@@ -47,83 +47,60 @@ Bunu da:
 ```python
 if K == 0:
     return base_cost + min(nums[1:])
-k = 2 → sadece nums[0] ve bir tane daha
+```
+- `k = 2` → sadece `nums[0]` ve **bir tane daha**
+- `dist` kısıtı anlamsız hale gelir
+- Doğrudan minimumu almak **doğru ve optimal**
 
-dist kısıtı anlamsız hale gelir
-
-Doğrudan minimumu almak doğru ve optimal
-
-Veri Yapıları 🧩
-Heap’ler
-L → Max-Heap (en küçük K elemanı tutar)
-
-R → Min-Heap (geri kalanlar)
+### Veri Yapıları 🧩
+**Heap’ler**
+- `L` → Max-Heap (en küçük `K` elemanı tutar)
+- `R` → Min-Heap (geri kalanlar)
 
 Amaç:
+- `L` her zaman seçilecek `k-2` en küçük elemanı içerir
+- `L_sum` → bu elemanların toplamı (O(1) maliyet hesabı)
 
-L her zaman seçilecek k-2 en küçük elemanı içerir
-
-L_sum → bu elemanların toplamı (O(1) maliyet hesabı)
-
-Lazy Deletion (Çok Kritik) ⚠️
+### Lazy Deletion (Çok Kritik) ⚠️
 Heap’ten rastgele eleman silemediğimiz için:
-
+```python
 rem_L = defaultdict(int)
 rem_R = defaultdict(int)
-Silinmesi gereken elemanları işaretliyorsun
+```
+- Silinmesi gereken elemanları işaretliyorsun
+- Heap’in tepesine gelince gerçekten siliyorsun
 
-Heap’in tepesine gelince gerçekten siliyorsun
-
-Bu kısım çok iyi tasarlanmış 👍
-
-add(val) – Eleman Ekleme
+### `add(val)` – Eleman Ekleme
 Mantık:
-
-Önce L’ye ekle
-
-Eğer L_size > K:
-
-En büyük elemanı R’ye at
-
-Gerekirse L ve R arasında swap yaparak dengeyi koru
-
+1. Önce `L`’ye ekle
+2. Eğer `L_size > K`:
+- - En büyük elemanı `R`’ye at
+3. Gerekirse `L` ve `R` arasında swap yaparak dengeyi koru
 Amaç:
+- `L` = her zaman **en küçük K eleman**
 
-L = her zaman en küçük K eleman
-
-remove(val) – Eleman Çıkarma
-Elemanın hangi heap’te olduğunu tahmin ediyorsun
-
-Lazy removal ile işaretliyorsun
-
-Eğer L küçülürse:
-
-R’den takviye alıyorsun
-
+### `remove(val)` – Eleman Çıkarma
+1. Elemanın **hangi heap’te olduğunu tahmin ediyorsun**
+2. Lazy removal ile işaretliyorsun
+3. Eğer `L` küçülürse:
+- - `R`’den takviye alıyorsun
 Bu sayede:
+- Sliding window düzgün çalışıyor
+- Heap bozulmuyor
 
-Sliding window düzgün çalışıyor
-
-Heap bozulmuyor
-
-Sliding Window Mantığı 🪟
+### Sliding Window Mantığı 🪟
 Başlangıç havuzu:
-
+```python
 nums[2 ... dist+1]
-Sonra pivot i için:
-
+```
+Sonra pivot `i` için:
+```python
 current_cost = nums[0] + nums[i] + L_sum
+```
 Ardından pencere kayıyor:
+- Çıkan: `nums[i+1]`
+- Giren: `nums[i+dist+1]`
 
-Çıkan: nums[i+1]
-
-Giren: nums[i+dist+1]
-
-Bu tam anlamıyla:
-
-“K-sum inside sliding window” problemi
-
-Zaman & Alan Karmaşıklığı ⏱️
-Time: O(n log n)
-
-Space: O(n)
+### Zaman & Alan Karmaşıklığı ⏱️
+- **Time:** `O(n log n)`
+- **Space:** `O(n)`
