@@ -1,10 +1,10 @@
 ## 3013. Divide an Array Into Subarrays With Minimum Cost II
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3013](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description/)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3013](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3010. Divide an Array Into Subarrays With Minimum Cost I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3010.%20Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20I)
+# [Github LeetCode 3013. Divide an Array Into Subarrays With Minimum Cost II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3013.%20Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20II)
 
 import heapq
 from collections import defaultdict
