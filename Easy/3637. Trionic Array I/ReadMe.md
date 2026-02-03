@@ -1,7 +1,7 @@
 ## 3637. Trionic Array I
 
 **Difficulty:** Easy  
-**Link:** [LeetCode 3606](https://leetcode.com/problems/coupon-code-validator/description/)
+**Link:** [LeetCode 3637](https://leetcode.com/problems/trionic-array-i/description/)
 
 ---
 
