@@ -1,4 +1,9 @@
-# 3637. Trionic Array II
+# 3640. Trionic Array II
+
+**Difficulty:** Hard  
+**Link:** [LeetCode 3640](https://leetcode.com/problems/trionic-array-ii/description/)
+
+---
 
 ## Problem Özeti
 
@@ -97,18 +102,7 @@ class Solution:
             i = q
 
         return ans
-Neden Doğru?
-Strict artış / azalış şartları net biçimde kontrol ediliyor
-
-Üç segmentin de boş olma ihtimali eleniyor
-
-Sol ve sağ segmentlerde:
-
-Tüm segmenti almak yerine
-
-En yüksek katkıyı veren alt parçalar seçiliyor
-
-Aynı azalan segment tekrar tekrar işlenmiyor (i = q)
+```
 
 Zaman ve Alan Karmaşıklığı
 Zaman: O(n) (pratikte)
