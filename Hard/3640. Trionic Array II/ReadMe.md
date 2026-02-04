@@ -1,6 +1,6 @@
 # 3640. Trionic Array II
 
-**Difficulty:** Hard  
+**Difficulty:** Hard
 **Link:** [LeetCode 3640](https://leetcode.com/problems/trionic-array-ii/description/)
 
 ---
@@ -104,7 +104,6 @@ class Solution:
         return ans
 ```
 
-Zaman ve Alan Karmaşıklığı
-Zaman: O(n) (pratikte)
-
-Alan: O(1)
+### Zaman ve Alan Karmaşıklığı
+- **Zaman:** `O(n)`
+- **Alan:** `O(1)`
