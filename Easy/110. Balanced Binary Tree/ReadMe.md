@@ -1,5 +1,10 @@
 # 110. Balanced Binary Tree
 
+**Difficulty:** Easy  
+**Problem Link:** [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/description/)
+
+---
+
 ## Problem Özeti
 
 Bir **binary tree** şu şartı sağlıyorsa **balanced** kabul edilir:
