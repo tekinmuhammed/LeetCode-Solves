@@ -68,26 +68,11 @@ class Solution(object):
             return max(left, right) + 1
 
         return height(root) != -1
-Neden Doğru?
-Her düğüm yalnızca bir kez ziyaret edilir
+```
 
-Bir alt ağaç dengesizse:
-
-Daha yukarı çıkmaya gerek kalmadan işlem kesilir
-
-Böylece:
-
-Gereksiz hesaplamalar önlenir
-
-En kötü durumda bile lineer çalışır
-
-Zaman ve Alan Karmaşıklığı
-Zaman: O(n)
-
-Her düğüm 1 kez ziyaret edilir
-
-Alan: O(h)
-
-Recursive stack
-
-En kötü durumda h = n (skewed tree)
+### Zaman ve Alan Karmaşıklığı
+- **Zaman:** `O(n)`
+- - Her düğüm 1 kez ziyaret edilir
+- **Alan:** `O(h)`
+- - Recursive stack
+- - En kötü durumda `h = n` (skewed tree)
