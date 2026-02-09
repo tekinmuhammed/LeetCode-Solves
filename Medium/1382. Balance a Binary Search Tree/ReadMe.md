@@ -75,7 +75,10 @@ class Solution(object):
             return node
 
         return build(0, len(values) - 1)
-Örnek Akış
+```
+
+### Örnek Akış
+```python
 BST:
 
     1
@@ -85,25 +88,24 @@ BST:
         3
          \
           4
+```
 Inorder sonucu:
-
+```python
 [1, 2, 3, 4]
+```
 Balanced BST:
-
+```python
       2
      / \
     1   3
          \
           4
-Zaman ve Alan Karmaşıklığı
-Zaman: O(n)
+```
 
-Inorder traversal → O(n)
-
-Tree rebuild → O(n)
-
-Alan: O(n)
-
-Değerleri tutan array
-
-Recursive stack
+### Zaman ve Alan Karmaşıklığı
+**Zaman:** `O(n)`
+- - Inorder traversal → `O(n)`
+- - Tree rebuild → `O(n)`
+- **Alan:** `O(n)`
+- - Değerleri tutan array
+- - Recursive stack
