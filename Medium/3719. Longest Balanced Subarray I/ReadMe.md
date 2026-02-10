@@ -36,8 +36,9 @@ kısıtlar brute force çözümü mümkün kılıyor.
 Problem **kaç tane farklı çift / tek sayı var** diye soruyor.
 
 Örnek:
+```python
 [2, 2, 4, 4] → evens = {2, 4} → 2 adet
-
+```
 
 Yani:
 - Tekrar eden sayılar **bir kez** sayılıyor
@@ -67,30 +68,33 @@ class Solution(object):
                     ans = max(ans, j - i + 1)
 
         return ans
-Örnek Üzerinden Anlayalım
-nums = [1, 2, 3, 4]
-Alt dizilerden biri:
+```
 
+Örnek Üzerinden Anlayalım
+```python
+nums = [1, 2, 3, 4]
+```
+Alt dizilerden biri:
+```python
 [2, 3, 4]
 evens = {2, 4} → 2
 odds  = {3}    → 1 ❌
+```
 Ama:
-
+```python
 [1, 2, 3, 4]
 evens = {2, 4} → 2
 odds  = {1, 3} → 2 ✅
 uzunluk = 4
-Zaman ve Alan Karmaşıklığı
-Zaman
-Dış döngü: O(n)
+```
 
-İç döngü: O(n)
+### Zaman ve Alan Karmaşıklığı
+- **Zaman**
+- - Dış döngü: `O(n)`
+- - İç döngü: `O(n)`
+- - Toplam: **O(n²)**
 
-Toplam: O(n²)
-
-Alan
-İki adet set:
-
-En kötü durumda O(n)
-
-Toplam: O(n)
+- **Alan**
+- - İki adet set:
+- - - En kötü durumda `O(n)`
+- - Toplam: **O(n)**
