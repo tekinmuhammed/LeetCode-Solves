@@ -1,5 +1,10 @@
 # 3719. Longest Balanced Subarray I
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 3719](https://leetcode.com/problems/longest-balanced-subarray-i/description/)
+
+---
+
 ## Problem Özeti
 
 Bir dizi `nums` veriliyor.  
