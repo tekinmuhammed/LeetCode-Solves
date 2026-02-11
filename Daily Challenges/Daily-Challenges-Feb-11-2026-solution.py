@@ -1,10 +1,10 @@
 # 3721. Longest Balanced Subarray II
 
-**Difficulty:** Hard
-**Link:** [LeetCode 3721](https://leetcode.com/problems/longest-balanced-subarray-ii/description/)
+# **Difficulty:** Hard
+# **Link:** [LeetCode 3721](https://leetcode.com/problems/longest-balanced-subarray-ii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3719. Longest Balanced Subarray I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3721.%20Longest%20Balanced%20Subarray%20II)
+# [Github LeetCode 3721. Longest Balanced Subarray II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3721.%20Longest%20Balanced%20Subarray%20II)
 
 class LazyTag:
     def __init__(self):
