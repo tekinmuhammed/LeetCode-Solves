@@ -1,5 +1,10 @@
 # 3713. Longest Balanced Substring I
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 3713](https://leetcode.com/problems/longest-balanced-substring-i/description/)
+
+---
+
 ## Problem Özeti
 
 Bir string `s` veriliyor (küçük harfler).
