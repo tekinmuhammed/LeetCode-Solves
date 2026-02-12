@@ -100,31 +100,27 @@ class Solution(object):
         return ans
 ```
 
-Örnek
+### Örnek
+```python
 s = "aabbcc"
-
+```
 Substring: "aabbcc"
-
-a → 2
-b → 2
-c → 2
-
+- a → 2
+- b → 2
+- c → 2
+```python
 min_freq = 2
 max_freq = 2
-
+```
 ✅ Balanced
-Length = 6
+Length = `6`
 
-Zaman Karmaşıklığı
-Dış döngü → O(n)
+### Zaman Karmaşıklığı
+- **Dış döngü** → `O(n)`
+- **İç döngü** → `O(n)`
+- 26 harf kontrolü → `O(1)`
+- - **Toplam:**
+>`O(n²)`
 
-İç döngü → O(n)
-
-26 harf kontrolü → O(1)
-
-Toplam:
-
-O(n²)
-
-Alan Karmaşıklığı
-freq array → O(1) (26 sabit)
+- **Alan Karmaşıklığı**
+- - freq array → `O(1)` (26 sabit)
