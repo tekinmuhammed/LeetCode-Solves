@@ -1,6 +1,6 @@
 # 3713. Longest Balanced Substring I
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 3713](https://leetcode.com/problems/longest-balanced-substring-i/description/)
 
 # 🧠 Problem Description
