@@ -16,18 +16,20 @@ Bir substring **balanced** kabul edilir eğer:
 - Birbirine eşitse.
 
 Örneğin:
-
+```python
 "abab"  
 a → 2  
-b → 2  
+b → 2
+```  
 ✅ balanced
-
+```python
 "aaabb"  
 a → 3  
 b → 2  
+```
 ❌ balanced değil
 
-Amaç:
+**Amaç:**
 En uzun balanced substring’in uzunluğunu bulmak.
 
 ---
@@ -56,12 +58,12 @@ Burada önemli olan:
 Sadece frekansı > 0 olan harfleri kontrol ediyoruz.
 
 Yani:
-
+```python
 for f in freq:
 if f > 0:
 min_freq = min(...)
 max_freq = max(...)
-
+```
 
 Bu olmazsa:
 
@@ -96,6 +98,8 @@ class Solution(object):
                     ans = max(ans, j - i + 1)
         
         return ans
+```
+
 Örnek
 s = "aabbcc"
 
