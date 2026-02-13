@@ -1,11 +1,11 @@
 # 3714. Longest Balanced Substring II
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3714](https://leetcode.com/problems/longest-balanced-substring-ii/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3714](https://leetcode.com/problems/longest-balanced-substring-ii/description/)
 
 
 # 🧠 Problem Description
-# [Github LeetCode 3713. Longest Balanced Substring I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3713.%20Longest%20Balanced%20Substring%20I)
+# [Github LeetCode 3714. Longest Balanced Substring II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3714.%20Longest%20Balanced%20Substring%20II)
 
 class Solution:
     def longestBalanced(self, s: str) -> int:
