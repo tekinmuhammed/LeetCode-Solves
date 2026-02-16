@@ -87,7 +87,7 @@ n = 1011  (4-bit örnek)
 
 Sonuç:
 
-1101
+`1101`
 
 Yani terslenmiş hali.
 
@@ -113,7 +113,7 @@ Yani terslenmiş hali.
 
 32 iterasyon:
 
-O(1)
+**O(1)**
 
 (Sabit süre)
 
@@ -121,4 +121,4 @@ O(1)
 
 # Alan Karmaşıklığı
 
-O(1)
+**O(1)**
