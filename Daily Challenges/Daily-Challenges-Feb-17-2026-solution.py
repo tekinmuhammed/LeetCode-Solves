@@ -1,10 +1,10 @@
 # 401. Binary Watch
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 401](https://leetcode.com/problems/binary-watch/description/)
+# **Difficulty:** Easy  
+# **Problem Link:** [LeetCode 401](https://leetcode.com/problems/binary-watch/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 190. Reverse Bits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/190.%20Reverse%20Bits)
+# [Github LeetCode 401. Binary Watch](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/401.%20Binary%20Watch)
 
 class Solution:
     def readBinaryWatch(self, turnedOn: int) -> list[str]:
