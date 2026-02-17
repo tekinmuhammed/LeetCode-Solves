@@ -1,5 +1,10 @@
 # 401. Binary Watch
 
+**Difficulty:** Easy  
+**Problem Link:** [LeetCode 401](https://leetcode.com/problems/binary-watch/description/)
+
+---
+
 ## Problem Özeti
 
 Bir binary saat var:
@@ -111,7 +116,7 @@ Olası bazı sonuçlar:
 
 O(12 × 60)
 
-Sabit → O(1)
+Sabit → **O(1)**
 
 ---
 
@@ -119,17 +124,4 @@ Sabit → O(1)
 
 En kötü durumda 720 sonuç olabilir.
 
-Sabit üst sınır → O(1)
-
----
-
-## Küçük İyileştirme (Python 3.8+)
-
-Daha hızlı bit sayımı:
-
-```python
-if (h.bit_count() + m.bit_count()) == turnedOn:
-```
-
-`bit_count()` doğrudan CPU seviyesinde çalışır.
-
+Sabit üst sınır → **O(1)**
