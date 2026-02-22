@@ -1,5 +1,10 @@
 # 868. Binary Gap
 
+**Difficulty:** Easy  
+**Link:** [LeetCode 868](https://leetcode.com/problems/binary-gap/description/)
+
+---
+
 ## Problem Özeti
 
 Bir pozitif integer `n` veriliyor.
