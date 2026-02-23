@@ -1,5 +1,10 @@
 # 1461. Check If a String Contains All Binary Codes of Size K
 
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/)
+
+---
+
 ## Problem
 Given a binary string `s` and an integer `k`, return `true` if **every binary code of length `k`** is a substring of `s`. Otherwise return `false`.
 
