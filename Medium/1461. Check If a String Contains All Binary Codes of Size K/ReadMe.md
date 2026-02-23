@@ -1,247 +1,110 @@
-# 868. Binary Gap
+# 1461. Check If a String Contains All Binary Codes of Size K
 
-## Problem Özeti
+## Problem
+Given a binary string `s` and an integer `k`, return `true` if **every binary code of length `k`** is a substring of `s`. Otherwise return `false`.
 
-Bir pozitif integer `n` veriliyor.
+A binary code of length `k` is any binary string of size `k` containing only `0` and `1`.
 
-Görevimiz:
+Example:
 
-Binary gösteriminde **iki adet `1` arasındaki en büyük mesafeyi** bulmak.
+Input  
+s = "00110110", k = 2  
 
-Mesafe:
+Output  
+true
 
-```
-iki 1'in index farkı
-```
+Explanation  
+Possible binary codes of length 2:  
+00, 01, 10, 11  
 
-Eğer yalnızca bir tane `1` varsa veya hiç aralık yoksa sonuç `0`.
-
----
-
-# Örnekler
-
-### Örnek 1
-
-```
-n = 22
-```
-
-Binary:
-
-```
-10110
-```
-
-1'lerin indexleri:
-
-```
-0, 2, 3
-```
-
-Mesafeler:
-
-```
-2 - 0 = 2
-3 - 2 = 1
-```
-
-Sonuç:
-
-```
-2
-```
+All of them appear in the string.
 
 ---
 
-### Örnek 2
+# Approach
 
-```
-n = 8
-```
+The key idea is to track all unique binary substrings of length `k`.
 
-Binary:
+Total possible binary codes of size `k`:
 
-```
-1000
-```
+2^k
 
-Sadece bir tane `1` var.
+If we manage to see all of them while scanning the string, we can immediately return `True`.
 
-Sonuç:
+Instead of extracting substrings every time (which is slower), we use a **rolling binary window**.
 
-```
-0
-```
+This works like a sliding window that keeps the last `k` bits as a number.
 
----
+Steps:
 
-# Çözüm Fikri
-
-1. Sayıyı binary string'e çevir.
-2. Son görülen `1` indexini tut.
-3. Yeni `1` gördüğünde farkı hesapla.
-4. Maksimumu güncelle.
+1. Calculate how many codes we need.
+2. Use a set to store seen codes.
+3. Build the current window using bit operations.
+4. Keep only the last `k` bits using a mask.
+5. Once the window size reaches `k`, store it.
+6. If the set size becomes `2^k`, return `True`.
 
 ---
 
-# Kod
+# Code
 
 ```python
 class Solution(object):
-    def binaryGap(self, n):
-        b = bin(n)[2:]   # binary string
-        last = -1
-        max_gap = 0
+    def hasAllCodes(self, s, k):
+        need = 1 << k
+        seen = set()
 
-        for i in range(len(b)):
-            if b[i] == '1':
-                if last != -1:
-                    max_gap = max(max_gap, i - last)
-                last = i
+        num = 0
+        mask = need - 1
 
-        return max_gap
+        for i in range(len(s)):
+            num = ((num << 1) & mask) | int(s[i])
+
+            if i >= k - 1:
+                seen.add(num)
+                if len(seen) == need:
+                    return True
+
+        return False
 ```
 
 ---
 
-# Kodun Adım Adım Çalışması
+# Example Walkthrough
 
-Örnek:
+Example:
 
-```
-n = 22
-```
+s = "00110110"  
+k = 2
 
-Binary:
+Binary codes of length 2:
 
-```
-10110
-```
+00  
+01  
+10  
+11  
 
-Başlangıç:
+While scanning the string we see:
 
-```
-last = -1
-max_gap = 0
-```
+00  
+01  
+11  
+10  
 
----
-
-### i = 0
-
-```
-1 bulundu
-```
-
-```
-last = 0
-```
+Once all four are discovered, we return `True`.
 
 ---
 
-### i = 1
+# Complexity Analysis
 
-```
-0 → geç
-```
+Time Complexity
 
----
+O(n)
 
-### i = 2
+We scan the string once.
 
-```
-1 bulundu
-```
+Space Complexity
 
-Mesafe:
+O(2^k)
 
-```
-2 - 0 = 2
-```
-
-```
-max_gap = 2
-last = 2
-```
-
----
-
-### i = 3
-
-```
-1 bulundu
-```
-
-Mesafe:
-
-```
-3 - 2 = 1
-```
-
-max değişmez.
-
----
-
-### i = 4
-
-```
-0 → geç
-```
-
----
-
-Sonuç:
-
-```
-2
-```
-
----
-
-# Zaman Karmaşıklığı
-
-Binary uzunluğu:
-
-```
-log₂(n)
-```
-
-Bu yüzden:
-
-```
-O(log n)
-```
-
----
-
-# Alan Karmaşıklığı
-
-Binary string oluşturulduğu için:
-
-```
-O(log n)
-```
-
----
-
-# Daha Optimal Bit Manipulation Versiyonu
-
-String oluşturmadan da yapılabilir:
-
-```python
-class Solution:
-    def binaryGap(self, n: int) -> int:
-        last = -1
-        ans = 0
-        i = 0
-
-        while n > 0:
-            if n & 1:
-                if last != -1:
-                    ans = max(ans, i - last)
-                last = i
-            n >>= 1
-            i += 1
-
-        return ans
-```
+In the worst case we store every possible binary code.
