@@ -141,31 +141,3 @@ Space Complexity:
 ```
 O(1)
 ```
-
-Sorting is in-place (ignoring internal sorting memory).
-
----
-
-# Key Insight
-
-Python allows multi-criteria sorting using tuple keys.
-
-Instead of writing a custom comparator, we use:
-
-```
-(number_of_1_bits, number)
-```
-
-This makes the solution:
-
-- Clean
-- Efficient
-- Very Pythonic
-
----
-
-If you want, we can next:
-
-- Rewrite it in a more interview-style explanation
-- Compare with a manual bit-count implementation
-- Or move to the next LeetCode problem 🚀
