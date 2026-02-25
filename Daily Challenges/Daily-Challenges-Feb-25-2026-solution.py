@@ -1,10 +1,10 @@
 # 1356. Sort Integers by The Number of 1 Bits
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)
+# **Difficulty:** Easy  
+# **Problem Link:** [LeetCode 1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1022. Sum of Root To Leaf Binary Numbers](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers)
+# [Github LeetCode 1356. Sort Integers by The Number of 1 Bits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits)
 
 class Solution(object):
     def sortByBits(self, arr):
