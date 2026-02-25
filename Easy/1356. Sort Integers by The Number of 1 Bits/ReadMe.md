@@ -1,5 +1,10 @@
 # 1356. Sort Integers by The Number of 1 Bits
 
+**Difficulty:** Easy  
+**Problem Link:** [LeetCode 1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)
+
+---
+
 ## Problem
 
 Given an integer array `arr`, sort the integers by:
