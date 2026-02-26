@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Problem Link:** [LeetCode 1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)
 
-# 1404. Number of Steps to Reduce a Number in Binary Representation to One
+---
 
 ## Problem Özeti
 
@@ -131,24 +131,3 @@ O(1)
 ```
 
 - Sadece sabit değişkenler kullanılır
-
----
-
-## Neden Bu Çözüm Güçlü?
-
-✔ Integer dönüşümü yok  
-✔ Binary aritmetik simülasyonu  
-✔ Carry mantığı net  
-✔ Optimal ve interview-ready  
-
----
-
-## Özet
-
-Bu çözüm:
-
-- Binary sayıyı gerçek anlamda **bit seviyesinde işler**
-- Sağdan sola ilerleyerek **doğru carry propagasyonu** yapar
-- En optimal çözüm yollarından biridir
-
-Hazırsan 👉 **bir sonraki soruya geçelim** 🚀
