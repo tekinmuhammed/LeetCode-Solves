@@ -1,10 +1,10 @@
 # 🔐 LeetCode 1404. Number of Steps to Reduce a Number in Binary Representation to One
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)
+# **Difficulty:** Medium  
+# **Problem Link:** [LeetCode 1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1356. Sort Integers by The Number of 1 Bits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits)
+# [Github LeetCode 1404. Number of Steps to Reduce a Number in Binary Representation to One](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One)
 
 class Solution(object):
     def numSteps(self, s):
