@@ -4,7 +4,7 @@
 # **Link:** [LeetCode 3666](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1404. Number of Steps to Reduce a Number in Binary Representation to One](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One)
+# [Github LeetCode 3666. Minimum Operations to Equalize Binary String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String)
 
 import math
 
