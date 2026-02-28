@@ -1,10 +1,10 @@
 # 1680. Concatenation of Consecutive Binary Numbers
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1680](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/description/)
+# **Difficulty:** Medium  
+# **Problem Link:** [LeetCode 1680](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3666. Minimum Operations to Equalize Binary String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String)
+# [Github LeetCode 1680. Concatenation of Consecutive Binary Numbers](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers)
 
 class Solution(object):
     def concatenatedBinary(self, n):
