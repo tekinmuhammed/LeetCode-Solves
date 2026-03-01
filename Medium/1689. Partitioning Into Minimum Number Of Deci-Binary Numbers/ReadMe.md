@@ -5,8 +5,6 @@
 
 ---
 
-# 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
-
 ## Problem Özeti
 
 Bir **decimal string** `n` veriliyor (örn: `"82734"`).
@@ -139,25 +137,3 @@ O(1)
 ```
 
 - Ekstra veri yapısı yok
-
----
-
-## Neden Bu Soru Güzel?
-
-- DP gibi görünüyor ama değil
-- Matematiksel gözlem gerektiriyor
-- Tek satırlık ama güçlü bir çözüm
-- Interview’da “aha!” anı yaratır
-
----
-
-## Özet
-
-Bu çözüm:
-
-✔ Basamak bazlı düşünür  
-✔ Gereksiz simülasyon yapmaz  
-✔ En optimal sonucu verir  
-✔ Kod olarak çok sade ama mantık olarak güçlüdür  
-
-Hazırsan 👉 **bir sonraki probleme geçelim** 🚀
