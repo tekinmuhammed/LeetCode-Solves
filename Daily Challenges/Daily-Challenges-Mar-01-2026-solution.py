@@ -1,6 +1,6 @@
 # 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 
-# **Difficulty:** Medium  
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1689](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/)
 
 # 🧠 Problem Description
