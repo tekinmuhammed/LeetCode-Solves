@@ -1,10 +1,10 @@
 # 1536. Minimum Swaps to Arrange a Binary Grid
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1536](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1536](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers)
+# [Github LeetCode 1536. Minimum Swaps to Arrange a Binary Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid)
 
 class Solution(object):
     def minSwaps(self, grid):
