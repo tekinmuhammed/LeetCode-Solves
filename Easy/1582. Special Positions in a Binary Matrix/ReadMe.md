@@ -1,7 +1,7 @@
 # 1582. Special Positions in a Binary Matrix
 
 **Difficulty:** Easy  
-**Problem Link:** [LeetCode 1582](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)
+**Problem Link:** [LeetCode 1582](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/)
 
 ---
 
@@ -96,4 +96,4 @@ class Solution(object):
 ---
 
 ## Tags
-Array, Matrix, Hash-Table, Pre-computation
+`Array`, `Matrix`, `Hash-Table`, `Pre-computation`
