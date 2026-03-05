@@ -1,7 +1,7 @@
 # 1758. Minimum Changes To Make Alternating Binary String
 
 **Difficulty:** Easy  
-**Problem Link:** [LeetCode 1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)
+**Problem Link:** [LeetCode 1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
 
 ---
 
