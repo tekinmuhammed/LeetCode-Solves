@@ -91,4 +91,4 @@ class Solution(object):
 ---
 
 ## Tags
-String, Greedy, Simulation
+`String`, `Greedy`, `Simulation`
