@@ -1,15 +1,15 @@
-# 1758. Minimum Changes To Make Alternating Binary String
+# 1758. Minimum Changes To Make Alternating Binary String 
 
-# **Difficulty:** Easy  
+# **Difficulty:** Easy 
 # **Problem Link:** [LeetCode 1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
 
-# 🧠 Problem Description
-# [Github LeetCode 1582. Special Positions in a Binary Matrix](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix)
+# 🧠 Problem Description 
+# [Github LeetCode 1582. Special Positions in a Binary Matrix](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1758.%20Minimum%20Changes%20To%20Make%20Alternating%20Binary%20String)
 
 class Solution(object):
     def minOperations(self, s):
-        change1 = 0  # pattern starting with '0' -> 010101...
-        change2 = 0  # pattern starting with '1' -> 101010...
+        change1 = 0  # pattern starting with '0' -> 010101... 
+        change2 = 0  # pattern starting with '1' -> 101010... 
         
         for i in range(len(s)):
             if i % 2 == 0:
