@@ -1,5 +1,8 @@
 # 1758. Minimum Changes To Make Alternating Binary String
 
+# 🧠 Problem Description
+# [Github LeetCode 1582. Special Positions in a Binary Matrix](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix)
+
 **Difficulty:** Easy  
 **Problem Link:** [LeetCode 1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/)
 class Solution(object):
