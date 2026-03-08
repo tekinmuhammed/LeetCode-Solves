@@ -1,7 +1,7 @@
 # 1980. Find Unique Binary String
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 1980](https://leetcode.com/problems/find-unique-binary-string/)
+**Problem Link:** [LeetCode 1980](https://leetcode.com/problems/find-unique-binary-string/description/)
 
 ---
 
@@ -20,8 +20,6 @@ This problem can be solved brilliantly using **Cantor's Diagonal Argument**. Ins
 2.  **Flipping the Bit:** - If `nums[i][i]` is `'0'`, we set our result's $i^{th}$ bit to `'1'`.
     - If `nums[i][i]` is `'1'`, we set our result's $i^{th}$ bit to `'0'`.
 3.  **Guaranteed Uniqueness:** By doing this, our constructed string is guaranteed to be different from the first string at index 0, different from the second string at index 1, and so on. Since it differs from every string in `nums` at at least one position, it cannot be in the list.
-
-
 
 ---
 
@@ -82,4 +80,4 @@ class Solution(object):
 ---
 
 ## Tags
-Array, String, Backtracking, Cantor's-Diagonalization, Math
+`Array`, `String`, `Backtracking`, `Cantor's-Diagonalization`, `Math`
