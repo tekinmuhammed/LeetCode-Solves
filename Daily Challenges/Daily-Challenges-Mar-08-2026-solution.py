@@ -1,10 +1,10 @@
 # 1980. Find Unique Binary String
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1980](https://leetcode.com/problems/find-unique-binary-string/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1980](https://leetcode.com/problems/find-unique-binary-string/description/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 1888. Minimum Number of Flips to Make the Binary String Alternating](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1888.%20Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating)
+# 🧠 Problem Description
+# [Github LeetCode 1980. Find Unique Binary String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1980.%20Find%20Unique%20Binary%20String)
 
 class Solution(object):
     def findDifferentBinaryString(self, nums):
