@@ -1,7 +1,7 @@
-a# 3129. Find All Possible Stable Binary Arrays I
+# 3129. Find All Possible Stable Binary Arrays I
 
-**Difficulty:** Medium/Hard  
-**Problem Link:** [LeetCode 3129](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3129](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/description/)
 
 ---
 
@@ -104,4 +104,4 @@ class Solution(object):
 ---
 
 ## Tags
-Dynamic-Programming, Combinatorics, Prefix-Sum-Optimization, Array
+`Dynamic-Programming`, `Combinatorics`, `Prefix-Sum-Optimization`, `Array`
