@@ -1,7 +1,7 @@
 # 3600. Maximize Spanning Tree Stability with Upgrades
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3600](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/)
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3600](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/)
 
 ---
 
@@ -151,4 +151,4 @@ class Solution:
 ---
 
 ## Tags
-Binary-Search, Greedy, DSU, MST, Graph-Theory, Spanning-Tree
+`Binary-Search`, `Greedy`, `DSU`, `MST`, `Graph-Theory`, `Spanning-Tree`
