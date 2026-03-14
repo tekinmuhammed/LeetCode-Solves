@@ -1,7 +1,7 @@
 # 1415. The k-th Lexicographical String of All Happy Strings of Length n
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1415](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1415](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/)
 
 ---
 
@@ -98,4 +98,4 @@ class Solution(object):
 ---
 
 ## Tags
-Backtracking, DFS, String, Lexicographical-Order
+`Backtracking`, `DFS`, `String`, `Lexicographical-Order`
