@@ -1,11 +1,11 @@
-# 1622. Fancy Sequence
+# 1622. Fancy Sequence 
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 1622](https://leetcode.com/problems/fancy-sequence/)
+**Difficulty:** Hard   
+**Problem Link:** [LeetCode 1622](https://leetcode.com/problems/fancy-sequence/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 Implement the `Fancy` class:
 - `Fancy()`: Initializes the object with an empty sequence.
@@ -16,11 +16,11 @@ Implement the `Fancy` class:
 
 ---
 
-## Approach: Mathematical Transformation (Lazy Updates)
+## Approach: Mathematical Transformation (Lazy Updates) 
 
 Updating every element in a list during `addAll` or `multAll` would lead to $O(N)$ time complexity per operation, which is too slow ($O(Q \times N)$ total). Instead, we use a **linear transformation** approach: $y = (a \cdot x) + b$.
 
-### Key Ideas:
+### Key Ideas: 
 1.  **Global Trackers:** We maintain two variables, `mul` ($a$) and `add` ($b$), which represent the cumulative transformations applied to the sequence.
 2.  **Reverse Engineering on Append:** When a new value $v$ is appended, we don't store $v$ directly. Instead, we store a value $x$ such that when the current $a$ and $b$ are applied, it results in $v$:
     $$v \equiv (a \cdot x + b) \pmod M$$
@@ -36,7 +36,7 @@ Updating every element in a list during `addAll` or `multAll` would lead to $O(N
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Fancy(object):
@@ -73,9 +73,9 @@ class Fancy(object):
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
-* **Time Complexity:**
+* **Time Complexity:** 
     - `append`: $O(\log M)$ due to the `pow()` function for modular inverse.
     - `addAll`: $O(1)$.
     - `multAll`: $O(1)$.
@@ -85,5 +85,5 @@ class Fancy(object):
 
 ---
 
-## Tags
-Math, Design, Modular-Arithmetic, Fermat's-Little-Theorem, Data-Structures
+## Tags 
+`Math`, `Design`, `Modular-Arithmetic`, `Fermat's-Little-Theorem`, `Data-Structures`
