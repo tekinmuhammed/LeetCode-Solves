@@ -1,10 +1,10 @@
 # 1622. Fancy Sequence
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 1622](https://leetcode.com/problems/fancy-sequence/)
-  
-# 🧠 Problem Description  
-# [Github LeetCode 3296. Minimum Number of Seconds to Make Mountain Height Zero](1415. The k-th Lexicographical String of All Happy Strings of Length n)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 1622](https://leetcode.com/problems/fancy-sequence/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1622. Fancy Sequence](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1622.%20Fancy%20Sequence)
 
 class Fancy(object):
 
