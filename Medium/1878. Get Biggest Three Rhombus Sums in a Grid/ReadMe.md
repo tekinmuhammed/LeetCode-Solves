@@ -1,7 +1,7 @@
 # 1878. Get Biggest Three Rhombus Sums in a Grid
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 1878](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
+**Problem Link:** [LeetCode 1878](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/description/)
 
 ---
 
@@ -124,4 +124,4 @@ class Solution:
 ---
 
 ## Tags
-Matrix, Prefix-Sum, Geometry, Sorting, Grid-Traversal
+`Matrix`, `Prefix-Sum`, `Geometry`, `Sorting`, `Grid-Traversal`
