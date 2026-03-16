@@ -1,10 +1,10 @@
-# 1878. Get Biggest Three Rhombus Sums in a Grid
+# 1878. Get Biggest Three Rhombus Sums in a Grid 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1878](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 1878](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
 
-# 🧠 Problem Description
-# [Github LeetCode 1622. Fancy Sequence](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1622.%20Fancy%20Sequence)
+# 🧠 Problem Description 
+# [Github LeetCode 1878. Get Biggest Three Rhombus Sums in a Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1878.%20Get%20Biggest%20Three%20Rhombus%20Sums%20in%20a%20Grid)
 
 class Answer:
     def __init__(self):
@@ -40,7 +40,7 @@ class Solution:
         ans = Answer()
         for i in range(m):
             for j in range(n):
-                # a single cell is also a rhombus
+                # a single cell is also a rhombus 
                 ans.put(grid[i][j])
                 for k in range(i + 2, m, 2):
                     ux, uy = i, j
