@@ -1,11 +1,11 @@
-# 1727. Largest Submatrix With Rearrangements  
- 
-# **Difficulty:** Medium   
+# 1727. Largest Submatrix With Rearrangements
+
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1727](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/)
- 
-# 🧠 Problem Description  
+
+# 🧠 Problem Description
 # [Github LeetCode 1727. Largest Submatrix With Rearrangements](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1727.%20Largest%20Submatrix%20With%20Rearrangements)
- 
+
 class Solution(object):
     def largestSubmatrix(self, matrix):
         m, n = len(matrix), len(matrix[0])
