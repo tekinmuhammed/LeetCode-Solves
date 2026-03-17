@@ -1,7 +1,7 @@
 # 1727. Largest Submatrix With Rearrangements  
  
-**Difficulty:** Medium   
-**Problem Link:** [LeetCode 1727](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/)
+# **Difficulty:** Medium   
+# **Problem Link:** [LeetCode 1727](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/)
  
 # 🧠 Problem Description  
 # [Github LeetCode 1878. Get Biggest Three Rhombus Sums in a Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1727.%20Largest%20Submatrix%20With%20Rearrangements)
