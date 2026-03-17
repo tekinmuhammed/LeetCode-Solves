@@ -5,7 +5,7 @@
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given a binary matrix `matrix` of size $m \times n$. You are allowed to **rearrange the columns** of the matrix in any order.
 
@@ -17,7 +17,7 @@ Return the area of the **largest submatrix** within `matrix` where every element
 
 The core idea is to treat each row as the base of a potential rectangle. Since we can rearrange columns, we don't care about their original horizontal positions—only their heights.
 
-### Key Ideas:
+### Key Ideas: 
 1.  **Height Pre-calculation:** We iterate through the matrix from top to bottom. For each cell `(i, j)`, if `matrix[i][j] == 1`, we update its value to be the number of consecutive 1s ending at that cell (including itself).
     - If `matrix[i][j] == 1`, then `matrix[i][j] = matrix[i-1][j] + 1`.
     - This transforms each row into a representation of "column heights" available at that row.
@@ -31,7 +31,7 @@ The core idea is to treat each row as the base of a potential rectangle. Since w
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Solution(object):
@@ -66,16 +66,16 @@ class Solution(object):
 
 ---
 
-## Example Walkthrough
+## Example Walkthrough 
 
-**Input:**
+**Input:** 
 ```
 matrix = [[0,0,1],
           [1,1,1],
           [1,0,1]]
 ```
 
-1.  **Heights Calculation:**
+1.  **Heights Calculation:** 
     - Row 0: `[0, 0, 1]`
     - Row 1: `[1, 1, 2]` (1s added to Row 0)
     - Row 2: `[2, 0, 3]` (1s added to Row 1)
@@ -91,7 +91,7 @@ matrix = [[0,0,1],
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(m \cdot n \log n)$
     - We traverse the matrix to update heights: $O(m \cdot n)$.
@@ -102,4 +102,4 @@ matrix = [[0,0,1],
 ---
 
 ## Tags
-Matrix, Greedy, Sorting, Dynamic-Programming
+`Matrix`, `Greedy`, `Sorting`, `Dynamic-Programming`
