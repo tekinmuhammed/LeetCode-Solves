@@ -1,7 +1,7 @@
-# 3070. Count Submatrices with Top-Left Element and Sum Less Than k 
+# 3070. Count Submatrices with Top-Left Element and Sum Less Than k
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/description/)
 
 ---
 
@@ -96,4 +96,4 @@ class Solution(object):
 ---
 
 ## Tags
-Matrix, Prefix-Sum, Dynamic-Programming, Array
+`Matrix`, `Prefix-Sum`, `Dynamic-Programming`, `Array`
