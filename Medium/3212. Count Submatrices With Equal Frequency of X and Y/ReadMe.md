@@ -1,7 +1,7 @@
 # 3212. Count Submatrices With Equal Frequency of X and Y
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 3212](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)
+**Problem Link:** [LeetCode 3212](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/)
 
 ---
 
@@ -109,4 +109,4 @@ grid = [["X","Y","."],
 ---
 
 ## Tags
-Matrix, Prefix-Sum, String, Counting, Array
+`Matrix`, `Prefix-Sum`, `String`, `Counting`, `Array`
