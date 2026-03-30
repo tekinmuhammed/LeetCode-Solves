@@ -1,7 +1,7 @@
-# 2840. Check if Strings Can be Made Equal With Operations II
-
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2840](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/)
+# 2840. Check if Strings Can be Made Equal With Operations II 
+ 
+**Difficulty:** Medium   
+**Problem Link:** [LeetCode 2840](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)
 
 ---
 
@@ -80,4 +80,4 @@ class Solution(object):
 ---
 
 ## Tags
-String, Sorting, Slicing, Parity, Multiset
+`String`, `Sorting`, `Slicing`, `Parity`, `Multiset`
