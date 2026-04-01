@@ -1,10 +1,10 @@
 # 2751. Robot Collisions
 
-**Difficulty:** Hard
-**Problem Link:** [LeetCode 2751](https://leetcode.com/problems/robot-collisions/)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 2751](https://leetcode.com/problems/robot-collisions/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3474. Lexicographically Smallest Generated String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2751.%20Robot%20Collisions) 
+# [Github LeetCode 2751. Robot Collisions](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2751.%20Robot%20Collisions) 
 
 class Solution:
     def survivedRobotsHealths(
