@@ -1,7 +1,7 @@
 # 2751. Robot Collisions
 
 **Difficulty:** Hard  
-**Problem Link:** [LeetCode 2751](https://leetcode.com/problems/robot-collisions/)
+**Problem Link:** [LeetCode 2751](https://leetcode.com/problems/robot-collisions/description/)
 
 ---
 
@@ -109,4 +109,4 @@ class Solution:
 ---
 
 ## Tags
-Stack, Simulation, Sorting, Array
+`Stack`, `Simulation`, `Sorting`, `Array`
