@@ -3,17 +3,17 @@
 # **Difficulty:** Medium
 # **Problem Link:** [LeetCode 3418](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)
  
-# 🧠 Problem Description 
-# [Github LeetCode 2751. Robot Collisions](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2751.%20Robot%20Collisions) 
+# 🧠 Problem Description
+# [Github LeetCode 3418. Maximum Amount of Money Robot Can Earn](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn) 
 
 class Solution(object):
     def maximumAmount(self, coins):
         m, n = len(coins), len(coins[0])
         
-        # dp[i][j][k]: max coins at (i,j) using k neutralizations
+        # dp[i][j][k]: max coins at (i,j) using k neutralizations 
         dp = [[[-float('inf')] * 3 for _ in range(n)] for _ in range(m)]
         
-        # start
+        # start 
         for k in range(3):
             if coins[0][0] < 0 and k > 0:
                 dp[0][0][k] = 0
@@ -28,21 +28,21 @@ class Solution(object):
                 for k in range(3):
                     val = coins[i][j]
                     
-                    # from top
+                    # from top 
                     if i > 0:
-                        # normal take
+                        # normal take 
                         dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k] + val)
                         
-                        # neutralize 
+                        # neutralize  
                         if val < 0 and k > 0:
                             dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k-1])
                     
-                    # from left 
+                    # from left  
                     if j > 0:
-                        # normal take 
+                        # normal take  
                         dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k] + val)
                         
-                        # neutralize 
+                        # neutralize  
                         if val < 0 and k > 0:
                             dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k-1])
         
