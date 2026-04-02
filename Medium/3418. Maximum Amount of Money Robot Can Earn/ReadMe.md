@@ -1,12 +1,12 @@
-# 3418. Maximum Amount of Money Robot Can Earn 
- 
-**Difficulty:** Medium   
-**Problem Link:** [LeetCode 3418](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)
- 
+# 3418. Maximum Amount of Money Robot Can Earn
+
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 3418](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/description/)
+
 ---
- 
-## Problem Description 
- 
+
+## Problem Description
+
 You are given an $m \times n$ grid `coins`. A robot starts at the top-left corner `(0, 0)` and wants to reach the bottom-right corner `(m-1, n-1)`. The robot can only move **right** or **down**.
  
 Each cell contains a value:
@@ -85,7 +85,7 @@ class Solution(object):
 
 ---
 
-## Example Walkthrough
+## Example Walkthrough 
 
 **Input:** `coins = [[0,1,-1],[1,-2,3],[2,-3,4]]`
 
@@ -97,7 +97,7 @@ class Solution(object):
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(m \times n \times 3) \approx O(m \times n)$
     - We iterate through each cell once, and for each cell, we perform a constant number of operations (checking 3 states).
