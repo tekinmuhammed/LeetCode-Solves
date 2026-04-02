@@ -1,16 +1,19 @@
-# 3418. Maximum Amount of Money Robot Can Earn
+# 3418. Maximum Amount of Money Robot Can Earn 
 
-**Difficulty:** Medium  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 3418](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)
+
+# 🧠 Problem Description
+# [Github LeetCode 2751. Robot Collisions](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2751.%20Robot%20Collisions) 
 
 class Solution(object):
     def maximumAmount(self, coins):
         m, n = len(coins), len(coins[0])
         
-        # dp[i][j][k]: max coins at (i,j) using k neutralizations
+        # dp[i][j][k]: max coins at (i,j) using k neutralizations 
         dp = [[[-float('inf')] * 3 for _ in range(n)] for _ in range(m)]
         
-        # start
+        # start 
         for k in range(3):
             if coins[0][0] < 0 and k > 0:
                 dp[0][0][k] = 0
@@ -25,9 +28,9 @@ class Solution(object):
                 for k in range(3):
                     val = coins[i][j]
                     
-                    # from top
+                    # from top 
                     if i > 0:
-                        # normal take
+                        # normal take 
                         dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k] + val)
                         
                         # neutralize
