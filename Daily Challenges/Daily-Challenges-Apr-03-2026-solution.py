@@ -1,9 +1,9 @@
-# 3661. Maximum Walls Destroyed by Robots
+# 3661. Maximum Walls Destroyed by Robots 
 
-# **Difficulty:** Hard
+# **Difficulty:** Hard 
 # **Problem Link:** [LeetCode 3661](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description/)
  
-# 🧠 Problem Description
+# 🧠 Problem Description 
 # [Github LeetCode 3661. Maximum Walls Destroyed by Robots](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3661.%20Maximum%20Walls%20Destroyed%20by%20Robots) 
 
 class Solution:
@@ -66,3 +66,4 @@ class Solution:
             sub_left, sub_right = current_left, current_right
 
         return max(sub_left, sub_right)
+    
