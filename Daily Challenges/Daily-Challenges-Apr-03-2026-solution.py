@@ -1,10 +1,10 @@
 # 3661. Maximum Walls Destroyed by Robots
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3661](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description/)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3661](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description/)
  
 # 🧠 Problem Description
-# [Github LeetCode 3418. Maximum Amount of Money Robot Can Earn](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn) 
+# [Github LeetCode 3661. Maximum Walls Destroyed by Robots](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3661.%20Maximum%20Walls%20Destroyed%20by%20Robots) 
 
 class Solution:
     def maxWalls(
