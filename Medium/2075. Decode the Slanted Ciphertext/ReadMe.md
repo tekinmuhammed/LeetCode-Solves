@@ -1,11 +1,11 @@
-# 2075. Decode the Slanted Ciphertext 
+# 2075. Decode the Slanted Ciphertext
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2075](https://leetcode.com/problems/decode-the-slanted-ciphertext/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 2075](https://leetcode.com/problems/decode-the-slanted-ciphertext/description/)
 
 ---
 
-## Problem Description 
+## Problem Description
 
 A string `originalText` was encoded into a slanted cipher matrix with a specified number of `rows`. The matrix is filled row by row, and the original message is then read **diagonally** starting from the top-left.
 
@@ -99,4 +99,4 @@ class Solution(object):
 ---
 
 ## Tags
-String, Matrix, Simulation, Diagonal-Traversal
+`String`, `Matrix`, `Simulation`, `Diagonal-Traversal`
