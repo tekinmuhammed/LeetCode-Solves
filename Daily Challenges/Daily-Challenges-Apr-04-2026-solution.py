@@ -1,10 +1,10 @@
- # 2075. Decode the Slanted Ciphertext 
+# 2075. Decode the Slanted Ciphertext 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2075](https://leetcode.com/problems/decode-the-slanted-ciphertext/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 2075](https://leetcode.com/problems/decode-the-slanted-ciphertext/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3661. Maximum Walls Destroyed by Robots](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3661.%20Maximum%20Walls%20Destroyed%20by%20Robots) 
+# 🧠 Problem Description
+# [Github LeetCode 2075. Decode the Slanted Ciphertext](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2075.%20Decode%20the%20Slanted%20Ciphertext) 
 
 class Solution(object):
     def decodeCiphertext(self, encodedText, rows):
