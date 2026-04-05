@@ -1,7 +1,7 @@
 # 657. Robot Return to Origin
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 657](https://leetcode.com/problems/robot-return-to-origin/)
+**Difficulty:** Easy 
+**Problem Link:** [LeetCode 657](https://leetcode.com/problems/robot-return-to-origin/description/)
 
 ---
 
@@ -94,4 +94,4 @@ class Solution(object):
 ---
 
 ## Tags
-String, Simulation, Coordinate-System
+`String`, `Simulation`, `Coordinate-System`
