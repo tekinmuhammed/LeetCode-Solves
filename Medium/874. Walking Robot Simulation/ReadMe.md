@@ -1,7 +1,7 @@
 # 874. Walking Robot Simulation
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 874](https://leetcode.com/problems/walking-robot-simulation/)
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 874](https://leetcode.com/problems/walking-robot-simulation/description/)
 
 ---
 
@@ -107,4 +107,4 @@ class Solution:
 ---
 
 ## Tags
-Simulation, Hash-Set, Array, Math, Coordinate-System
+`Simulation`, `Hash-Set`, `Array`, `Math`, `Coordinate-System`
