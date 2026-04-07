@@ -1,3 +1,11 @@
+# 2069. Walking Robot Simulation II
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 2069](https://leetcode.com/problems/walking-robot-simulation-ii/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 2069. Walking Robot Simulation II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2069.%20Walking%20Robot%20Simulation%20II) 
+
 class Robot:
 
     TO_DIR = {
@@ -41,11 +49,3 @@ class Robot:
         if not self.moved:
             return "East"
         return Robot.TO_DIR[self.dirs[self.idx]]
-    # 2069. Walking Robot Simulation II
-
-**Difficulty:** Medium 
-**Problem Link:** [LeetCode 2069](https://leetcode.com/problems/walking-robot-simulation-ii/description/)
-
-
-# 🧠 Problem Description
-# [Github LeetCode 874. Walking Robot Simulation](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/874.%20Walking%20Robot%20Simulation) 
