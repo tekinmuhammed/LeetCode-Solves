@@ -1,7 +1,7 @@
 # 2069. Walking Robot Simulation II
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2069](https://leetcode.com/problems/walking-robot-simulation-ii/)
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 2069](https://leetcode.com/problems/walking-robot-simulation-ii/description/)
 
 ---
 
@@ -118,4 +118,4 @@ class Robot:
 ---
 
 ## Tags
-Design, Simulation, Matrix, Math, Modulo-Arithmetic
+`Design`, `Simulation`, `Matrix`, `Math`, `Modulo-Arithmetic`
