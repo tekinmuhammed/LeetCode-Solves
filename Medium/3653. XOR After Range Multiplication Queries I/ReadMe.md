@@ -1,7 +1,7 @@
 # 3653. XOR After Range Multiplication Queries I
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3653](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 3653](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/)
 
 ---
 
@@ -89,4 +89,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Simulation, Bit-Manipulation, XOR, Modulo-Arithmetic
+`Array`, `Simulation`, `Bit-Manipulation`, `XOR`, `Modulo-Arithmetic`
