@@ -1,7 +1,7 @@
 # 3655. XOR After Range Multiplication Queries II
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3655](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/)
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3655](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description/)
 
 ---
 
@@ -108,4 +108,4 @@ Assume $n=6, k=2$ and query is $l=0, r=4, v=3$.
 ---
 
 ## Tags
-Square-Root-Decomposition, Difference-Array, Modular-Inverse, Math, XOR
+`Square-Root-Decomposition`, `Difference-Array`, `Modular-Inverse`, `Math`, `XOR`
