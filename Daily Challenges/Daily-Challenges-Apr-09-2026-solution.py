@@ -1,6 +1,10 @@
+# 3655. XOR After Range Multiplication Queries II
+
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3655](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3653. XOR After Range Multiplication Queries I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I) 
+# [Github LeetCode 3655. XOR After Range Multiplication Queries II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II) 
 
 class Solution:
     def xorAfterQueries(self, nums: List[int], queries: List[List[int]]) -> int:
