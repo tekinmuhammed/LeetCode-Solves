@@ -1,7 +1,7 @@
 # 3740. Minimum Distance Between Three Equal Elements I
 
-**Difficulty:** Easy/Medium  
-**Problem Link:** [LeetCode 3740](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 3740](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)
 
 ---
 
@@ -88,4 +88,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Brute-Force, Optimization, Math
+`Array`, `Brute-Force`, `Optimization`, `Math`
