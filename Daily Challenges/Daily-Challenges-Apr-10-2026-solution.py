@@ -1,3 +1,11 @@
+# 3740. Minimum Distance Between Three Equal Elements I
+
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 3740](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 3740. Minimum Distance Between Three Equal Elements I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I) 
+
 class Solution:
     def minimumDistance(self, nums: List[int]) -> int:
         n = len(nums)
