@@ -1,6 +1,6 @@
 # 3741. Minimum Distance Between Three Equal Elements II
 
-**Difficulty:** Medium
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)
 
 ---
@@ -25,7 +25,7 @@ To solve this in linear time, we observe that for any given value, the minimum d
 1.  **Consecutive Triplet Insight:** If we have indices $pos_1 < pos_2 < pos_3 < pos_4$ with the same value, the distance of $(pos_1, pos_2, pos_4)$ is $2(pos_4 - pos_1)$, which is guaranteed to be larger than the distance of $(pos_1, pos_2, pos_3)$ or $(pos_2, pos_3, pos_4)$. Thus, we only need to check triplets of consecutive occurrences.
 2.  **Next-Pointer Array (`nxt`):** We build an array where `nxt[i]` stores the index of the *very next* occurrence of the value `nums[i]`. 
 3.  **Hash Map for Tracking:** A hash map `occur` is used during a backward pass to keep track of the last seen index for each value.
-4.  **Single Pass Minimization:** Once `nxt` is built, we iterate through the array once. For each index `i`, we look for `second_pos = nxt[i]` and `third_pos = nxt[second_pos]`. If both exist, we calculate the distance $2 \times (third\_pos - i)$ and update our minimum.
+4.  **Single Pass Minimization:** Once `nxt` is built, we iterate through the array once. For each index `i`, we look for `second_pos = nxt[i]` and `third_pos = nxt[second_pos]`. If both exist, we calculate the distance $2 \times (third\_pos - i)$ and update our minimum. 
 
 
 
@@ -41,28 +41,28 @@ class Solution:
         :rtype: int
         """
         n = len(nums)
-        # nxt[i] will store the index of the next occurrence of nums[i]
+        # nxt[i] will store the index of the next occurrence of nums[i] 
         nxt = [-1] * n
-        occur = {} # Value -> Last seen index
+        occur = {} # Value -> Last seen index 
         ans = n + 1
 
-        # Step 1: Backward pass to fill the nxt array
+        # Step 1: Backward pass to fill the nxt array 
         for i in range(n - 1, -1, -1):
             if nums[i] in occur:
                 nxt[i] = occur[nums[i]]
             occur[nums[i]] = i
 
-        # Step 2: Forward pass to check consecutive triplets
+        # Step 2: Forward pass to check consecutive triplets 
         for i in range(n):
             second_pos = nxt[i]
             if second_pos != -1:
-                # Find the third occurrence relative to the first
+                # Find the third occurrence relative to the first 
                 third_pos = nxt[second_pos]
                 if third_pos != -1:
-                    # distance = (j-i) + (k-j) + (k-i) = 2 * (k-i)
+                    # distance = (j-i) + (k-j) + (k-i) = 2 * (k-i) 
                     ans = min(ans, third_pos - i)
 
-        # ans * 2 gives the total pairwise absolute difference sum
+        # ans * 2 gives the total pairwise absolute difference sum 
         return -1 if ans == n + 1 else ans * 2
 ```
 
@@ -89,9 +89,9 @@ class Solution:
     - One backward pass to build the `nxt` array: $O(N)$.
     - One forward pass to find the minimum distance: $O(N)$.
 * **Space Complexity:** $O(N)$
-    - We use an array `nxt` of size $N$ and a hash map `occur` that can store up to $N$ unique values.
+    - We use an array `nxt` of size $N$ and a hash map `occur` that can store up to $N$ unique values. 
 
 ---
 
 ## Tags
-`Array`, `Hash-Table`, `Linear-Scan`, `Greedy`, `Optimization`
+`Array`, `Hash-Table`, `Linear-Scan`, `Greedy`, `Optimization` 
