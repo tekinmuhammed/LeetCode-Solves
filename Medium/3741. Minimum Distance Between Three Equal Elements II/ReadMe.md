@@ -1,7 +1,7 @@
 # 3741. Minimum Distance Between Three Equal Elements II
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/)
 
 ---
 
