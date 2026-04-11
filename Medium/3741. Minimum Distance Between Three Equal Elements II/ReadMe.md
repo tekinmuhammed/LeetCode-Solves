@@ -94,4 +94,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Hash-Table, Linear-Scan, Greedy, Optimization
+`Array`, `Hash-Table`, `Linear-Scan`, `Greedy`, `Optimization`
