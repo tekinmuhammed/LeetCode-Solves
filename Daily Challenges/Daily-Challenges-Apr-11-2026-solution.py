@@ -1,10 +1,10 @@
 # 3741. Minimum Distance Between Three Equal Elements II
 
-**Difficulty:** Medium 
-**Problem Link:** [LeetCode 3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 3740. Minimum Distance Between Three Equal Elements I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I) 
+# 🧠 Problem Description
+# [Github LeetCode 3741. Minimum Distance Between Three Equal Elements II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II) 
 
 class Solution:
     def minimumDistance(self, nums: List[int]) -> int:
@@ -26,4 +26,3 @@ class Solution:
                     ans = min(ans, third_pos - i)
 
         return -1 if ans == n + 1 else ans * 2
-
