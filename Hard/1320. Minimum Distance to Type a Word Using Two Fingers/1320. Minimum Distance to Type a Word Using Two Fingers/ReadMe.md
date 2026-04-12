@@ -31,7 +31,6 @@ The problem requires tracking the positions of both fingers to calculate the cos
 4.  **Base Case:** The first character can be reached by either finger with 0 cost.
 
 
-
 ---
 
 ## Code
