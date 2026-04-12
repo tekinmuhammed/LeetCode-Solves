@@ -1,11 +1,11 @@
 # 1320. Minimum Distance to Type a Word Using Two Fingers
 
-**Difficulty:** Hard
+**Difficulty:** Hard 
 **Problem Link:** [LeetCode 1320](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You have a keyboard layout where 26 uppercase English letters are arranged in a **6-column grid** (A-F in the first row, G-L in the second, and so on). 
 
@@ -80,45 +80,3 @@ class Solution:
         # Final answer is the minimum in the last DP state across all finger positions
         ans = min(min(dp[n - 1][x]) for x in range(26))
         return ans
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        asdjkhlasd
-        asdjşlsadjas
-
-
-        asdnjaslş
-asdkljsadf
-safjlasfkas
-sfalşfkas
-dfasfsa
-ifşjkas
-fksa
-fjk
-safjk
-sakf
-askf
-sakf
-isakf
-sakf
-sakf
-isaşkf
-isafk
-sakf
-isafk
-safk
-asifki
-safk
-isakf
-saikfiaskfia
