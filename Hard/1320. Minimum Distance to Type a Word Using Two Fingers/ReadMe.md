@@ -80,3 +80,45 @@ class Solution:
         # Final answer is the minimum in the last DP state across all finger positions
         ans = min(min(dp[n - 1][x]) for x in range(26))
         return ans
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        asdjkhlasd
+        asdjşlsadjas
+
+
+        asdnjaslş
+asdkljsadf
+safjlasfkas
+sfalşfkas
+dfasfsa
+ifşjkas
+fksa
+fjk
+safjk
+sakf
+askf
+sakf
+isakf
+sakf
+sakf
+isaşkf
+isafk
+sakf
+isafk
+safk
+asifki
+safk
+isakf
+saikfiaskfia
