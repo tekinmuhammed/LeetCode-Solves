@@ -1,7 +1,7 @@
 # 1848. Minimum Distance to the Target Element
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 1848](https://leetcode.com/problems/minimum-distance-to-the-target-element/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 1848](https://leetcode.com/problems/minimum-distance-to-the-target-element/description/)
 
 ---
 
