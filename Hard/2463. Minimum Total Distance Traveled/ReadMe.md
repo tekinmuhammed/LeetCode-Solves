@@ -1,7 +1,7 @@
 # 2463. Minimum Total Distance Traveled
 
 **Difficulty:** Hard  
-**Problem Link:** [LeetCode 2463](https://leetcode.com/problems/minimum-total-distance-traveled/)
+**Problem Link:** [LeetCode 2463](https://leetcode.com/problems/minimum-total-distance-traveled/description/)
 
 ---
 
@@ -17,22 +17,18 @@ Return the **minimum total distance** traveled by all robots to be repaired.
 
 ## Approach: Sorting + Memoization (Top-Down DP)
 
-The key observation is that if we sort both the robots and the factories, the optimal assignment will preserve the relative order. That is, if robot $A$ is to the left of robot $B$, robot $A$ will be repaired by a factory slot that is at the same position or to the left of robot $B$'s factory slot.
+The core insight for this problem is that if we sort both the robots and the factories, the optimal assignment will not result in any "crossings." This means the relative order of robots and the factory slots they use remains the same, allowing us to solve it using Dynamic Programming.
 
 ### Key Ideas:
-1.  **Sorting:** We sort both `robot` and `factory` by position to ensure the "no-crossing" optimal matching property.
-2.  **Factory Expansion:** To simplify the capacity constraint, we expand the `factory` array into a linear list of `factory_positions`, where each position appears as many times as its capacity.
-3.  **State Definition:** `dp[robot_idx][factory_idx]` represents the minimum distance to repair robots from `robot_idx` onwards using factory slots from `factory_idx` onwards.
+1.  **Sorting:** Sorting ensures that we can use a pointer-based matching strategy.
+2.  **Factory Expansion:** Since each factory has a capacity, we can "flatten" the factories into individual slots. For example, a factory at position 10 with capacity 2 becomes two distinct slots: `[10, 10]`.
+3.  **State Definition:** `dp[robot_idx][factory_idx]` represents the minimum distance to repair all robots starting from `robot_idx` using factory slots starting from `factory_idx`.
 4.  **Transitions:**
-    - **Assign:** Assign the current robot to the current factory slot: 
-      `dist(robot[i], factory[j]) + dp(i+1, j+1)`.
-    - **Skip:** Skip the current factory slot to potentially use a better one later: 
-      `dp(i, j+1)`.
+    - **Assign:** The current robot takes the current factory slot: `abs(robot[i] - factory[j]) + dp(i+1, j+1)`.
+    - **Skip:** The current robot skips the current factory slot to be assigned to a later one: `dp(i, j+1)`.
 5.  **Base Cases:**
-    - If all robots are repaired (`robot_idx == robot_count`), cost is `0`.
-    - If robots are left but no factory slots remain (`factory_idx == factory_count`), return a very large value (infinity).
-
-
+    - If all robots are assigned (`robot_idx == len(robot)`), cost is 0.
+    - If robots remain but no factory slots are left (`factory_idx == len(factory_slots)`), we return a value representing infinity.
 
 ---
 
@@ -42,7 +38,7 @@ The key observation is that if we sort both the robots and the factories, the op
 import sys
 
 # Increase recursion depth for deep DP trees
-sys.setrecursionlimit(2000)
+sys.setrecursionlimit(10000)
 
 class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:
@@ -51,11 +47,11 @@ class Solution:
         :type factory: List[List[int]]
         :rtype: int
         """
-        # Step 1: Sort positions to ensure optimal ordering
+        # Step 1: Sorting ensures the no-crossing property for optimal matching
         robot.sort()
         factory.sort(key=lambda x: x[0])
         
-        # Step 2: Expand factory capacities into individual slots
+        # Step 2: Expand factory capacities into a flat list of positions
         factory_positions = []
         for pos, cap in factory:
             factory_positions.extend([pos] * cap)
@@ -63,16 +59,16 @@ class Solution:
         robot_count = len(robot)
         factory_count = len(factory_positions)
 
-        # Step 3: Initialize DP table for memoization
+        # Step 3: Memoization table
         dp = [[None] * (factory_count + 1) for _ in range(robot_count + 1)]
 
         def _calculate_min_distance(robot_idx, factory_idx):
-            # Base Case: All robots repaired
+            # Base Case: All robots have been assigned
             if robot_idx == robot_count:
                 return 0
-            # Base Case: Out of factory slots
+            # Base Case: No more factory slots available
             if factory_idx == factory_count:
-                return int(1e15) # Use a safe infinity
+                return float('inf')
             
             if dp[robot_idx][factory_idx] is not None:
                 return dp[robot_idx][factory_idx]
@@ -84,8 +80,24 @@ class Solution:
             # Option 2: Skip current factory slot
             skip = _calculate_min_distance(robot_idx, factory_idx + 1)
 
-            # Memoize and return the minimum of two choices
+            # Memoize and return the minimum of the two choices
             dp[robot_idx][factory_idx] = min(assign, skip)
             return dp[robot_idx][factory_idx]
 
         return _calculate_min_distance(0, 0)
+```
+
+---
+
+## Complexity Analysis
+
+* **Time Complexity:** $O(R \times F)$
+    - $R$ is the number of robots and $F$ is the total capacity across all factories.
+    - We compute each state in the $R \times F$ DP table once.
+* **Space Complexity:** $O(R \times F)$
+    - To store the memoization table and the recursion stack.
+
+---
+
+## Tags
+`Dynamic-Programming`, `Memoization`, `Sorting`, `Greedy-Property`, `Matrix`
