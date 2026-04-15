@@ -1,7 +1,7 @@
 # 2515. Shortest Distance to Target String in a Circular Array
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 2515](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 2515](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/)
 
 ---
 
@@ -86,4 +86,4 @@ class Solution:
 ---
 
 ## Tags
-Array, String, Circular-Array, Linear-Scan, Math
+`Array`, `String`, `Circular-Array`, `Linear-Scan`, `Math`
