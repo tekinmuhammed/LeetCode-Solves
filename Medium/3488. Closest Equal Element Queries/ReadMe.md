@@ -1,7 +1,7 @@
 # 3488. Closest Equal Element Queries
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3488](https://leetcode.com/problems/closest-equal-element-queries/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3488](https://leetcode.com/problems/closest-equal-element-queries/description/)
 
 ---
 
@@ -107,4 +107,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Hash-Table, Binary-Search, Circular-Array, Pre-computation
+`Array`, `Hash-Table`, `Binary-Search`, `Circular-Array`, `Pre-computation`
