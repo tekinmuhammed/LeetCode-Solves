@@ -1,7 +1,34 @@
 # 3488. Closest Equal Element Queries
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 3488](https://leetcode.com/problems/closest-equal-element-queries/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3488](https://leetcode.com/problems/closest-equal-element-queries/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2515. Shortest Distance to Target String in a Circular Array](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array) 
+# [Github LeetCode 3488. Closest Equal Element Queries](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3488.%20Closest%20Equal%20Element%20Queries) 
+
+class Solution:
+    def solveQueries(self, nums: List[int], queries: List[int]) -> List[int]:
+        n = len(nums)
+        nums_pos = defaultdict(list)
+
+        for i in range(n):
+            nums_pos[nums[i]].append(i)
+
+        for pos in nums_pos.values():
+            x = pos[0]
+            pos.insert(0, pos[-1] - n)
+            pos.append(x + n)
+
+        for i in range(len(queries)):
+            x = nums[queries[i]]
+            pos_list = nums_pos[x]
+            if len(pos_list) == 3:
+                queries[i] = -1
+                continue
+            pos = bisect.bisect_left(pos_list, queries[i])
+            queries[i] = min(
+                pos_list[pos + 1] - pos_list[pos],
+                pos_list[pos] - pos_list[pos - 1],
+            )
+
+        return queries
