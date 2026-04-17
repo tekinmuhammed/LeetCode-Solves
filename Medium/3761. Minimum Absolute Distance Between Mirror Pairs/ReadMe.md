@@ -1,11 +1,11 @@
 # 3761. Minimum Absolute Distance Between Mirror Pairs
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3761](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3761](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given an array of integers `nums`. A **mirror pair** is defined as two indices $(i, j)$ such that $i \neq j$ and `nums[i]` is the **mirror** of `nums[j]`. A mirror of a number is obtained by reversing its digits (e.g., the mirror of 123 is 321, and the mirror of 10 is 1).
 
@@ -13,7 +13,7 @@ Your goal is to find the **minimum absolute distance** $|i - j|$ between any mir
 
 ---
 
-## Approach: One-Pass Hash Map (Reverse-Storage)
+## Approach: One-Pass Hash Map (Reverse-Storage) 
 
 To find the minimum distance efficiently, we can use a hash map to store the indices of numbers we have already seen. However, instead of storing the number itself, we store its **mirror** to facilitate an immediate match when we encounter the counterpart.
 
@@ -78,4 +78,4 @@ class Solution:
 ---
 
 ## Tags
-Hash-Table, String, Math, Array, Minimum-Distance
+`Hash-Table`, `String`, `Math`, `Array`, `Minimum-Distance`
