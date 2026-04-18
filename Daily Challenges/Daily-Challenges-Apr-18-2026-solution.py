@@ -1,6 +1,10 @@
+# 3783. Mirror Distance of an Integer
+
+# **Difficulty:** Easy 
+# **Problem Link:** [LeetCode 3783](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3761. Minimum Absolute Distance Between Mirror Pairs](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs) 
+# [Github LeetCode 3783. Mirror Distance of an Integer](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3783.%20Mirror%20Distance%20of%20an%20Integer) 
 
 class Solution:
     def reverse(self, n: int) -> int:
