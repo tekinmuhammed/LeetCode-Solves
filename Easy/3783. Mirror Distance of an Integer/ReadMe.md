@@ -1,7 +1,7 @@
 # 3783. Mirror Distance of an Integer
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 3783](https://leetcode.com/problems/mirror-distance-of-an-integer/)
+**Difficulty:** Easy 
+**Problem Link:** [LeetCode 3783](https://leetcode.com/problems/mirror-distance-of-an-integer/description/)
 
 ---
 
@@ -79,4 +79,4 @@ class Solution:
 ---
 
 ## Tags
-Math, Logic, Easy-Logic, Reversal
+`Math`, `Logic`, `Easy-Logic`, `Reversal`
