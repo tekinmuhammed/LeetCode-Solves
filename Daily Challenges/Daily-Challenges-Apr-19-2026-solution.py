@@ -1,10 +1,10 @@
 # 1855. Maximum Distance Between a Pair of Values
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1855](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1855](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/
 
 # 🧠 Problem Description
-# [Github LeetCode 3783. Mirror Distance of an Integer](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3783.%20Mirror%20Distance%20of%20an%20Integer) 
+# [Github LeetCode 3783. Mirror Distance of an Integer](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1855.%20Maximum%20Distance%20Between%20a%20Pair%20of%20Values) 
 
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
