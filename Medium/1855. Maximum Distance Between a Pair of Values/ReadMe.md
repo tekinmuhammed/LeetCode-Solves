@@ -1,8 +1,7 @@
 # 1855. Maximum Distance Between a Pair of Values
 
 **Difficulty:** Medium  
-**Problem Link:** [LeetCode 1855](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)
-
+**Problem Link:** [LeetCode 1855](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/
 ---
 
 ## Problem Description
@@ -91,4 +90,4 @@ class Solution:
 ---
 
 ## Tags
-Two-Pointers, Array, Binary-Search, Greedy
+`Two-Pointers`, `Array`, `Binary-Search`, `Greedy`
