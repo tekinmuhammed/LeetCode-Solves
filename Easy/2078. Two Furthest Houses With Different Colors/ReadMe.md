@@ -1,7 +1,7 @@
 # 2078. Two Furthest Houses With Different Colors
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 2078](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 2078](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/)
 
 ---
 
@@ -76,4 +76,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Greedy, Brute-Force, Enumeration
+`Array`, `Greedy`, `Brute-Force`, `Enumeration`
