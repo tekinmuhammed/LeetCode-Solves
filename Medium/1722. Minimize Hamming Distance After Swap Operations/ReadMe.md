@@ -1,7 +1,7 @@
 # 1722. Minimize Hamming Distance After Swap Operations
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1722](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1722](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
 
 ---
 
@@ -110,4 +110,4 @@ class Solution:
 ---
 
 ## Tags
-Union-Find, Hash-Table, Greedy, Graph, Permutation
+`Union-Find`, `Hash-Table`, `Greedy`, `Graph`, `Permutation`
