@@ -1,7 +1,55 @@
 # 1722. Minimize Hamming Distance After Swap Operations
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 1722](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1722](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2078. Two Furthest Houses With Different Colors](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors) 
+# [Github LeetCode 1722. Minimize Hamming Distance After Swap Operations](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1722.%20Minimize%20Hamming%20Distance%20After%20Swap%20Operations) 
+
+class UnionFind:
+    def __init__(self, n):
+        self.fa = list(range(n))
+        self.rank = [0] * n
+
+    def find(self, x):
+        if self.fa[x] != x:
+            self.fa[x] = self.find(self.fa[x])
+        return self.fa[x]
+
+    def union(self, x, y):
+        x = self.find(x)
+        y = self.find(y)
+        if x == y:
+            return
+        if self.rank[x] < self.rank[y]:
+            x, y = y, x
+        self.fa[y] = x
+        if self.rank[x] == self.rank[y]:
+            self.rank[x] += 1
+
+
+class Solution:
+    def minimumHammingDistance(
+        self,
+        source: List[int],
+        target: List[int],
+        allowedSwaps: List[List[int]],
+    ) -> int:
+        n = len(source)
+        uf = UnionFind(n)
+        for a, b in allowedSwaps:
+            uf.union(a, b)
+
+        sets = defaultdict(lambda: defaultdict(int))
+        for i in range(n):
+            f = uf.find(i)
+            sets[f][source[i]] += 1
+
+        ans = 0
+        for i in range(n):
+            f = uf.find(i)
+            if sets[f][target[i]] > 0:
+                sets[f][target[i]] -= 1
+            else:
+                ans += 1
+        return ans
