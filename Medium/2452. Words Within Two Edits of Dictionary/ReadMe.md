@@ -1,7 +1,7 @@
 # 2452. Words Within Two Edits of Dictionary
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2452](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 2452](https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/)
 
 ---
 
@@ -92,4 +92,4 @@ class Solution:
 ---
 
 ## Tags
-String, Array, Enumeration, Brute-Force, Hamming-Distance
+`String`, `Array`, `Enumeration`, `Brute-Force`, `Hamming-Distance`
