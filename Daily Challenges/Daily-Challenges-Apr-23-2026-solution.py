@@ -1,3 +1,11 @@
+# 2615. Sum of Distances
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 2615](https://leetcode.com/problems/sum-of-distances/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 2615. Sum of Distances](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2615.%20Sum%20of%20Distances) 
+
 class Solution:
     def distance(self, nums: list[int]) -> list[int]:
         n = len(nums)
