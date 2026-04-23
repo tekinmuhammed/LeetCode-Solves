@@ -1,11 +1,11 @@
 # 2615. Sum of Distances
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2615](https://leetcode.com/problems/sum-of-distances/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 2615](https://leetcode.com/problems/sum-of-distances/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given a 0-indexed integer array `nums`. There is a new array `arr` of the same length where `arr[i]` is the sum of $|i - j|$ for all $j$ such that `nums[i] == nums[j]` and $i \neq j$.
 
@@ -94,4 +94,4 @@ class Solution:
 ---
 
 ## Tags
-Array, Hash-Table, Prefix-Sum, Math, Medium-Logic
+`Array`, `Hash-Table`, `Prefix-Sum`, `Math`, `Medium-Logic`
