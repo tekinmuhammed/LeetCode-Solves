@@ -1,11 +1,11 @@
-# 2833. Furthest Point From Origin
+# 2833. Furthest Point From Origin 
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 2833](https://leetcode.com/problems/furthest-point-from-origin/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 2833](https://leetcode.com/problems/furthest-point-from-origin/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given a string `moves` of length `n` consisting only of characters `'L'`, `'R'`, and `'_'`. The string represents a series of moves on a number line, where the robot starts at the origin `0`.
 - `'L'` means move one unit to the left.
@@ -71,4 +71,4 @@ class Solution:
 ---
 
 ## Tags
-String, Greedy, Math, Enumeration
+`String`, `Greedy`, `Math`, `Enumeration`
