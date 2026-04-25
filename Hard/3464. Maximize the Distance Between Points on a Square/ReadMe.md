@@ -1,11 +1,11 @@
 # 3464. Maximize the Distance Between Points on a Square
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3464](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/)
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3464](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given an integer `side` representing the length of the side of a square with corners at `(0,0)`, `(0, side)`, `(side, side)`, and `(side, 0)`. You are also given a 2D integer array `points` where each `points[i] = [x, y]` represents a point on the **boundary** of the square, and an integer `k`.
 
@@ -15,7 +15,7 @@ Return the maximum possible minimum distance.
 
 ---
 
-## Approach: Linearization + Binary Search on Answer
+## Approach: Linearization + Binary Search on Answer 
 
 Since the points are on the boundary of a square, the problem can be transformed into finding points on a 1D line of length $4 \times side$ (the perimeter) that is circular.
 
@@ -116,4 +116,4 @@ class Solution:
 ---
 
 ## Tags
-Binary-Search, Greedy, Geometry, Sorting, Circular-Array
+`Binary-Search`, `Greedy`, `Geometry`, `Sorting`, `Circular-Array`
