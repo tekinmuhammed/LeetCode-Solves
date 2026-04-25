@@ -1,10 +1,10 @@
 # 3464. Maximize the Distance Between Points on a Square
 
-**Difficulty:** Hard
-**Problem Link:** [LeetCode 3464](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3464](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2833. Furthest Point From Origin ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2833.%20Furthest%20Point%20From%20Origin) 
+# [Github LeetCode 3464. Maximize the Distance Between Points on a Square](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3464.%20Maximize%20the%20Distance%20Between%20Points%20on%20a%20Square) 
 
 class Solution:
     def maxDistance(self, side: int, points: List[List[int]], k: int) -> int:
