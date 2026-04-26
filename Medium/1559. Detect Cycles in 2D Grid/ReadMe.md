@@ -1,11 +1,11 @@
-# 1559. Detect Cycles in 2D Grid
+# 1559. Detect Cycles in 2D Grid 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1559](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1559](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 Given a 2D `grid` of characters, find if there is any **cycle** in the grid.
 
@@ -15,11 +15,11 @@ Return `true` if any cycle of the same value exists, otherwise return `false`.
 
 ---
 
-## Approach: Union-Find (DSU) for Cycle Detection
+## Approach: Union-Find (DSU) for Cycle Detection 
 
 While cycle detection in grids is often handled with Depth First Search (DFS), using a **Union-Find (Disjoint Set Union)** data structure is a highly efficient and elegant alternative.
 
-### Key Ideas:
+### Key Ideas: 
 1.  **Linearization:** We map each 2D coordinate $(i, j)$ to a unique 1D index using the formula: $index = i \times n + j$, where $n$ is the number of columns.
 2.  **Greedy Connection:** As we iterate through the grid (row by row, column by column), we only need to check two directions for each cell: **Up** (`i-1, j`) and **Left** (`i, j-1`).
 3.  **Same-Character Condition:** We only attempt to "unite" two cells if they contain the same character.
@@ -29,7 +29,7 @@ While cycle detection in grids is often handled with Depth First Search (DFS), u
 
 ---
 
-## Code
+## Code 
 
 ```python
 class UnionFind:
@@ -103,4 +103,4 @@ class Solution:
 ---
 
 ## Tags
-Union-Find, Graph, Matrix, Cycle-Detection, Depth-First-Search
+`Union-Find`, `Graph`, `Matrix`, `Cycle-Detection`, `Depth-First-Search`
