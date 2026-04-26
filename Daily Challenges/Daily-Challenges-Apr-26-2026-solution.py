@@ -1,6 +1,10 @@
+# 1559. Detect Cycles in 2D Grid
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1559](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3464. Maximize the Distance Between Points on a Square](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3464.%20Maximize%20the%20Distance%20Between%20Points%20on%20a%20Square) 
+# [Github LeetCode 1559. Detect Cycles in 2D Grid ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1559.%20Detect%20Cycles%20in%202D%20Grid) 
 
 class UnionFind:
     def __init__(self, n: int):
