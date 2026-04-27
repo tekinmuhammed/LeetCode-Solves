@@ -2,6 +2,9 @@
 
 **Difficulty:** Medium
 **Problem Link:** [LeetCode 1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1559. Detect Cycles in 2D Grid ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1559.%20Detect%20Cycles%20in%202D%20Grid) 
 class Solution:
     class DisjointSet:
         def __init__(self, n):
