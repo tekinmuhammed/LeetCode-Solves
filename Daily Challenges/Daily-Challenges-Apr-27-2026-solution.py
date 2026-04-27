@@ -1,3 +1,7 @@
+# 1391. Check if There is a Valid Path in a Grid 
+
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
 class Solution:
     class DisjointSet:
         def __init__(self, n):
