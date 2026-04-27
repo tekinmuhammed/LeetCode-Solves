@@ -1,10 +1,11 @@
-# 1391. Check if There is a Valid Path in a Grid 
+# 1391. Check if There is a Valid Path in a Grid
 
 **Difficulty:** Medium
 **Problem Link:** [LeetCode 1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 1559. Detect Cycles in 2D Grid ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1559.%20Detect%20Cycles%20in%202D%20Grid) 
+# [Github LeetCode 1391. Check if There is a Valid Path in a Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid) 
+
 class Solution:
     class DisjointSet:
         def __init__(self, n):
