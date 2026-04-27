@@ -1,11 +1,11 @@
-# 1391. Check if There is a Valid Path in a Grid
+# 1391. Check if There is a Valid Path in a Grid 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given an `m x n` grid. Each cell in the grid represents a street. There are 6 types of streets:
 - **1:** Left and Right connection.
@@ -23,7 +23,7 @@ Return `true` if there is a valid path from the top-left to the bottom-right cel
 
 ---
 
-## Approach: Disjoint Set Union (DSU)
+## Approach: Disjoint Set Union (DSU) 
 
 The problem can be viewed as a connectivity problem in a graph. Each cell is a node, and two cells are connected by an edge if their street types allow them to connect.
 
@@ -35,7 +35,7 @@ The problem can be viewed as a connectivity problem in a graph. Each cell is a n
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Solution:
@@ -112,7 +112,7 @@ class Solution:
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(M \times N \times \alpha(M \times N))$
     - We traverse each cell once ($M \times N$).
@@ -122,5 +122,5 @@ class Solution:
 
 ---
 
-## Tags
-Union-Find, Graph, Matrix, Breadth-First-Search, Depth-First-Search
+## Tags 
+`Union-Find`, `Graph`, `Matrix`, `Breadth-First-Search`, `Depth-First-Search`
