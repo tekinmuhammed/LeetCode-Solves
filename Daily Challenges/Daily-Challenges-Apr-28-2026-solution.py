@@ -1,7 +1,10 @@
-# 2033. Minimum Operations to Make a Uni-Value Grid 
+# 2033. Minimum Operations to Make a Uni-Value Grid
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 2033. Minimum Operations to Make a Uni-Value Grid ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid) 
 
 class Solution:
     def minOperations(self, grid, x):
