@@ -1,11 +1,11 @@
-# 2033. Minimum Operations to Make a Uni-Value Grid
+# 2033. Minimum Operations to Make a Uni-Value Grid 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given a 2D integer `grid` of size `m x n` and an integer `x`. In one operation, you can **add** `x` to or **subtract** `x` from any element of the grid.
 
@@ -15,11 +15,11 @@ Return the **minimum** number of operations to make the grid uni-value. If it is
 
 ---
 
-## Approach: Median and Modular Arithmetic
+## Approach: Median and Modular Arithmetic 
 
 To solve this problem efficiently, we need to address two main conditions: whether it's possible to make the grid uni-value and, if so, which value minimizes the total operations.
 
-### Key Ideas:
+### Key Ideas: 
 1.  **Possibility Check (Modulo Logic):** For any two numbers $a$ and $b$ to be made equal by adding/subtracting $x$, their difference must be divisible by $x$. This is equivalent to saying $a \pmod x == b \pmod x$. If any element in the grid has a different remainder when divided by $x$ than the others, it's impossible to reach a uni-value state.
 2.  **Optimality (The Median Property):** In statistics, the value $K$ that minimizes the sum of absolute differences $\sum |a_i - K|$ for a set of numbers is the **median** of that set. 
 3.  **Calculation:** - Flatten the grid into a 1D array.
@@ -31,7 +31,7 @@ To solve this problem efficiently, we need to address two main conditions: wheth
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Solution:
@@ -100,4 +100,4 @@ class Solution:
 ---
 
 ## Tags
-Math, Sorting, Matrix, Median, Greedy
+`Math`, `Sorting`, `Matrix`, `Median`, `Greedy`
