@@ -1,11 +1,11 @@
-# 3225. Maximum Score From Grid Operations
+# 3225. Maximum Score From Grid Operations 
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3225](https://leetcode.com/problems/maximum-score-from-grid-operations/)
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3225](https://leetcode.com/problems/maximum-score-from-grid-operations/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given an $n \times n$ grid of non-negative integers. Your goal is to maximize the score by selecting a height $h_c$ (ranging from $0$ to $n$) for each column $c$. 
 
@@ -17,7 +17,7 @@ Return the **maximum possible score**.
 
 ---
 
-## Approach: Optimized 3D Dynamic Programming
+## Approach: Optimized 3D Dynamic Programming 
 
 The core challenge is that the score of column $c$ depends on its own height $h_c$ AND the heights of its neighbors $h_{c-1}$ and $h_{c+1}$. This local dependency suggests a DP where we process the grid column by column.
 
@@ -32,7 +32,7 @@ The core challenge is that the score of column $c$ depends on its own height $h_
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Solution:
@@ -122,4 +122,4 @@ class Solution:
 ---
 
 ## Tags
-Dynamic-Programming, Matrix, Prefix-Sum, Optimization, Hard-Logic
+`Dynamic-Programming`, `Matrix`, `Prefix-Sum`, `Optimization`, `Hard-Logic`
