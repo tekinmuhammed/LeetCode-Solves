@@ -1,11 +1,11 @@
-# 3742. Maximum Path Score in a Grid
+# 3742. Maximum Path Score in a Grid 
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3742](https://leetcode.com/problems/maximum-path-score-in-a-grid/)
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3742](https://leetcode.com/problems/maximum-path-score-in-a-grid/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 You are given an `m x n` integer `grid` and an integer `k`. You start at the top-left cell `(0, 0)` and want to reach the bottom-right cell `(m - 1, n - 1)`. You can only move **right** or **down** at any point in time.
 
@@ -15,7 +15,7 @@ Return the **maximum possible path score**. If it is impossible to reach the des
 
 ---
 
-## Approach: 3D Dynamic Programming
+## Approach: 3D Dynamic Programming 
 
 Standard pathfinding on a grid usually requires 2D DP. Because we need to track a secondary constraint (the number of non-zero cells visited), we introduce a third dimension to our DP table to represent the current "cost" spent.
 
@@ -32,7 +32,7 @@ Standard pathfinding on a grid usually requires 2D DP. Because we need to track 
 
 ---
 
-## Code
+## Code 
 ```python
 class Solution:
     def maxPathScore(self, grid: List[List[int]], k: int) -> int:
@@ -85,7 +85,7 @@ class Solution:
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(m \times n \times k)$
     - We visit each cell in the grid and, for each cell, iterate through $k+1$ possible costs.
@@ -95,5 +95,5 @@ class Solution:
 
 ---
 
-## Tags
-Dynamic-Programming, Matrix, Path-Finding, Grid, Medium-Logic
+## Tags 
+`Dynamic-Programming`, `Matrix`, `Path-Finding`, `Grid`, `Medium-Logic`
