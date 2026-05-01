@@ -1,11 +1,11 @@
-# 396. Rotate Function 
+# 396. Rotate Function
 
-**Difficulty:** Medium
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 396](https://leetcode.com/problems/rotate-function/description/)
 
 ---
 
-## Problem Description 
+## Problem Description
 
 You are given an integer array `nums` of length `n`.
 
@@ -17,11 +17,11 @@ Return the **maximum value** of $F(0), F(1), \dots, F(n - 1)$.
 
 ---
 
-## Approach: Mathematical Derivation ($O(n)$) 
+## Approach: Mathematical Derivation ($O(n)$)
 
 Calculating each $F(k)$ independently would take $O(n^2)$ time, which is too slow. However, there is a mathematical relationship between $F(k)$ and $F(k-1)$ that allows us to compute each subsequent value in $O(1)$ time.
 
-### Key Logic: 
+### Key Logic:
 Let $S$ be the sum of all elements in `nums`.
 Consider an example with $n=4$:
 *   $F(0) = 0a + 1b + 2c + 3d$
@@ -34,14 +34,14 @@ We can rewrite this as:
 $F(1) - F(0) = (a + b + c + d) - 4d$
 $F(1) = F(0) + S - n \cdot d$ (where $d$ is the element that "rotated" to the 0th index).
 
-**General Formula:** 
+**General Formula:**
 $F(k) = F(k-1) + \text{sum}(nums) - n \cdot \text{nums}[n-k]$
 
 
 
 ---
 
-## Code 
+## Code
 ```python
 class Solution:
     def maxRotateFunction(self, nums: List[int]) -> int:
@@ -70,7 +70,7 @@ class Solution:
 
 ---
 
-## Complexity Analysis 
+## Complexity Analysis
 
 * **Time Complexity:** $O(n)$
     - We calculate the sum of the array in $O(n)$.
@@ -81,5 +81,5 @@ class Solution:
 
 ---
 
-## Tags 
+## Tags
 `Array`, `Math`, `Dynamic-Programming`, `Sliding-Window`
