@@ -1,6 +1,10 @@
+# 788. Rotated Digits
+
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 788](https://leetcode.com/problems/rotated-digits/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 396. Rotate Function](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/396.%20Rotate%20Function) 
+# [Github LeetCode 788. Rotated Digits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/788.%20Rotated%20Digits) 
 
 class Solution(object):
     def rotatedDigits(self, n):
