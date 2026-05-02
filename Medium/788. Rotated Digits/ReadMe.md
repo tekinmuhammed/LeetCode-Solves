@@ -1,11 +1,11 @@
-# 788. Rotated Digits
+# 788. Rotated Digits 
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 788](https://leetcode.com/problems/rotated-digits/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 788](https://leetcode.com/problems/rotated-digits/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 An integer `x` is **good** if after rotating each digit individually by 180 degrees, we get a valid integer that is different from `x`. Each digit must be rotated - we cannot choose to leave it as is.
 
@@ -19,13 +19,13 @@ Given an integer `n`, return the number of **good** integers in the range `[1, n
 
 ---
 
-## Approach: Digit-by-Digit Analysis
+## Approach: Digit-by-Digit Analysis 
 
 To determine if a number is "good," we need to check every digit within it. A number qualifies if it meets two specific conditions:
 1.  **Validity:** It must not contain any digits that become invalid upon rotation (`3`, `4`, or `7`).
 2.  **Transformation:** It must contain at least one digit that changes into a different digit (`2`, `5`, `6`, or `9`). If it only contains `0`, `1`, and `8`, the number remains the same after rotation and is not considered "good."
 
-### Key Ideas:
+### Key Ideas: 
 *   **Iterative Check:** We loop through every integer from $1$ to $n$.
 *   **String Conversion:** Converting the number to a string allows us to inspect each digit easily.
 *   **Flag Logic:** 
@@ -34,7 +34,7 @@ To determine if a number is "good," we need to check every digit within it. A nu
 
 ---
 
-## Code
+## Code  
 ```python
 class Solution(object):
     def rotatedDigits(self, n):
@@ -69,7 +69,7 @@ class Solution(object):
 
 ---
 
-## Example Walkthrough
+## Example Walkthrough 
 
 **Input:** `n = 10`
 
@@ -86,7 +86,7 @@ class Solution(object):
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(n \cdot \log_{10} n)$
     - We iterate through $n$ numbers.
@@ -96,5 +96,5 @@ class Solution(object):
 
 ---
 
-## Tags 
-String, Math, Enumeration, Logic
+## Tags
+`String`, `Math`, `Enumeration`, `Logic`
