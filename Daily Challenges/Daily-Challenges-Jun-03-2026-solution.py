@@ -1,3 +1,11 @@
+# 796. Rotate String 
+
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 796](https://leetcode.com/problems/rotate-string/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 788. Rotated Digits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/788.%20Rotated%20Digits) 
+
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
         if len(s) != len(goal):
