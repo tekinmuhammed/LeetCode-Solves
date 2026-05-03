@@ -1,11 +1,11 @@
-# 796. Rotate String
+# 796. Rotate String 
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 796](https://leetcode.com/problems/rotate-string/)
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 796](https://leetcode.com/problems/rotate-string/description/)
 
 ---
 
-## Problem Description
+## Problem Description 
 
 Given two strings `s` and `goal`, return `true` if and only if `s` can become `goal` after some number of **shifts** on `s`.
 
@@ -14,11 +14,11 @@ A **shift** on `s` consists of moving the leftmost character of `s` to the right
 
 ---
 
-## Approach: Simulation of Rotations
+## Approach: Simulation of Rotations 
 
 The most direct way to solve this is to simulate the shifting process. Since the string has a length of $n$, there are only $n$ unique rotations possible. If none of these $n$ rotations match the `goal`, then it is impossible.
 
-### Key Ideas:
+### Key Ideas: 
 1.  **Length Validation:** If the lengths of `s` and `goal` are different, it's impossible for one to be a rotation of the other. We return `False` immediately.
 2.  **Simulation:** We use a loop that runs `len(s)` times. In each iteration:
     - We perform a single left shift: `s = s[1:] + s[0]`.
@@ -29,7 +29,7 @@ The most direct way to solve this is to simulate the shifting process. Since the
 
 ---
 
-## Code
+## Code 
 
 ```python
 class Solution:
@@ -59,7 +59,7 @@ class Solution:
 
 ---
 
-## Example Walkthrough
+## Example Walkthrough 
 
 **Input:** `s = "abcde", goal = "cdeab"`
 
@@ -71,7 +71,7 @@ class Solution:
 
 ---
 
-## Complexity Analysis
+## Complexity Analysis 
 
 * **Time Complexity:** $O(n^2)$
     - We loop $n$ times.
@@ -81,5 +81,5 @@ class Solution:
 
 ---
 
-## Tags
-String, Simulation, String-Manipulation, Easy-Logic
+## Tags 
+`String`, `Simulation`, `String-Manipulation`, `Easy-Logic`
