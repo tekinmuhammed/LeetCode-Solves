@@ -1,17 +1,17 @@
-# 48. Rotate Image
+# 48. Rotate Image 
 
-**Zorluk:** Medium
+**Zorluk:** Medium 
 **Problem Linki:** [LeetCode 48](https://leetcode.com/problems/rotate-image/description/?)
 
 ---
 
-## Problem Açıklaması
+## Problem Açıklaması 
 
 Size $n \times n$ boyutlarında bir matris veriliyor. Bu matrisi saat yönünde **90 derece** döndürmeniz isteniyor. En önemli kısıtlama, bu işlemin **in-place** (yerinde) yapılmasıdır. Yani yeni bir matris oluşturamazsınız, değişikliği doğrudan size verilen matris üzerinde yapmalısınız.
 
 ---
 
-## Yaklaşım: Transpoz ve Satır Tersleme
+## Yaklaşım: Transpoz ve Satır Tersleme 
 
 Matrisi doğrudan döndürmeye çalışmak karmaşık indeks hesaplamaları gerektirebilir. Ancak lineer cebirdeki iki basit işlemi ardışık yaparak aynı sonucu elde edebiliriz:
 
@@ -27,7 +27,7 @@ Bu iki işlemin birleşimi sonucunda elemanlar tam olarak saat yönünde 90 dere
 
 ---
 
-## Kod
+## Kod 
 
 ```python
 class Solution(object):
@@ -50,7 +50,7 @@ class Solution(object):
             row.reverse()
 ```
 
-## Karmaşıklık Analizi
+## Karmaşıklık Analizi 
 
 - **Zaman Karmaşıklığı**: $O(n^2)$
 Matristeki her bir hücreyi transpoz ve tersleme işlemleri sırasında sabit sayıda (en fazla 2 kez) ziyaret ediyoruz. $n \times n$ matris için bu işlem karesel zaman alır.
@@ -58,5 +58,5 @@ Matristeki her bir hücreyi transpoz ve tersleme işlemleri sırasında sabit sa
 - **Alan Karmaşıklığı:** $O(1)$
 Herhangi bir ek veri yapısı veya kopya matris kullanmadık. Tüm işlemler orijinal matrisin belleği üzerinde gerçekleştirildi.
 
-## Etiketler
+## Etiketler 
 `Array`, `Math`, `Matrix`, `In-place`, `Two-Pointers`
