@@ -1,7 +1,10 @@
 # 61. Rotate List 
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 61](https://leetcode.com/problems/rotate-list/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 61](https://leetcode.com/problems/rotate-list/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 61. Rotate List ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/61.%20Rotate%20List) 
 
 class Solution(object):
     def rotateRight(self, head, k):
