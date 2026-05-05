@@ -1,11 +1,11 @@
-# 61. Rotate List
+# 61. Rotate List 
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 61](https://leetcode.com/problems/rotate-list/description/)
 
 ---
 
-## Problem
+## Problem 
 Given the `head` of a linked list, rotate the list to the right by `k` places.
 
 Example:
@@ -22,7 +22,7 @@ Rotate 2 steps to the right: [4,5,1,2,3]
 
 ---
 
-# Approach
+# Approach 
 
 The problem asks us to shift the linked list to the right by `k` positions. If `k` is greater than or equal to the length of the list, the rotations will wrap around and repeat.
 
@@ -39,7 +39,7 @@ Steps:
 
 ---
 
-# Code
+# Code 
 
 ```python
 class Solution(object):
@@ -77,7 +77,7 @@ class Solution(object):
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Example:
 
@@ -110,16 +110,16 @@ Final list returned:
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
-Time Complexity
+**Time Complexity**
 
-O(N)
+`O(N)`
 
 We traverse the list once to find the length (O(N)), and then partially traverse it again to find the new tail (O(N)). The overall time complexity strictly scales linearly with the number of nodes `N`.
 
-Space Complexity
+**Space Complexity**
 
-O(1)
+`O(1)`
 
 We only use a few extra pointers (`length`, `tail`, `new_tail`, `new_head`), so the memory footprint is constant and does not depend on the input size.
