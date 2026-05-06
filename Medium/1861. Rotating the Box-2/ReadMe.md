@@ -1,11 +1,11 @@
-# 1861. Rotating the Box
+# 1861. Rotating the Box 
 
-**Difficulty:** Medium  
+**Difficulty:** Medium=
 **Problem Link:** [LeetCode 1861](https://leetcode.com/problems/rotating-the-box/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given an `m x n` matrix of characters `box` representing a side-view of a box. Each cell of the box is one of the following:
 * A stone `'#'`
 * A stationary obstacle `'*'`
@@ -17,7 +17,7 @@ Return an `n x m` matrix representing the box after the rotation and after gravi
 
 ---
 
-# Approach
+# Approach 
 
 The problem essentially requires two main operations: rotating the matrix and simulating gravity. 
 
@@ -36,12 +36,12 @@ Instead of doing both at the same time, we can break the problem into clear, man
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Consider a 1x3 box:
 `box = [["#", ".", "*"]]`
 
-**Step 1: Rotate 90° Clockwise**  
+**Step 1: Rotate 90° Clockwise**   
 The 1x3 box becomes a 3x1 box.
 Transposed and reversed:
 ```
@@ -52,7 +52,7 @@ Transposed and reversed:
 ]
 ```
 
-**Step 2: Apply Gravity**  
+**Step 2: Apply Gravity**   
 We check the only column (j = 0) from bottom (i = 2) to top (i = 0).
 * `i = 2`: Found `*`. It's an obstacle, ignore.
 * `i = 1`: Found `.`. Look up.
@@ -70,7 +70,7 @@ Final Result:
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
 Time Complexity
 
@@ -86,7 +86,7 @@ We allocate a new `n x m` grid (`result`) to store the rotated box and perform t
 
 ---
 
-# Code
+# Code 
 ```python
 class Solution:
     def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:
