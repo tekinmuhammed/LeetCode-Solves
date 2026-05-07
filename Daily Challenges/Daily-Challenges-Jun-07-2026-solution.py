@@ -1,9 +1,9 @@
-# 3660. Jump Game IX
+# 3660. Jump Game IX 
 
-# **Difficulty:** Hard  
+# **Difficulty:** Medium 
 # **Problem Link:** [LeetCode 3660](https://leetcode.com/problems/jump-game-ix/description/)
 
-# 🧠 Problem Description
+# 🧠 Problem Description 
 # [Github LeetCode 3660. Jump Game IX](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3660.%20Jump%20Game%20IX) 
 
 class Solution:
@@ -11,7 +11,7 @@ class Solution:
         n = len(nums)
 
         ans = [0] * n
-        # [value, index]
+        # [value, index] 
         prev_max = [(0, 0)] * n
 
         prev = (-math.inf, -1)
