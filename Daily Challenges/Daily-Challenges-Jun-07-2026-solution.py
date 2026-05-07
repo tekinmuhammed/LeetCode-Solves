@@ -1,3 +1,11 @@
+# 3660. Jump Game IX
+
+# **Difficulty:** Hard  
+# **Problem Link:** [LeetCode 3660](https://leetcode.com/problems/jump-game-ix/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 3660. Jump Game IX](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3660.%20Jump%20Game%20IX) 
+
 class Solution:
     def maxValue(self, nums: List[int]) -> List[int]:
         n = len(nums)
