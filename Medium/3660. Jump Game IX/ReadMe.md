@@ -1,11 +1,11 @@
 # 3660. Jump Game IX
 
-**Difficulty:** Hard  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 3660](https://leetcode.com/problems/jump-game-ix/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given an integer array `nums` of length `n`. The goal is to determine an array `ans` of the same length, where `ans[i]` represents the maximum reachable value or optimal score starting from index `i`, subject to specific jump constraints. 
 
 *(Note: In this variation of Jump Game, the constraints involve maintaining bounds based on the maximum values to the left and minimum values to the right of the current position.)*
@@ -14,7 +14,7 @@ Return the array `ans`.
 
 ---
 
-# Approach
+# Approach 
 
 This solution utilizes a **Divide and Conquer** strategy processed from right to left, relying heavily on **Prefix Maximums** to partition the array into valid segments.
 
@@ -40,7 +40,7 @@ Steps:
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Imagine an arbitrary array processed by this algorithm:
 
@@ -56,7 +56,7 @@ Imagine an arbitrary array processed by this algorithm:
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
 Time Complexity
 
@@ -72,7 +72,7 @@ We use O(N) space for the `ans` array and O(N) space for the `prev_max` array. A
 
 ---
 
-# Code
+# Code 
 ```python
 import math
 from typing import List
