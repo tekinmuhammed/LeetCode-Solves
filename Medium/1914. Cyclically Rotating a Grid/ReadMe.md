@@ -1,11 +1,11 @@
 # 1914. Cyclically Rotating a Grid
 
-**Difficulty:** Medium  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 1914](https://leetcode.com/problems/cyclically-rotating-a-grid/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given an `m x n` integer matrix `grid` and an integer `k`. You need to cyclically rotate the grid counter-clockwise by `k` steps.
 
 A cyclic rotation means shifting the elements of each concentric layer of the grid. 
@@ -14,7 +14,7 @@ Return the matrix `grid` after applying the `k` steps of cyclic rotation to it.
 
 ---
 
-# Approach
+# Approach 
 
 The problem asks us to rotate concentric layers of a matrix. Rotating a 2D perimeter is difficult to manage in-place with coordinate math, but if we "unroll" the perimeter into a 1D array, the problem reduces to a simple array rotation.
 
@@ -31,7 +31,7 @@ Steps:
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Consider a single layer (a 1D array representation of the perimeter):
 `val = [1, 2, 3, 4, 5, 6]` (Length `total = 6`)
@@ -45,10 +45,10 @@ We want to rotate it counter-clockwise. This means elements move "forward" in ou
 * For index `2`: New value comes from `(2 + 6 - 2) % 6 = 0`. `val[0]` is `1`.
 
 The newly formed layer `[5, 6, 1, 2, 3, 4]` is then mapped back to the 2D grid coordinates.
-
+ 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
 Time Complexity
 
@@ -63,49 +63,49 @@ O(m + n)
 We process the grid layer by layer. The auxiliary space used (`r`, `c`, and `val` arrays) only needs to hold the perimeter of the current layer. The outermost layer has the largest perimeter, which is roughly `2m + 2n`. Therefore, the space complexity is bounded by O(m + n).
 
 ---
-
-# Code
+ 
+# Code 
 
 ```python
 class Solution:
     def rotateGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         m, n = len(grid), len(grid[0])
-        nlayer = min(m // 2, n // 2)  # level count
+        nlayer = min(m // 2, n // 2)  # level count 
         
-        # enumerate each layer counterclockwise starting from the top-left corner
+        # enumerate each layer counterclockwise starting from the top-left corner 
         for layer in range(nlayer):
-            r = []  # row index of each element
-            c = []  # column index of each element
-            val = []  # value of each element
+            r = []  # row index of each element 
+            c = []  # column index of each element 
+            val = []  # value of each element 
             
-            for i in range(layer, m - layer - 1):  # left
+            for i in range(layer, m - layer - 1):  # left 
                 r.append(i)
                 c.append(layer)
                 val.append(grid[i][layer])
                 
-            for j in range(layer, n - layer - 1):  # down
+            for j in range(layer, n - layer - 1):  # down 
                 r.append(m - layer - 1)
                 c.append(j)
                 val.append(grid[m - layer - 1][j])
                 
-            for i in range(m - layer - 1, layer, -1):  # right
+            for i in range(m - layer - 1, layer, -1):  # right 
                 r.append(i)
                 c.append(n - layer - 1)
                 val.append(grid[i][n - layer - 1])
                 
-            for j in range(n - layer - 1, layer, -1):  # up
+            for j in range(n - layer - 1, layer, -1):  # up 
                 r.append(layer)
                 c.append(j)
                 val.append(grid[layer][j])
                 
-            total = len(val)  # total number of elements in each layer
-            kk = k % total  # equivalent number of rotations
+            total = len(val)  # total number of elements in each layer 
+            kk = k % total  # equivalent number of rotations 
             
-            # find the value at each index after rotation
+            # find the value at each index after rotation 
             for i in range(total):
                 idx = (
                     i + total - kk
-                ) % total  # the index corresponding to the value after rotation
+                ) % total  # the index corresponding to the value after rotation 
                 grid[r[i]][c[i]] = val[idx]
                 
         return grid
