@@ -1,11 +1,11 @@
 # 2553. Separate the Digits in an Array
 
-**Difficulty:** Easy  
+**Difficulty:** Easy
 **Problem Link:** [LeetCode 2553](https://leetcode.com/problems/separate-the-digits-in-an-array/description/)
 
 ---
 
-## Problem
+## Problem 
 Given an array of positive integers `nums`, return an array `answer` that consists of the digits of each integer in `nums` after separating them in the same order they appear in `nums`.
 
 To be clear, the digits of the integer `10921` are `1`, `0`, `9`, `2`, and `1`.
@@ -26,7 +26,7 @@ Explanation
 
 ---
 
-# Approach
+# Approach 
 
 We can solve this problem by mathematically extracting the digits of each number. 
 
@@ -35,7 +35,7 @@ While converting each number to a string and iterating over its characters is a 
 Steps:
 
 1. **Iterate Through the Array:** Loop over every integer `x` in the given `nums` array.
-2. **Extract Digits Mathematically:** 
+2. **Extract Digits Mathematically:**  
    * Use a `while` loop that runs as long as `x > 0`.
    * Use the modulo operator (`x % 10`) to get the last digit of the number and append it to a temporary list `tmp`.
    * Use integer division (`x //= 10`) to chop off the last digit from the number.
@@ -44,17 +44,17 @@ Steps:
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Let's trace the code with `nums = [13, 2583]`:
 
-* **First number: 13**
+* **First number: 13** 
   * `13 > 0`: `13 % 10 = 3`. Append `3`. `x` becomes `1`. (`tmp = [3]`)
   * `1 > 0`: `1 % 10 = 1`. Append `1`. `x` becomes `0`. (`tmp = [3, 1]`)
   * Reverse `tmp` -> `[1, 3]`. Extend `res`. 
   * `res = [1, 3]`
 
-* **Second number: 2583**
+* **Second number: 2583** 
   * `2583 % 10 = 3`. Append `3`. `x` becomes `258`.
   * `258 % 10 = 8`. Append `8`. `x` becomes `25`.
   * `25 % 10 = 5`. Append `5`. `x` becomes `2`.
@@ -65,15 +65,15 @@ Let's trace the code with `nums = [13, 2583]`:
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
-Time Complexity
+Time Complexity  
 
 O(K)
 
 Where `K` is the total number of digits across all elements in the `nums` array. We process every single digit exactly once during the while loop and once more during the reversal, making the time complexity strictly linear with respect to the total digit count.
 
-Space Complexity
+Space Complexity 
 
 O(K)
 
@@ -81,7 +81,7 @@ We use an array `res` to store all `K` digits. The temporary array `tmp` holds a
 
 ---
 
-# Code
+# Code 
 
 ```python
 from typing import List
