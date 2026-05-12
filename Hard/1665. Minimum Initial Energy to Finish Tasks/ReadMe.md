@@ -5,22 +5,22 @@
 
 ---
 
-## Problem
+## Problem 
 You are given an array `tasks` where `tasks[i] = [actual_i, minimum_i]`:
 * `actual_i` is the actual amount of energy you spend to finish the $i^{th}$ task.
-* `minimum_i` is the minimum amount of energy you require to begin the $i^{th}$ task.
+* `minimum_i` is the minimum amount of energy you require to begin the $i^{th}$ task. 
 
 For example, if the task is `[10, 12]` and your current energy is `11`, you cannot start this task. However, if your current energy is `13`, you can complete this task, and your energy will be `3` afterwards.
 
-You can finish the tasks in **any order**.
+You can finish the tasks in **any order**. 
 
 Return the **minimum initial amount of energy** you need to finish all the tasks.
 
 ---
 
-# Approach
+# Approach 
 
-This problem is beautifully solved using a **Greedy approach combined with Reverse Thinking**.
+This problem is beautifully solved using a **Greedy approach combined with Reverse Thinking**. 
 
 To minimize the initial energy, if we were simulating from the beginning, we would want to execute tasks that have the largest "free energy gap" (the difference between `minimum` and `actual`) first. These tasks require a high threshold to start but consume very little, leaving plenty of energy for subsequent tasks.
 
@@ -34,7 +34,7 @@ Instead of trying to find the starting energy from the beginning, your code inge
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Consider the tasks: `[[1, 2], [2, 4], [4, 8]]`
 
@@ -43,39 +43,39 @@ Consider the tasks: `[[1, 2], [2, 4], [4, 8]]`
    * Task 1: `4 - 2 = 2`
    * Task 2: `8 - 4 = 4`
 
-2. **Sort Ascending:** 
+2. **Sort Ascending:**  
    The tasks are already sorted by gap: `[[1, 2], [2, 4], [4, 8]]`
 
 3. **Simulate Backwards:**
    * **Start:** `ans = 0`
-   * **Process `[1, 2]` (The last task to be executed):** 
+   * **Process `[1, 2]` (The last task to be executed):**  
      `ans = max(0 + 1, 2) = 2`
    * **Process `[2, 4]`:** 
      `ans = max(2 + 2, 4) = 4`
-   * **Process `[4, 8]` (The first task to be executed):** 
+   * **Process `[4, 8]` (The first task to be executed):**  
      `ans = max(4 + 4, 8) = 8`
 
 **Result:** `8` is the minimum initial energy required.
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
-Time Complexity
-
-O(N log N)
+Time Complexity 
+ 
+O(N log N) 
 
 Sorting the `tasks` array takes $O(N \log N)$ time, where `N` is the number of tasks. The subsequent iteration through the array takes $O(N)$ time. The overall time complexity is dominated by the sorting step.
 
-Space Complexity
+Space Complexity  
 
-O(1) auxiliary
+O(1) auxiliary 
 
 We only use a single integer variable `ans` to keep track of the result. (Note: Depending on the language implementation, the sorting algorithm itself might use $O(N)$ memory, such as Python's Timsort, but the algorithm's auxiliary space is considered O(1)).
 
 ---
 
-# Code
+# Code 
 
 ```python
 class Solution:
