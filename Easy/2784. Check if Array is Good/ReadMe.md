@@ -1,11 +1,11 @@
 # 2784. Check if Array is Good
 
-**Difficulty:** Easy  
+**Difficulty:** Easy
 **Problem Link:** [LeetCode 2784](https://leetcode.com/problems/check-if-array-is-good/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given an integer array `nums`. We consider an array **good** if it is a permutation of an array `base[n]`.
 
 `base[n] = [1, 2, ..., n - 1, n, n]` (in other words, it is an array of length `n + 1` which contains `1` to `n - 1` exactly once, plus two occurrences of `n`).
@@ -16,7 +16,7 @@ Return `true` if the given array is good, otherwise return `false`.
 
 ---
 
-# Approach
+# Approach 
 
 A brute-force approach would be to sort the array and compare it directly to a generated `base` array, which takes $O(N \log N)$ time. We can optimize this to $O(N)$ by using a frequency counting array.
 
@@ -33,7 +33,7 @@ Since an array of length `n` is only "good" if it contains numbers exactly from 
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Consider `nums = [1, 3, 3, 2]`  
 Length `n = 4`.  
@@ -41,14 +41,14 @@ Valid good array should contain: `1, 2, 3, 3`.
 
 Initialize `count = [0, 0, 0, 0]`
 
-1. **First element (`1`):**
+1. **First element (`1`):** 
    * `1 < 4` (valid)
    * `count[1] == 0` (valid)
    * Update: `count = [0, 1, 0, 0]`
 2. **Second element (`3`):**
-   * `3 == 4 - 1` (this is our max element)
+   * `3 == 4 - 1` (this is our max element) 
    * `count[3] == 0` (valid)
-   * Update: `count = [0, 1, 0, 1]`
+   * Update: `count = [0, 1, 0, 1]` 
 3. **Third element (`3`):**
    * `3 == 4 - 1` 
    * `count[3] == 1`, which is not `> 1` yet. (valid, we need exactly two of these)
@@ -58,27 +58,27 @@ Initialize `count = [0, 0, 0, 0]`
    * `count[2] == 0` (valid)
    * Update: `count = [0, 1, 1, 2]`
 
-Loop finishes without errors. Return `True`.
+Loop finishes without errors. Return `True`. 
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
-Time Complexity
+Time Complexity 
 
-O(N)
+O(N) 
 
 We iterate through the `nums` array exactly once. The array indexing and logical checks inside the loop take $O(1)$ time each.
 
-Space Complexity
+Space Complexity 
 
-O(N)
+O(N) 
 
 We create a `count` array of length `N` (where `N` is the length of `nums`) to store the frequencies of the elements.
 
 ---
 
-# Code
+# Code 
 
 ```python
 from typing import List
