@@ -1,24 +1,24 @@
 # 153. Find Minimum in Rotated Sorted Array
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
 ---
 
-## Problem
+## Problem 
 Suppose an array of length `n` sorted in ascending order is **rotated** between `1` and `n` times. For example, the array `nums = [0,1,2,4,5,6,7]` might become:
-* `[4,5,6,7,0,1,2]` if it was rotated 4 times.
-* `[0,1,2,4,5,6,7]` if it was rotated 7 times.
+* `[4,5,6,7,0,1,2]` if it was rotated 4 times. 
+* `[0,1,2,4,5,6,7]` if it was rotated 7 times. 
 
 Notice that rotating an array `[a[0], a[1], a[2], ..., a[n-1]]` 1 time results in the array `[a[n-1], a[0], a[1], a[2], ..., a[n-2]]`.
 
-Given the sorted rotated array `nums` of **unique** elements, return the **minimum element** of this array.
+Given the sorted rotated array `nums` of **unique** elements, return the **minimum element** of this array. 
 
-You must write an algorithm that runs in `O(log n)` time.
+You must write an algorithm that runs in `O(log n)` time. 
 
 ---
 
-# Approach
+# Approach 
 
 To achieve an $O(\log N)$ time complexity, we must use **Binary Search**.
 
@@ -39,7 +39,7 @@ The core idea is to compare the middle element (`nums[mid]`) with the rightmost 
 
 ---
 
-# Example Walkthrough
+# Example Walkthrough 
 
 Consider `nums = [3, 4, 5, 1, 2]`
 
@@ -60,23 +60,23 @@ Consider `nums = [3, 4, 5, 1, 2]`
 
 ---
 
-# Complexity Analysis
+# Complexity Analysis 
 
-Time Complexity
+Time Complexity 
 
-O(\log N)
+O(\log N) 
 
 At each step of the `while` loop, we cut the search space in half. This is the classic signature of binary search, resulting in a logarithmic time complexity.
 
-Space Complexity
+Space Complexity 
 
-O(1)
+O(1) 
 
-We only use a few integer variables (`left`, `right`, `mid`) to keep track of the indices, which takes constant extra memory.
+We only use a few integer variables (`left`, `right`, `mid`) to keep track of the indices, which takes constant extra memory. 
 
 ---
 
-# Code
+# Code 
 
 ```python
 class Solution(object):
