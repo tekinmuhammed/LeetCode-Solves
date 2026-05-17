@@ -1,10 +1,10 @@
 # 1306. Jump Game III
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 1306](https://leetcode.com/problems/jump-game-iii/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1306](https://leetcode.com/problems/jump-game-iii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 154. Find Minimum in Rotated Sorted Array II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II) 
+# [Github LeetCode 1306. Jump Game III](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1306.%20Jump%20Game%20III) 
 
 class Solution(object):
     def canReach(self, arr, start):
