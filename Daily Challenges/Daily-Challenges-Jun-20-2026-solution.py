@@ -1,31 +1,31 @@
 # 2657. Find the Prefix Common Array of Two Arrays
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
 
-# 🧠 Problem Description 
-# [Github LeetCode 2540. Minimum Common Value](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2540.%20Minimum%20Common%20Value) 
+# 🧠 Problem Description
+# [Github LeetCode 2657. Find the Prefix Common Array of Two Arrays](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays-2) 
 
 class Solution:
     def findThePrefixCommonArray(self, A: list, B: list) -> list:
         n = len(A)
         prefix_common_array = [0] * n
 
-        # Loop through each index to calculate common elements for each prefix
+        # Loop through each index to calculate common elements for each prefix 
         for current_index in range(n):
             common_count = 0
 
-            # Compare elements in A and B within the range of current prefix
+            # Compare elements in A and B within the range of current prefix 
             for a_index in range(current_index + 1):
                 for b_index in range(current_index + 1):
 
-                    # Check if elements match, and count if they do
+                    # Check if elements match, and count if they do 
                     if A[a_index] == B[b_index]:
                         common_count += 1
-                        break  # Prevent counting duplicates
+                        break  # Prevent counting duplicates 
 
-            # Store the count of common elements for the current prefix
+            # Store the count of common elements for the current prefix 
             prefix_common_array[current_index] = common_count
 
-        # Return the final list with counts of common elements in each prefix
+        # Return the final list with counts of common elements in each prefix 
         return prefix_common_array
