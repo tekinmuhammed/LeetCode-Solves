@@ -1,3 +1,11 @@
+# 2657. Find the Prefix Common Array of Two Arrays
+
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 2540. Minimum Common Value](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2540.%20Minimum%20Common%20Value) 
+
 class Solution:
     def findThePrefixCommonArray(self, A: list, B: list) -> list:
         n = len(A)
