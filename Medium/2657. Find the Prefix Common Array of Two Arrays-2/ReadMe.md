@@ -1,42 +1,42 @@
 # 2657. Find the Prefix Common Array of Two Arrays
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given two **0-indexed** integer permutations `A` and `B` of length `n`.
-
-A **prefix common array** of `A` and `B` is an array `C` such that `C[i]` is equal to the count of numbers that are present at or before the index `i` in both `A` and `B`.
-
+ 
+A **prefix common array** of `A` and `B` is an array `C` such that `C[i]` is equal to the count of numbers that are present at or before the index `i` in both `A` and `B`. 
+ 
 Return the prefix common array of `A` and `B`.
-
-Example:
-
-Input  
-A = [1,3,2,4], B = [3,1,2,4]
-
+ 
+Example:  
+ 
+Input   
+A = [1,3,2,4], B = [3,1,2,4] 
+ 
 Output  
-[0,2,3,4]
-
-Explanation  
-- At i = 0: no number is common, so C[0] = 0.
+[0,2,3,4] 
+ 
+Explanation   
+- At i = 0: no number is common, so C[0] = 0. 
 - At i = 1: 1 and 3 are common in both prefixes, so C[1] = 2.
-- At i = 2: 1, 2, and 3 are common, so C[2] = 3.
-- At i = 3: 1, 2, 3, and 4 are common, so C[3] = 4.
+- At i = 2: 1, 2, and 3 are common, so C[2] = 3. 
+- At i = 3: 1, 2, 3, and 4 are common, so C[3] = 4. 
 
----
+--- 
 
-# Approach
+# Approach 
 
-This solution utilizes a straightforward **simulation (brute-force)** approach to construct the prefix common array. 
-
-Instead of keeping track of previously seen elements using extra data structures like hash sets or frequency arrays, it strictly evaluates the definition of a "prefix" at every single step.
-
-Steps:
-
-1. **Initialize Result Array:** We create a `prefix_common_array` of size `n` initialized to `0`.
+This solution utilizes a straightforward **simulation (brute-force)** approach to construct the prefix common array.  
+ 
+Instead of keeping track of previously seen elements using extra data structures like hash sets or frequency arrays, it strictly evaluates the definition of a "prefix" at every single step. 
+ 
+Steps: 
+ 
+1. **Initialize Result Array:** We create a `prefix_common_array` of size `n`  initialized to `0`.
 2. **Iterate Through Prefixes:** We use an outer loop with `current_index` to define the boundary of our current prefix (from index `0` to `current_index`).
 3. **Compare Elements within Prefix:** 
    * For the current prefix, we loop through every element in `A` up to `current_index` (using `a_index`).
@@ -77,16 +77,16 @@ Time Complexity
 O(N^3)
 
 We have three nested loops. The outer loop runs `N` times. For each iteration `i` of the outer loop, the inner loops perform `i * i` comparisons. The sum of squares $1^2 + 2^2 + 3^2 + ... + N^2$ mathematically resolves to $O(N^3)$. This is a brute-force approach, which is acceptable for small constraints but could be optimized to $O(N)$ using Hash Sets or frequency arrays for larger inputs.
-
-Space Complexity
-
-O(N)
-
-The only extra space used is the `prefix_common_array` of size `N` to store the final results. We do not use any additional data structures, so the auxiliary space is strictly bounded by the output requirement.
-
----
-
-# Code
+ 
+Space Complexity 
+ 
+O(N) 
+ 
+The only extra space used is the `prefix_common_array` of size `N` to store the final results. We do not use any additional data structures, so the auxiliary space is strictly bounded by the output requirement. 
+ 
+--- 
+ 
+# Code 
 
 ```python
 class Solution:
@@ -94,22 +94,22 @@ class Solution:
         n = len(A)
         prefix_common_array = [0] * n
 
-        # Loop through each index to calculate common elements for each prefix
+        # Loop through each index to calculate common elements for each prefix 
         for current_index in range(n):
             common_count = 0
 
-            # Compare elements in A and B within the range of current prefix
+            # Compare elements in A and B within the range of current prefix 
             for a_index in range(current_index + 1):
                 for b_index in range(current_index + 1):
 
-                    # Check if elements match, and count if they do
+                    # Check if elements match, and count if they do 
                     if A[a_index] == B[b_index]:
                         common_count += 1
-                        break  # Prevent counting duplicates
+                        break  # Prevent counting duplicates 
 
-            # Store the count of common elements for the current prefix
+            # Store the count of common elements for the current prefix 
             prefix_common_array[current_index] = common_count
 
-        # Return the final list with counts of common elements in each prefix
+        # Return the final list with counts of common elements in each prefix 
         return prefix_common_array
 ```
