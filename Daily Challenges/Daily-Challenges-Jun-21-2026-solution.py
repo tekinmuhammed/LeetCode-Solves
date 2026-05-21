@@ -1,10 +1,10 @@
 # 3043. Find the Length of the Longest Common Prefix
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 2657. Find the Prefix Common Array of Two Arrays](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays-2) 
+# [Github LeetCode 3043. Find the Length of the Longest Common Prefix](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix) 
 
 class Solution:
     def longestCommonPrefix(self, arr1, arr2):
