@@ -1,37 +1,37 @@
 # 1752. Check if Array Is Sorted and Rotated
 
-**Difficulty:** Easy  
+**Difficulty:** Easy
 **Problem Link:** [LeetCode 1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/)
 
 ---
 
-## Problem
+## Problem 
 Given an array `nums`, return `true` if the array was originally sorted in non-decreasing order, then rotated **some** number of positions (including zero). Otherwise, return `false`.
 
 There may be **duplicates** in the original array.
 
 Note: An array `A` rotated by `x` positions results in an array `B` of the same length such that `A[i] == B[(i+x) % A.length]`, where `%` is the modulo operation.
 
-Example:
+Example: 
 
 Input  
-nums = [3,4,5,1,2]
+nums = [3,4,5,1,2] 
 
-Output  
+Output   
 true
 
 Explanation  
-[1,2,3,4,5] is the original sorted array.
-You can rotate the array by x = 3 positions to begin on the element of value 1: [3,4,5,1,2].
-
+[1,2,3,4,5] is the original sorted array. 
+You can rotate the array by x = 3 positions to begin on the element of value 1: [3,4,5,1,2]. 
+ 
 ---
-
-# Approach
-
+ 
+# Approach   
+ 
 This solution uses a **Simulation (Brute-Force)** approach. The most straightforward way to find out if an array is a rotated version of a sorted array is to systematically "un-rotate" it from every possible index and check if the resulting array is sorted.
-
-Steps:
-
+ 
+Steps: 
+ 
 1. **Iterate All Offsets:** We loop through every possible starting index `rotation_offset` from `0` to `n - 1`.
 2. **Reconstruct the Array:** For each `rotation_offset`, we build a new array `check_sorted`. 
    * First, we append the elements from `rotation_offset` to the end of the array.
@@ -42,11 +42,11 @@ Steps:
 5. **Fallback:** If we check all possible offsets and none of them result in a sorted array, we return `False`.
 
 *(Note: While there is an O(N) optimized approach that counts the number of "drops" in the array, this O(N²) simulation approach perfectly mirrors the mathematical definition of the problem and is highly readable.)*
-
----
-
-# Example Walkthrough
-
+   
+---  
+ 
+# Example Walkthrough 
+ 
 Consider `nums = [3, 4, 5, 1, 2]`  
 Length `n = 5`.
 
@@ -79,10 +79,10 @@ Space Complexity
 O(N)
 
 For each iteration, we create a new array `check_sorted` of size `N` to simulate the un-rotated array.
-
----
-
-# Code
+ 
+--- 
+ 
+# Code 
 
 ```python
 from typing import List
