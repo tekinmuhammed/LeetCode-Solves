@@ -3,7 +3,7 @@ class Solution:
         n = len(s)
         f, pre = [0] * n, [0] * n
         f[0] = 1
-        # since we start dynamic programming from i=minJump, we need to precompute the prefix sums for the part [0, minJump)
+        # since we start dynamic programming from i=minJump, we need to precompute the prefix sums for the part [0, minJump) 
         for i in range(minJump):
             pre[i] = 1
         for i in range(minJump, n):
