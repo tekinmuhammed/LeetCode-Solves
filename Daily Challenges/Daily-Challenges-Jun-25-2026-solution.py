@@ -1,17 +1,17 @@
 # 1871. Jump Game VII
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 1871](https://leetcode.com/problems/jump-game-vii/description/)
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 1871](https://leetcode.com/problems/jump-game-vii/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 1340. Jump Game V](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1340.%20Jump%20Game%20V) 
+# [Github LeetCode 1871. Jump Game VII](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1871.%20Jump%20Game%20VII) 
 
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
         n = len(s)
         f, pre = [0] * n, [0] * n
         f[0] = 1
-        # since we start dynamic programming from i=minJump, we need to precompute the prefix sums for the part [0, minJump)
+        # since we start dynamic programming from i=minJump, we need to precompute the prefix sums for the part [0, minJump) 
         for i in range(minJump):
             pre[i] = 1
         for i in range(minJump, n):
