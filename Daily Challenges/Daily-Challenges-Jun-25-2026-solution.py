@@ -1,3 +1,11 @@
+# 1871. Jump Game VII
+
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1871](https://leetcode.com/problems/jump-game-vii/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 1340. Jump Game V](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1340.%20Jump%20Game%20V) 
+
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
         n = len(s)
