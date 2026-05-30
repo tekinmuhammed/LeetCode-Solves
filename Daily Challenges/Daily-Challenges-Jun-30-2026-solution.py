@@ -1,6 +1,10 @@
+# 3161. Block Placement Queries
+
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3161](https://leetcode.com/problems/block-placement-queries/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 1871. Jump Game VII](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1871.%20Jump%20Game%20VII) 
+# [Github LeetCode 3161. Block Placement Queries](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3161.%20Block%20Placement%20Queries) 
 
 class Solution:
     def __init__(self):
