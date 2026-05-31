@@ -1,6 +1,10 @@
+# 2126. Destroying Asteroids
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 2126](https://leetcode.com/problems/destroying-asteroids/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3161. Block Placement Queries](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3161.%20Block%20Placement%20Queries) 
+# [Github LeetCode 2126. Destroying Asteroids](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2126.%20Destroying%20Asteroids) 
 
 class Solution:
     def asteroidsDestroyed(self, mass: int, asteroids: List[int]) -> bool:
