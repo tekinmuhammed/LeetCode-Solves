@@ -1,7 +1,7 @@
 # 3633. Earliest Finish Time for Land and Water Rides I
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) *(Note: Link may vary based on exact LeetCode URL)*
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/)
 
 ---
 
@@ -15,10 +15,10 @@ Specifically, you are given four integer arrays:
 You want to go on exactly **one land ride** and exactly **one water ride**. You can go on them in any order (Land then Water, or Water then Land), but you cannot overlap them. If you finish your first ride before the second ride starts, you must wait until the second ride's start time.
 
 Return the **earliest possible time** you can finish both rides.
-
----
-
-# Approach
+  
+--- 
+ 
+# Approach 
 
 Since this is the "Version I" of the problem (usually implying smaller constraints), a **Brute-Force / Simulation** approach works perfectly. We can simply evaluate every possible pair of one land ride and one water ride.
 
@@ -35,9 +35,9 @@ For every pair `(i, j)` where `i` is the land ride and `j` is the water ride, th
    * Your final finish time is `actual_land_start + landDuration[i]`.
 
 We calculate both scenarios for all pairs and keep track of the absolute minimum finish time using a variable `res` initialized to infinity.
-
----
-
+ 
+--- 
+ 
 # Example Walkthrough
 
 Imagine we are evaluating a specific pair:
@@ -55,9 +55,9 @@ Imagine we are evaluating a specific pair:
 * Finish Land: `13 + 5 = 18`.
 
 For this specific pair, the earliest finish time is `min(13, 18) = 13`. The algorithm does this for all pairs and returns the global minimum.
-
----
-
+ 
+--- 
+ 
 # Complexity Analysis
 
 Time Complexity
@@ -71,10 +71,10 @@ Space Complexity
 O(1)
 
 We only use a few variables (`n`, `m`, `res`, and temporary calculation variables) regardless of the size of the input arrays, meaning the auxiliary space used is constant.
-
----
-
-# Code
+ 
+--- 
+ 
+# Code 
 
 ```python
 from typing import List
