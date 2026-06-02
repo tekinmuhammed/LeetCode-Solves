@@ -3,7 +3,7 @@
 # **Difficulty:** Hard 
 # **Problem Link:** [LeetCode 1345](https://leetcode.com/problems/jump-game-iv/description/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 1345. Jump Game IV](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1345.%20Jump%20Game%20IV) 
 
 class Solution:
