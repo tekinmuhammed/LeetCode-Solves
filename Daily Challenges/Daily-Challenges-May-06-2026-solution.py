@@ -1,6 +1,6 @@
 # 1861. Rotating the Box 
 
-# **Difficulty:** Medium=
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1861](https://leetcode.com/problems/rotating-the-box/description/)
 
 # 🧠 Problem Description
