@@ -1,6 +1,6 @@
 # 1665. Minimum Initial Energy to Finish Tasks
 
-# **Difficulty:** Hard  
+# **Difficulty:** Hard
 # **Problem Link:** [LeetCode 1665](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/)
 
 # 🧠 Problem Description
