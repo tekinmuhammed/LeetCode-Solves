@@ -3,7 +3,7 @@
 # **Difficulty:** Easy
 # **Problem Link:** [LeetCode 2784](https://leetcode.com/problems/check-if-array-is-good/description/)
 
-# 🧠 Problem Description
+# 🧠 Problem Description 
 # [Github LeetCode 2784. Check if Array is Good](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2784.%20Check%20if%20Array%20is%20Good) 
 
 class Solution:
