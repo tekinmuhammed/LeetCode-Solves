@@ -3,7 +3,7 @@
 # **Difficulty:** Medium
 # **Problem Link:** [LeetCode 2770](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/)
 
-# 🧠 Problem Description
+# 🧠 Problem Description 
 # [Github LeetCode 2770. Maximum Number of Jumps to Reach the Last Index](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2770.%20Maximum%20Number%20of%20Jumps%20to%20Reach%20the%20Last%20Index) 
 
 class Solution:
