@@ -1,6 +1,6 @@
 # 3660. Jump Game IX 
 
-# **Difficulty:** Medium 
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 3660](https://leetcode.com/problems/jump-game-ix/description/)
 
 # 🧠 Problem Description 
