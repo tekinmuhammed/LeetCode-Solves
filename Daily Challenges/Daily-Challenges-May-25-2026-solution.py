@@ -1,9 +1,9 @@
 # 1871. Jump Game VII
 
-# **Difficulty:** Medium
+# **Difficulty:** Medium 
 # **Problem Link:** [LeetCode 1871](https://leetcode.com/problems/jump-game-vii/description/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description  
 # [Github LeetCode 1871. Jump Game VII](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1871.%20Jump%20Game%20VII) 
 
 class Solution:
