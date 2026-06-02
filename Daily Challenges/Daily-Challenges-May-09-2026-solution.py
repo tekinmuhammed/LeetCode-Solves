@@ -1,9 +1,9 @@
 # 1914. Cyclically Rotating a Grid
 
-# **Difficulty:** Medium 
+# **Difficulty:** Medium
 # **Problem Link:** [LeetCode 1914](https://leetcode.com/problems/cyclically-rotating-a-grid/description/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 1914. Cyclically Rotating a Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1914.%20Cyclically%20Rotating%20a%20Grid) 
 
 class Solution:
