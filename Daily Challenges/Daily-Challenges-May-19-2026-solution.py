@@ -3,7 +3,7 @@
 # **Difficulty:** Easy
 # **Problem Link:** [LeetCode 2540](https://leetcode.com/problems/minimum-common-value/description/)
 
-# 🧠 Problem Description 
+# 🧠 Problem Description
 # [Github LeetCode 2540. Minimum Common Value](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2540.%20Minimum%20Common%20Value) 
 
 class Solution:
