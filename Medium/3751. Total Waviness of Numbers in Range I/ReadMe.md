@@ -1,8 +1,7 @@
 # 3751. Total Waviness of Numbers in Range I
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) *(Note: Link may vary based on exact LeetCode URL)*
-
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/)
 ---
 
 ## Problem
@@ -11,11 +10,11 @@ You are given two positive integers `num1` and `num2`.
 The **waviness** of a number is defined as the number of local extrema (peaks or valleys) in the sequence of its digits. Specifically, a digit `b` surrounded by digits `a` and `c` forms a wave if it is strictly greater than both (`a < b > c`) or strictly less than both (`a > b < c`).
 
 Calculate and return the **total waviness** of all integers in the inclusive range `[num1, num2]`.
-
----
-
-# Approach
-
+ 
+--- 
+ 
+# Approach 
+ 
 Since this is "Version I" of the problem, the range `[num1, num2]` is small enough to allow for a direct **Simulation / Brute-Force** approach.
 
 We can solve this efficiently by breaking the logic into two parts:
@@ -27,11 +26,11 @@ We can solve this efficiently by breaking the logic into two parts:
 2. **Aggregate the Range:**
    * Iterate through every number in the range `[num1, num2 + 1]`.
    * Apply our `waviness` function to each number and sum the results.
-
----
-
-# Example Walkthrough
-
+ 
+--- 
+ 
+# Example Walkthrough 
+ 
 Let's calculate the waviness of the number `13241`:
 
 * Convert to string: `"13241"`
@@ -45,15 +44,15 @@ Let's calculate the waviness of the number `13241`:
 Total waviness for `13241` = `1 + 1 + 1 = 3`.
 
 The main function simply runs this calculation for every number between `num1` and `num2` and adds them all up.
-
----
-
-# Complexity Analysis
-
-Time Complexity
-
-O(N \times D)
-
+ 
+--- 
+ 
+# Complexity Analysis 
+ 
+Time Complexity 
+ 
+O(N \times D) 
+ 
 Where `N` is the total number of integers in the range (`num2 - num1 + 1`) and `D` is the maximum number of digits in `num2`. Converting a number to a string and iterating through its digits takes $O(D)$ time. We do this for all $N$ numbers. Since $D$ is typically very small (e.g., $\le 10$), this is highly efficient for reasonable ranges.
 
 Space Complexity
@@ -61,9 +60,9 @@ Space Complexity
 O(D)
 
 The auxiliary space is bound by the string conversion of the number and the memory required to hold the `zip` iterator elements. Both take $O(D)$ space, where $D$ is the number of digits in the current number.
-
----
-
+ 
+--- 
+ 
 # Code
 
 ```python
