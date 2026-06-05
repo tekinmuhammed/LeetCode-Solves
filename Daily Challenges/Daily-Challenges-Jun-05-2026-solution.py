@@ -1,6 +1,10 @@
+# 3753. Total Waviness of Numbers in Range II
+
+# **Difficulty:** Hard  
+# **Problem Link:** [LeetCode 3753](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 3751. Total Waviness of Numbers in Range I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I) 
+# [Github LeetCode 3753. Total Waviness of Numbers in Range II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3753.%20Total%20Waviness%20of%20Numbers%20in%20Range%20II) 
 
 class Solution:
     def totalWaviness(self, num1: int, num2: int) -> int:
