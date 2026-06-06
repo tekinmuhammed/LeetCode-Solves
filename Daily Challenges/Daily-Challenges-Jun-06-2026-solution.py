@@ -1,6 +1,10 @@
+# 2574. Left and Right Sum Differences
+
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 2574](https://leetcode.com/problems/left-and-right-sum-differences/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 3753. Total Waviness of Numbers in Range II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3753.%20Total%20Waviness%20of%20Numbers%20in%20Range%20II) 
+# [Github LeetCode 2574. Left and Right Sum Differences](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2574.%20Left%20and%20Right%20Sum%20Differences) 
 
 class Solution:
     def leftRightDifference(self, nums: List[int]) -> List[int]:
