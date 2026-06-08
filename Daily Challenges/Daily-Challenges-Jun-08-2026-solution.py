@@ -1,6 +1,11 @@
+# 2161. Partition Array According to Given Pivot
+
+# **Difficulty:** Medium  
+# **Problem Link:** [LeetCode 2161](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 2574. Left and Right Sum Differences](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2574.%20Left%20and%20Right%20Sum%20Differences) 
+# [Github LeetCode 2161. Partition Array According to Given Pivot](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot-2) 
+
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         less = []
