@@ -1,6 +1,11 @@
+# 3689. Maximum Total Subarray Value I
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3689](https://leetcode.com/problems/maximum-total-subarray-value-i/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 2161. Partition Array According to Given Pivot](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot-2) 
+# [Github LeetCode 3689. Maximum Total Subarray Value I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3689.%20Maximum%20Total%20Subarray%20Value%20I) 
+
 class Solution:
     def maxTotalValue(self, nums: List[int], k: int) -> int:
         m1 = min(nums)
