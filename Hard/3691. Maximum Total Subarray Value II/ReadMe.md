@@ -1,7 +1,7 @@
 # 3691. Maximum Total Subarray Value II
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/) *(Note: Link may vary based on exact LeetCode URL)*
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/description/)
 
 ---
 
@@ -12,8 +12,6 @@ The value of a subarray is defined as: `max(subarray) - min(subarray)`.
 The total value is the sum of the values of all `k` chosen subarrays. 
 
 Return the maximum possible total value you can achieve.
-
-*(Note: Unlike Version I, you cannot pick the exact same subarray multiple times, which drastically changes the approach).*
 
 ---
 
