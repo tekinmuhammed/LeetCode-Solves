@@ -1,6 +1,11 @@
+# 3691. Maximum Total Subarray Value II
+
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 3689. Maximum Total Subarray Value I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3689.%20Maximum%20Total%20Subarray%20Value%20I) 
+# [Github LeetCode 3691. Maximum Total Subarray Value II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3691.%20Maximum%20Total%20Subarray%20Value%20II)
+
 class Solution:
     def maxTotalValue(self, nums: List[int], k: int) -> int:
         n = len(nums)
