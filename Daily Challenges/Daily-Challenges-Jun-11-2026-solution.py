@@ -1,6 +1,11 @@
+# 3558. Number of Ways to Assign Edge Weights I
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3558](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/)
 
 # 🧠 Problem Description  
-# [Github LeetCode 3691. Maximum Total Subarray Value II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3691.%20Maximum%20Total%20Subarray%20Value%20II)
+# [Github LeetCode 3558. Number of Ways to Assign Edge Weights I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3558.%20Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20I)
+
 class Solution:
     MOD = 10**9 + 7
 
