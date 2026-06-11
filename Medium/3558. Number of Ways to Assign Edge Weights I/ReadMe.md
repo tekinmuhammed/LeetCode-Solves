@@ -1,6 +1,6 @@
 # 3558. Number of Ways to Assign Edge Weights I
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 3558](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/)
 
 ---
@@ -11,15 +11,15 @@ There is an undirected tree with `n` nodes labeled from `1` to `n`, rooted at no
 Initially, all edges have a weight of `0`. You must assign each edge a weight of either `1` or `2`. 
 
 Select any one node `x` at the **maximum depth**. Return the number of ways to assign edge weights in the path from node `1` to `x` such that its total cost is **odd**. Since the answer may be large, return it modulo $10^9 + 7$.
-
----
-
-# Approach
-
+ 
+--- 
+ 
+# Approach 
+ 
 At first glance, this looks like a complex path-finding and permutation problem. However, it essentially boils down to finding the maximum depth of a tree and applying a clever combinatorial math trick.
-
-Steps:
-
+  
+Steps:  
+  
 1. **Find Maximum Depth (`k`):** * The problem only cares about the path from the root (`Node 1`) to a node at the absolute maximum depth.
    * We build an adjacency list `g` to represent the tree and use a **Depth-First Search (DFS)** starting from `1` to calculate this maximum depth. Let's call the number of edges in this longest path `k`.
 2. **Combinatorial Math (The Trick):**
@@ -30,11 +30,11 @@ Steps:
    * So, the number of valid ways is simply $\frac{2^k}{2} = 2^{k-1}$.
 3. **Modular Exponentiation:**
    * Since `k` can be large (up to $10^5$), $2^{k-1}$ will be massive. We use Python's built-in `pow(base, exp, mod)` function to calculate $2^{k-1} \pmod{10^9 + 7}$ efficiently in $O(\log k)$ time.
-
----
-
-# Example Walkthrough
-
+ 
+--- 
+ 
+# Example Walkthrough 
+ 
 Consider a tree with `n = 4` and edges `[[1, 2], [2, 3], [3, 4]]`.
 The tree is a straight line: `1 -> 2 -> 3 -> 4`.
 
@@ -58,15 +58,15 @@ The tree is a straight line: `1 -> 2 -> 3 -> 4`.
    * We need the odd sums. There are exactly 4 valid ways.
    * Using our formula: $2^{3-1} = 2^2 = 4$.
    * Result is `4`.
-
----
-
-# Complexity Analysis
-
-Time Complexity
-
-O(N)
-
+  
+---  
+  
+# Complexity Analysis 
+ 
+Time Complexity 
+ 
+O(N) 
+ 
 Where `N` is the number of nodes in the tree. We visit each node and edge exactly once during the DFS traversal. Calculating $2^{k-1} \pmod{10^9+7}$ takes $O(\log N)$ time, which is bounded and dominated by the linear DFS step.
 
 Space Complexity
