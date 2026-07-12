@@ -1,14 +1,14 @@
-# 1331. Rank Transform of an Array
-
-**Difficulty:** Easy
-**Problem Link:** [LeetCode 1331](https://leetcode.com/problems/rank-transform-of-an-array/description/)
-
-# 🧠 Problem Description
-# [Github LeetCode 3754. Concatenate Non-Zero Digits and Multiply by Sum I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/3754.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I)
+# 1331. Rank Transform of an Array 
+ 
+# **Difficulty:** Easy 
+# **Problem Link:** [LeetCode 1331](https://leetcode.com/problems/rank-transform-of-an-array/description/)
+ 
+# 🧠 Problem Description 
+# [Github LeetCode 1331. Rank Transform of an Array ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1331.%20Rank%20Transform%20of%20an%20Array)
 
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
-        # Store the rank for each number in arr
+        # Store the rank for each number in arr 
         num_to_rank = {}
         sorted_arr = sorted(arr)
         rank = 1
