@@ -1,11 +1,11 @@
 # 1291. Sequential Digits
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 1291](https://leetcode.com/problems/sequential-digits/description/)
 
 ---
-
-## Problem
+  
+## Problem 
 An integer has **sequential digits** if and only if each digit in the number is one more than the previous digit.
 
 Return a **sorted** list of all the integers in the range `[low, high]` inclusive that have sequential digits.
@@ -13,10 +13,10 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
 Example:
 Input: `low = 100`, `high = 300`
 Output: `[123, 234]`
-
----
-
-# Approach
+ 
+--- 
+ 
+# Approach 
 
 Instead of iterating through every single number between `low` and `high` (which would be extremely slow), this solution uses **Precomputation** with a **Breadth-First Search (BFS)** style queue to generate *all* possible sequential digits beforehand. 
 
@@ -35,11 +35,11 @@ Steps:
 3. **Filtering (The Function):**
    * When `sequentialDigits(l, h)` is called, the `q` list already contains all 45 valid numbers in sorted order.
    * We simply use a list comprehension to return the numbers that fall within the `[l, h]` range.
-
----
-
-# Example Walkthrough
-
+ 
+--- 
+ 
+# Example Walkthrough 
+ 
 Let's look at how the `q` list is built initially:
 
 * `q` starts as `[1, 2, 3, 4, 5, 6, 7, 8, 9]`.
@@ -55,10 +55,10 @@ Let's look at how the `q` list is built initially:
 
 If the query is `low = 100`, `high = 300`:
 * We iterate over our 45-element list and pick `123` and `234`.
-
----
-
-# Complexity Analysis
+ 
+--- 
+ 
+# Complexity Analysis 
 
 Time Complexity
 
