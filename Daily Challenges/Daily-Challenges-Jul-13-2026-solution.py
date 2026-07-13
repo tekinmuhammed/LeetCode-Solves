@@ -1,7 +1,11 @@
+ # 1291. Sequential Digits 
+ 
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 1291](https://leetcode.com/problems/sequential-digits/description/)
  
 # 🧠 Problem Description 
-# [Github LeetCode 1331. Rank Transform of an Array ](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1331.%20Rank%20Transform%20of%20an%20Array)
-
+# [Github LeetCode 1291. Sequential Digits](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1291.%20Sequential%20Digits)
+ 
 class Solution:
     q = [*range(1, 10)]
 
