@@ -1,29 +1,27 @@
 # 1081. Smallest Subsequence of Distinct Characters
 
-**Difficulty:** Medium  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 1081](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/)
-
-*(Note: This problem is exactly the same as [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/))*
 
 ---
 
 ## Problem
 Given a string `s`, return the lexicographically smallest subsequence of `s` that contains all the distinct characters of `s` exactly once.
-
+ 
 Example:
 Input: `s = "cbacdcbc"`
 Output: `"acdb"`
-
----
-
-# Approach
-
+ 
+--- 
+ 
+# Approach 
+ 
 To achieve the lexicographically smallest subsequence, we should try to keep our sequence in alphabetical order as much as possible. A **Monotonic Stack** combined with a **Greedy Strategy** is perfect for this.
-
+ 
 The core idea is: when we want to add a new character to our result, if the last added character is alphabetically larger than the new one AND we know the last character will appear again later in the string, we can safely discard the last character and replace it with the new one to improve the lexicographical order.
-
-Steps:
-
+ 
+Steps: 
+ 
 1. **Count Frequencies:** First, iterate through the string and count how many times each character appears using a `num` array. This tells us if a character will appear again later.
 2. **Track Visited Characters:** Use a `vis` array to keep track of characters currently inside our stack. We don't want to add duplicate characters.
 3. **Iterate and Build (Monotonic Stack):** 
@@ -33,13 +31,13 @@ Steps:
    * Push the current `ch` into the stack and mark it as visited (`vis = 1`).
    * Decrement the remaining count of `ch`.
 4. **Form the Result:** The elements remaining in the stack form the lexicographically smallest valid subsequence. Join them into a string.
-
----
-
-# Example Walkthrough
-
-Consider `s = "bcabc"`
-
+ 
+--- 
+ 
+# Example Walkthrough 
+ 
+Consider `s = "bcabc"` 
+ 
 1. **Initial Counts:** `b: 2, c: 2, a: 1`
 2. **Iteration:**
    * **Char 'b':** Stack is empty. Push 'b'. 
@@ -56,14 +54,14 @@ Consider `s = "bcabc"`
      * *Stack:* `['a', 'b', 'c']`, *Counts:* `b:0, c:0, a:0`
 
 Result: `"abc"`.
-
----
-
-# Complexity Analysis
-
-Time Complexity
-
-O(N)
+ 
+--- 
+ 
+# Complexity Analysis 
+ 
+Time Complexity 
+ 
+O(N) 
 
 Where `N` is the length of the string `s`. We iterate through the string twice: once to count the characters and once to build the stack. During the stack-building phase, each character is pushed and popped at most once. Therefore, the time complexity is strictly linear.
 
