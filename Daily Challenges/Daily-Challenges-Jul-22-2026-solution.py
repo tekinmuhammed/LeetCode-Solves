@@ -1,11 +1,11 @@
-# 3501. Maximize Active Section with Trade II
-
-# **Difficulty:** Hard
+# 3501. Maximize Active Section with Trade II 
+ 
+# **Difficulty:** Hard 
 # **Problem Link:** [LeetCode 3501](https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/)
-
-# 🧠 Problem Description
-# [Github LeetCode 1260. Shift 2D Grid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3501.%20Maximize%20Active%20Section%20with%20Trade%20II)
-
+ 
+# 🧠 Problem Description 
+# [Github LeetCode 3501. Maximize Active Section with Trade II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3501.%20Maximize%20Active%20Section%20with%20Trade%20II)
+ 
 class SegmentTree:
     def __init__(self, arr):
         self.n = len(arr)
