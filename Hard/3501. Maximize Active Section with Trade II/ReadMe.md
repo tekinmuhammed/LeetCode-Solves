@@ -1,24 +1,24 @@
 # 3501. Maximize Active Section with Trade II
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 3501](https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/) *(Note: Link based on standard LeetCode URL structure)*
+**Difficulty:** Hard
+**Problem Link:** [LeetCode 3501](https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/)
 
----
-
-## Problem
-Given a binary string `s` and a 2D integer array `queries` where each query is of the form `[l, r]`, you need to calculate the maximum possible active sections for each query.
-
+--- 
+ 
+## Problem 
+Given a binary string `s` and a 2D integer array `queries` where each query is of the form `[l, r]`, you need to calculate the maximum possible active sections for each query. 
+ 
 The base number of active sections is the total count of `'1'`s in the entire string. For each query range `[l, r]`, you are allowed to "trade" (or convert) up to **two adjacent blocks of `'0'`s** into `'1'`s to maximize the total number of `'1'`s. Only the portions of the `'0'` blocks that fall within the query boundaries `[l, r]` can be converted.
-
-Return an array of integers, where each integer is the answer to the corresponding query.
-
----
-
-# Approach
-
-To process multiple queries efficiently without rescanning the string every time, we need to preprocess the string into blocks and use advanced data structures to quickly query maximums in a given range.
-
-Steps:
+ 
+Return an array of integers, where each integer is the answer to the corresponding query. 
+ 
+--- 
+ 
+# Approach 
+ 
+To process multiple queries efficiently without rescanning the string every time, we need to preprocess the string into blocks and use advanced data structures to quickly query maximums in a given range. 
+ 
+Steps: 
 1. **Block Parsing**: 
    Iterate through the string `s` to find all contiguous blocks of `'0'`s. We store the length of each block, along with its start and end indices. 
 2. **Precomputing Adjacency**: 
@@ -34,10 +34,10 @@ Steps:
      2. The second-to-last block + the truncated last block.
      3. Any two adjacent fully contained blocks between the first and last blocks (using our Segment Tree query).
    * Add the maximum of these options to the total count of `'1'`s in the string.
-
----
-
-# Code
+ 
+--- 
+ 
+# Code 
 
 ```python
 class SegmentTree:
