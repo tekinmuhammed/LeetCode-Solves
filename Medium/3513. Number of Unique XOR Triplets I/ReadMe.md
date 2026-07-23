@@ -1,30 +1,30 @@
 # 3513. Number of Unique XOR Triplets I
 
-**Difficulty:** Medium  
+**Difficulty:** Medium 
 **Problem Link:** [LeetCode 3513](https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/)
-
----
-
+ 
+--- 
+ 
 ## Problem
 Given an integer array `nums`, you need to find the number of unique XOR triplets that satisfy the problem's specific conditions. 
 
 *(Note: Based on the provided optimal solution, the problem simplifies mathematically. The actual values inside the `nums` array do not matter; the answer depends entirely on the **length** of the array.)*
-
----
-
-# Approach
-
+ 
+--- 
+ 
+# Approach 
+ 
 A brute-force approach to find triplets would normally require an $\mathcal{O}(N^3)$ simulation, checking every possible combination of three elements. However, this optimal solution uses a mathematical observation/pattern reduction.
 
 Instead of calculating XOR values, the logic only looks at $N$, the length of the array:
 1. **Base Case:** If the array has 2 or fewer elements (`n <= 2`), the answer is simply $n$.
 2. **Pattern Recognition for $N > 2$:** The result always evaluates to the **smallest power of 2 that is strictly greater than $n$**.
-3. **Bitwise Shift:** To find this next power of 2 efficiently, we initialize `ans = 1`. In a loop, we perform a left bit-shift (`ans <<= 1`, which multiplies `ans` by 2) until `ans` exceeds `n`. 
-
-This transforms what sounds like an array-processing problem into a pure mathematical $O(\log n)$ step.
-
----
-
+3. **Bitwise Shift:** To find this next power of 2 efficiently, we initialize `ans = 1`. In a loop, we perform a left bit-shift (`ans <<= 1`, which multiplies `ans` by 2) until `ans` exceeds `n`.  
+ 
+This transforms what sounds like an array-processing problem into a pure mathematical $O(\log n)$ step. 
+ 
+--- 
+ 
 # Code
 
 ```python
