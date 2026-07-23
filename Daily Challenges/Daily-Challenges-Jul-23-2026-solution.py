@@ -1,3 +1,11 @@
+# 3513. Number of Unique XOR Triplets I
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3513](https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/)
+     
+# 🧠 Problem Description
+# [Github LeetCode 3513. Number of Unique XOR Triplets I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I)
+
 class Solution:
     def uniqueXorTriplets(self, nums: List[int]) -> int:
         n = len(nums)
@@ -7,6 +15,3 @@ class Solution:
         while ans <= n:
             ans <<= 1
         return ans
-     
-# 🧠 Problem Description 
-# [Github LeetCode 3501. Maximize Active Section with Trade II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3501.%20Maximize%20Active%20Section%20with%20Trade%20II)
