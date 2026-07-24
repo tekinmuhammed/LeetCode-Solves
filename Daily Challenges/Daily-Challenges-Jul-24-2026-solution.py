@@ -1,6 +1,10 @@
-     
+# 3514. Number of Unique XOR Triplets II
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3514](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/description/)
+
 # 🧠 Problem Description
-# [Github LeetCode 3513. Number of Unique XOR Triplets I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I)
+# [Github LeetCode 3514. Number of Unique XOR Triplets II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3514.%20Number%20of%20Unique%20XOR%20Triplets%20II)
 
 class Solution:
     def uniqueXorTriplets(self, nums: List[int]) -> int:
