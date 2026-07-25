@@ -1,8 +1,7 @@
-# 3536. Maximum Product of Two Digits
+# 3536. Maximum Product of Two Digits 
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 3536](https://leetcode.com/problems/maximum-product-of-two-digits/description/) *(Note: Link based on standard LeetCode URL structure)*
-
+**Difficulty:** Easy
+**Problem Link:** [LeetCode 3536](https://leetcode.com/problems/maximum-product-of-two-digits/description/)
 ---
 
 ## Problem
@@ -21,22 +20,22 @@ The digits of the number are 4, 9, 2, and 6. The largest two digits are 9 and 6.
 
 ---
 
-# Approach
-
-To maximize the product of two digits, we simply need to find the **two largest digits** in the number. 
-
+# Approach 
+ 
+To maximize the product of two digits, we simply need to find the **two largest digits** in the number.  
+ 
 Instead of converting the integer to a string, sorting the digits, and picking the top two (which takes extra space and time), we can process the number mathematically:
 1. Initialize two variables, `first` and `second`, to 0 to keep track of the highest and second-highest digits.
 2. Use a `while` loop to extract the last digit of the number using the modulo operator (`x = n % 10`).
 3. Compare the extracted digit `x` with our tracked maximums:
-   * If `x` is greater than `first`, update `second` to be the old `first`, and set `first` to `x`.
-   * Else if `x` is not greater than `first` but is greater than `second`, update `second` to `x`.
-4. Remove the last digit from `n` using integer division (`n //= 10`) and repeat until `n` becomes 0.
-5. Return the product of `first` and `second`.
-
----
-
-# Code
+   * If `x` is greater than `first`, update `second` to be the old `first`, and set `first` to `x`. 
+   * Else if `x` is not greater than `first` but is greater than `second`, update `second` to `x`. 
+4. Remove the last digit from `n` using integer division (`n //= 10`) and repeat until `n` becomes 0. 
+5. Return the product of `first` and `second`. 
+ 
+--- 
+ 
+# Code 
 
 ```python
 class Solution:
@@ -53,7 +52,7 @@ class Solution:
 ```
 
 ---
-
+ 
 # Example Walkthrough
 
 Let's trace the algorithm for `n = 4926`.
@@ -70,12 +69,12 @@ Initial state: `first = 0`, `second = 0`
    * `2 > first (6)` is False.
    * `2 > second (0)` is True $\rightarrow$ `second = 2`
    * `n //= 10` $\rightarrow$ `n = 49`
-
+ 
 3. **n = 49**:
    * `x = 49 % 10 = 9`
    * `9 > first (6)` is True $\rightarrow$ `second = 6`, `first = 9`
    * `n //= 10` $\rightarrow$ `n = 4`
-
+ 
 4. **n = 4**:
    * `x = 4 % 10 = 4`
    * `4 > first (9)` is False.
