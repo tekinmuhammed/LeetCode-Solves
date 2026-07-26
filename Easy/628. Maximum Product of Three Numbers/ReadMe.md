@@ -4,12 +4,12 @@
 **Problem Link:** [LeetCode 628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)
 
 ---
-
-## Problem
+ 
+## Problem 
 Given an integer array `nums`, find three numbers whose product is maximum and return the maximum product.
-
-Example 1:
-
+ 
+Example 1: 
+ 
 Input  
 nums = [1, 2, 3]  
 
