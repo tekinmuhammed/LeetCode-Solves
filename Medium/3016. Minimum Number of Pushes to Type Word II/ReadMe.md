@@ -4,37 +4,37 @@
 **Problem Link:** [LeetCode 3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)
 
 ---
-
-## Problem
+ 
+## Problem 
 You are given a string `word` containing lowercase English letters. 
 
-Unlike Part I, the letters in the string are **not necessarily distinct**. You have 8 keys available on a telephone keypad (numbered `2` to `9`). You can remap these keys to any amount of letters, but each letter must be mapped to exactly one key. 
-
-You need to find the minimum number of times the keys will be pushed to type the string `word`.
-
-Example:
-
-Input  
+Unlike Part I, the letters in the string are **not necessarily distinct**. You have 8 keys available on a telephone keypad (numbered `2` to `9`). You can remap these keys to any amount of letters, but each letter must be mapped to exactly one key.  
+ 
+You need to find the minimum number of times the keys will be pushed to type the string `word`. 
+ 
+Example: 
+ 
+Input   
 word = "abcde"  
+ 
+Output   
+5   
+   
+Input   
+word = "aabbccddeeffgghhiiiiii"   
+ 
+Output   
+24   
+ 
+--- 
+ 
+# Approach 
 
-Output  
-5  
-
-Input  
-word = "aabbccddeeffgghhiiiiii"  
-
-Output  
-24  
-
----
-
-# Approach
-
-Since characters can appear multiple times, we must prioritize the most frequently used characters. The goal is to assign the characters that appear most often to the first position of a key (requiring 1 push), the next most frequent to the second position (requiring 2 pushes), and so on.
-
-This is a classic **Greedy Algorithm**.
-
-Steps:
+Since characters can appear multiple times, we must prioritize the most frequently used characters. The goal is to assign the characters that appear most often to the first position of a key (requiring 1 push), the next most frequent to the second position (requiring 2 pushes), and so on. 
+ 
+This is a classic **Greedy Algorithm**. 
+ 
+Steps: 
 1. **Count Frequencies**: Create an array of size 26 to store the frequency of each lowercase letter in the string.
 2. **Sort**: Sort the frequency array in descending order. We don't care which letter has which frequency; we only care about processing the highest frequencies first.
 3. **Assign and Calculate**: Iterate through the sorted frequencies. 
@@ -42,26 +42,26 @@ Steps:
    * The next 8 highest frequencies are placed at position 2 (cost = `2 * frequency`).
    * We calculate the multiplier using `(i // 8) + 1` where `i` is the index of the sorted array.
 4. **Early Exit**: If we encounter a frequency of `0`, we can break out of the loop early since all remaining frequencies will also be `0`.
-
----
-
-# Code
+ 
+--- 
+ 
+# Code 
 
 ```python
 class Solution:
     def minimumPushes(self, word: str) -> int:
-        # Frequency list to store count of each letter
+        # frequency list to store count of each letter
         frequency = [0] * 26
 
         # Count occurrences of each letter
         for c in word:
             frequency[ord(c) - ord("a")] += 1
-        # Sort frequencies in descending order
+        # sort frequencies in descending order 
         frequency.sort(reverse=True)
 
         total_pushes = 0
 
-        # Calculate total number of presses
+        # calculate total number of presses
         for i in range(26):
             if frequency[i] == 0:
                 break
@@ -76,14 +76,14 @@ class Solution:
 
 Let's say `word = "aaabbbcccdddeeefffggghhh"`
 
-1. **Frequencies**: We have 8 distinct letters, each appearing 3 times. 
+1. **Frequencies**: We have 8 distinct letters, each appearing 3 times
    `frequency` (sorted) = `[3, 3, 3, 3, 3, 3, 3, 3, 0, 0, ...]`
 2. **First 8 letters (indices 0 to 7)**:
    * Multiplier: `i // 8 + 1` = `1`
-   * We have 8 keys. Each key gets one of these letters at the first position.
-   * Total for these: `8 letters * 3 occurrences * 1 push = 24 pushes`.
+   * We have 8 keys. Each key gets one of these letters at the first position
+   * Total for these: `8 letters * 3 occurrences * 1 push = 24 pushes`
 3. **Index 8 (frequency is 0)**:
-   * Loop breaks.
+   * Loop breaks
 
 Result: `24`
 
