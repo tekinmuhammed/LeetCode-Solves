@@ -1,3 +1,11 @@
+# 3016. Minimum Number of Pushes to Type Word II
+
+# **Difficulty:** Medium
+# **Problem Link:** [LeetCode 3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 3016. Minimum Number of Pushes to Type Word II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II)
+
 class Solution:
     def minimumPushes(self, word: str) -> int:
         # Frequency list to store count of each letter
