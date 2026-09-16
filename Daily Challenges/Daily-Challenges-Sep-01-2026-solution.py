@@ -1,7 +1,10 @@
 # 1621. Number of Sets of K Non-Overlapping Line Segments
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/)
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1621. Number of Sets of K Non-Overlapping Line Segments](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1621.%20Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments)
 
 class Solution:
     def numberOfSets(self, n: int, k: int) -> int:
