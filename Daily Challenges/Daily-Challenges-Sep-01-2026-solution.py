@@ -1,3 +1,8 @@
+# 1621. Number of Sets of K Non-Overlapping Line Segments
+
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/)
+
 class Solution:
     def numberOfSets(self, n: int, k: int) -> int:
         mod = 10**9 + 7
