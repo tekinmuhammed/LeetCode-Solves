@@ -1,7 +1,10 @@
 # 1520. Maximum Number of Non-Overlapping Substrings
 
 # **Difficulty:** Hard  
-**Problem Link:** [LeetCode 1520](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/)
+# **Problem Link:** [LeetCode 1520](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1520. Maximum Number of Non-Overlapping Substrings](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/1520.%20Maximum%20Number%20of%20Non-Overlapping%20Substrings)
 
 class Seg:
     def __init__(self, left=-1, right=-1):
