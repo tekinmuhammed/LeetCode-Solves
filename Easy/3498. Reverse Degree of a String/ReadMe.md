@@ -1,7 +1,7 @@
 # 3498. Reverse Degree of a String
 
-**Difficulty:** Easy  
-**Problem Link:** [LeetCode 3498](https://leetcode.com/problems/reverse-degree-of-a-string/description/) *(Note: Link based on standard LeetCode URL structure)*
+**Difficulty:** Easy 
+**Problem Link:** [LeetCode 3498](https://leetcode.com/problems/reverse-degree-of-a-string/description/)
 
 ---
 
