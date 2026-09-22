@@ -1,10 +1,14 @@
+
+# 🧠 Problem Description
+# [Github LeetCode 3524. Find X Value of Array I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3524.%20Find%20X%20Value%20of%20Array%20I)
+
 class SegmentTree:
     def __init__(self, nums: List[int], k: int):
         self.k = k
         n = len(nums)
         size = 2 << n.bit_length()
 
-        # tree[o] = pre + [mul]
+        # tree[o] = pre + [mul] 
         self.tree = [[0] * (k + 1) for _ in range(size)]
 
         self.build(nums, 1, 0, n - 1)
@@ -13,7 +17,7 @@ class SegmentTree:
         info = [0] * (self.k + 1)
         r = value % self.k
         info[r] = 1
-        info[self.k] = r  # mul
+        info[self.k] = r  # mul 
         self.tree[o] = info
 
     def mergePre(self, left: List[int], right: List[int]) -> List[int]:
@@ -22,14 +26,14 @@ class SegmentTree:
         mul_L = left[self.k]
         mul_R = right[self.k]
 
-        # Remainder of the product of the entire interval
+        # Remainder of the product of the entire interval 
         pre[self.k] = (mul_L * mul_R) % self.k
 
-        # Case 1: Entirely within the left interval
+        # Case 1: Entirely within the left interval 
         for x in range(self.k):
             pre[x] = left[x]
 
-        # Case 2: Contains the entire left interval, followed by a prefix of the right interval
+        # Case 2: Contains the entire left interval,  followed by a prefix of the right interval
         for x in range(self.k):
             pre[(mul_L * x) % self.k] += right[x]
 
