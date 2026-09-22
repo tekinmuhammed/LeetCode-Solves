@@ -1,6 +1,10 @@
+# 3525. Find X Value of Array II
+
+# **Difficulty:** Hard 
+# **Problem Link:** [LeetCode 3525](https://leetcode.com/problems/find-x-value-of-array-ii/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3524. Find X Value of Array I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3524.%20Find%20X%20Value%20of%20Array%20I)
+# [Github LeetCode 3525. Find X Value of Array II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3525.%20Find%20X%20Value%20of%20Array%20II)
 
 class SegmentTree:
     def __init__(self, nums: List[int], k: int):
