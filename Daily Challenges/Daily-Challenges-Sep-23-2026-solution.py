@@ -1,10 +1,10 @@
 # 1658. Minimum Operations to Reduce X to Zero
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 1658](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
+# **Difficulty:** Medium  
+# **Problem Link:** [LeetCode 1658](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
 
 # 🧠 Problem Description
-# [Github LeetCode 3525. Find X Value of Array II](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/3525.%20Find%20X%20Value%20of%20Array%20II)
+# [Github LeetCode 1658. Minimum Operations to Reduce X to Zero](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero)
 
 class Solution:
     def minOperations(self, A: List[int], x: int) -> int:
