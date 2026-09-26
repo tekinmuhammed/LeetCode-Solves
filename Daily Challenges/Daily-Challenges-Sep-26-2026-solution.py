@@ -1,3 +1,7 @@
+# 1807. Evaluate the Bracket Pairs of a String
+
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 1807](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/)
 class Solution:
     def evaluate(self, s: str, knowledge: List[List[str]]) -> str:
         d = dict(knowledge)
