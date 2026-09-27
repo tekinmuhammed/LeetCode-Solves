@@ -1,3 +1,6 @@
+
+# 🧠 Problem Description
+# [Github LeetCode 1807. Evaluate the Bracket Pairs of a String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String)
 class Solution:
     def reverseParentheses(self, s: str) -> str:
         open_parentheses_indices = deque()
