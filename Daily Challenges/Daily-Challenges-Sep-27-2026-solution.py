@@ -1,3 +1,7 @@
+# 1190. Reverse Substrings Between Each Pair of Parentheses
+
+**Difficulty:** Medium 
+**Problem Link:** [LeetCode 1190](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/)
 
 # 🧠 Problem Description
 # [Github LeetCode 1807. Evaluate the Bracket Pairs of a String](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String)
