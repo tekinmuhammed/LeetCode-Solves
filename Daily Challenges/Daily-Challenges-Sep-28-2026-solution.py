@@ -1,6 +1,11 @@
+# 1614. Maximum Nesting Depth of the Parentheses
+
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 1190. Reverse Substrings Between Each Pair of Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses)
+# [Github LeetCode 1614. Maximum Nesting Depth of the Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1614.%20Maximum%20Nesting%20Depth%20of%20the%20Parentheses)
+
 class Solution:
     def maxDepth(self, s: str) -> int:
         ans, st = 0, []
