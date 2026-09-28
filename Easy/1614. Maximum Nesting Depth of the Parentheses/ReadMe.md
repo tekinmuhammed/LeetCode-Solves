@@ -1,6 +1,6 @@
 # 1614. Maximum Nesting Depth of the Parentheses
 
-**Difficulty:** Easy  
+**Difficulty:** Easy 
 **Problem Link:** [LeetCode 1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)
 
 ---
