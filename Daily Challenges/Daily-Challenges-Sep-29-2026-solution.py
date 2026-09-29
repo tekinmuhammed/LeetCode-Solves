@@ -1,10 +1,10 @@
 # 2267. Check if There Is a Valid Parentheses String Path
 
-**Difficulty:** Hard  
-**Problem Link:** [LeetCode 2267](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/)
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 2267](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 1614. Maximum Nesting Depth of the Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1614.%20Maximum%20Nesting%20Depth%20of%20the%20Parentheses)
+# [Github LeetCode 2267. Check if There Is a Valid Parentheses String Path](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2267.%20Check%20if%20There%20Is%20a%20Valid%20Parentheses%20String%20Path)
 
 class Solution:
     def hasValidPath(self, grid: list[list[str]]) -> bool:
