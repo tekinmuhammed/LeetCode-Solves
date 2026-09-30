@@ -1,3 +1,7 @@
+# 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
+
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 1111](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/)
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         ans = []
