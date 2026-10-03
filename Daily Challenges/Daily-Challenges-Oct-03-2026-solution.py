@@ -1,6 +1,11 @@
+# 32. Longest Valid Parentheses
+
+# **Difficulty:** Hard
+# **Problem Link:** [LeetCode 32](https://leetcode.com/problems/longest-valid-parentheses/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 1111. Maximum Nesting Depth of Two Valid Parentheses Strings](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1111.%20Maximum%20Nesting%20Depth%20of%20Two%20Valid%20Parentheses%20Strings)
+# [Github LeetCode 32. Longest Valid Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/32.%20Longest%20Valid%20Parentheses)
+
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         left, right, maxi = 0, 0, 0
