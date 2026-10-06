@@ -1,7 +1,11 @@
 # 921. Minimum Add to Make Parentheses Valid
 
-**Difficulty:** Medium
-**Problem Link:** [LeetCode 921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 921. Minimum Add to Make Parentheses Valid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid)
+
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
         open_brackets = 0
