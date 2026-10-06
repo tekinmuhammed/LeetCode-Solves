@@ -1,6 +1,6 @@
 # 921. Minimum Add to Make Parentheses Valid
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
 
 ---
