@@ -1,6 +1,11 @@
+# 1021. Remove Outermost Parentheses
 
-# 🧠 Problem Description 
-# [Github LeetCode 921. Minimum Add to Make Parentheses Valid](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid)
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 1021](https://leetcode.com/problems/remove-outermost-parentheses/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1021. Remove Outermost Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1021.%20Remove%20Outermost%20Parentheses)
+
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
         res, stack = [], []
