@@ -1,6 +1,6 @@
 # 1541. Minimum Insertions to Balance a Parentheses String
 
-**Difficulty:** Medium  
+**Difficulty:** Medium
 **Problem Link:** [LeetCode 1541](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/)
 
 ---
