@@ -1,3 +1,10 @@
+# 1541. Minimum Insertions to Balance a Parentheses String
+
+**Difficulty:** Medium
+**Problem Link:** [LeetCode 1541](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/)
+
+# 🧠 Problem Description
+# [Github LeetCode 1021. Remove Outermost Parentheses](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/1021.%20Remove%20Outermost%20Parentheses)
 class Solution:
     def minInsertions(self, s: str) -> int:
         length = len(s)
