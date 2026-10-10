@@ -1,3 +1,11 @@
+# 2333. Minimum Sum of Squared Difference
+
+**Difficulty:** Medium  
+**Problem Link:** [LeetCode 2333](https://leetcode.com/problems/minimum-sum-of-squared-difference/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 1541. Minimum Insertions to Balance a Parentheses Strin](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String)
+
 class Solution:
     def minSumSquareDiff(
         self, nums1: List[int], nums2: List[int], k1: int, k2: int
