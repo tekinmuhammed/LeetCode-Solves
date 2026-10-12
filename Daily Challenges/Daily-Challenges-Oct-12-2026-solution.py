@@ -1,7 +1,11 @@
 # 2897. Apply Operations on Array to Maximize Sum of Squares
 
-**Difficulty:** Medium  
-**Problem Link:** [LeetCode 2897](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/description/)
+# **Difficulty:** Medium 
+# **Problem Link:** [LeetCode 2897](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 2897. Apply Operations on Array to Maximize Sum of Squares](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Hard/2897.%20Apply%20Operations%20on%20Array%20to%20Maximize%20Sum%20of%20Squares)
+
 class Solution:
     def maxSum(self, nums: List[int], k: int) -> int:
         MOD = 10**9 + 7
