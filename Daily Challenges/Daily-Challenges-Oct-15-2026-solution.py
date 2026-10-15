@@ -1,3 +1,7 @@
+
+# 🧠 Problem Description 
+# [Github LeetCode 3727. Maximum Alternating Sum of Squares](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares)
+
 class BIT:
     def __init__(self, n: int):
         self.size = n
