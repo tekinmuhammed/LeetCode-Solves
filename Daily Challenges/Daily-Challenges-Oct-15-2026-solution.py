@@ -1,6 +1,10 @@
+# 2913. Subarrays Distinct Element Sum of Squares I
+
+# **Difficulty:** Easy 
+# **Problem Link:** [LeetCode 2913](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 3727. Maximum Alternating Sum of Squares](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares)
+# [Github LeetCode 2913. Subarrays Distinct Element Sum of Squares I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2913.%20Subarrays%20Distinct%20Element%20Sum%20of%20Squares%20I)
 
 class BIT:
     def __init__(self, n: int):
