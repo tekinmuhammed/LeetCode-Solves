@@ -1,6 +1,11 @@
+# 3551. Minimum Swaps to Sort by Digit Sum
+
+# **Difficulty:** Medium  
+# **Problem Link:** [LeetCode 3551](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/)
 
 # 🧠 Problem Description 
-# [Github LeetCode 2913. Subarrays Distinct Element Sum of Squares I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2913.%20Subarrays%20Distinct%20Element%20Sum%20of%20Squares%20I)
+# [Github LeetCode 3551. Minimum Swaps to Sort by Digit Sum](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Medium/3551.%20Minimum%20Swaps%20to%20Sort%20by%20Digit%20Sum)
+
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:
         n = len(nums)
