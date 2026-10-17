@@ -1,3 +1,6 @@
+
+# 🧠 Problem Description 
+# [Github LeetCode 2913. Subarrays Distinct Element Sum of Squares I](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2913.%20Subarrays%20Distinct%20Element%20Sum%20of%20Squares%20I)
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:
         n = len(nums)
