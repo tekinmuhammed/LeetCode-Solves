@@ -27,3 +27,4 @@ class Solution:
                     j = targetPos[j]
 
         return n - cycles
+     
