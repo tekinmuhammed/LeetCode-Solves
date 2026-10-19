@@ -1,40 +1,40 @@
 # 2089. Find Target Indices After Sorting Array
 
-**Difficulty:** Easy  
+**Difficulty:** Easy
 **Problem Link:** [LeetCode 2089](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)
 
 ---
 
-## Problem
+## Problem 
 You are given a 0-indexed integer array `nums` and a target element `target`.
-
-A **target index** is an index `i` such that `nums[i] == target` after sorting `nums` in non-decreasing order.
-
-Return a list of the target indices of `nums` after sorting it. If there are no target indices, return an empty list. The returned list must be sorted in increasing order.
-
-Example:
-
-Input  
-nums = [1, 2, 5, 2, 3], target = 2  
-
-Output  
-[1, 2]  
-
+ 
+A **target index** is an index `i` such that `nums[i] == target` after sorting `nums` in non-decreasing order. 
+ 
+Return a list of the target indices of `nums` after sorting it. If there are no target indices, return an empty list. The returned list must be sorted in increasing order. 
+ 
+Example: 
+ 
+Input   
+nums = [1, 2, 5, 2, 3], target = 2   
+ 
+Output   
+[1, 2]   
+ 
 Explanation  
-After sorting, `nums` is `[1, 2, 2, 3, 5]`.  
+After sorting, `nums` is `[1, 2, 2, 3, 5]`.   
 The indices where `nums[i] == 2` are `1` and `2`.
-
----
-
-## Approach
-
+ 
+--- 
+ 
+## Approach 
+ 
 While a naïve approach would involve sorting the entire array ($\mathcal{O}(N \log N)$) and then scanning for the target, we can solve this much more efficiently in **$\mathcal{O}(N)$ time without actually sorting**.
 
 The final position of the `target` elements in a sorted array depends entirely on two counts:
 1. **`cnt1`**: The count of elements strictly smaller than `target`. This tells us the starting index where the target elements will begin.
 2. **`cnt2`**: The count of elements exactly equal to `target`. This tells us how many consecutive positions the target will occupy.
-
-Steps:
+ 
+Steps: 
 1. Iterate through `nums` once to compute `cnt1` (elements `< target`) and `cnt2` (elements `== target`).
 2. Generate the resulting index list as a contiguous range starting from `cnt1` up to `cnt1 + cnt2 - 1` using `list(range(cnt1, cnt1 + cnt2))`.
 3. Return the resulting index array.
