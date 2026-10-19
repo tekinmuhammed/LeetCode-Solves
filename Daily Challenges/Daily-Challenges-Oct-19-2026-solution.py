@@ -1,7 +1,11 @@
 # 2089. Find Target Indices After Sorting Array
 
-**Difficulty:** Easy
-**Problem Link:** [LeetCode 2089](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)
+# **Difficulty:** Easy
+# **Problem Link:** [LeetCode 2089](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)
+
+# 🧠 Problem Description 
+# [Github LeetCode 2089. Find Target Indices After Sorting Array](https://github.com/tekinmuhammed/LeetCode-Solves/tree/main/Easy/2089.%20Find%20Target%20Indices%20After%20Sorting%20Array)
+
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
         cnt1 = 0  # Number of elements less than target
